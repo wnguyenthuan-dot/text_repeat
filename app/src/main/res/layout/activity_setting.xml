@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Setting"
+            android:text="@string/setting"
             android:fontFamily="@font/poppins_bold"
             android:textColor="#008CFF"
             android:textSize="24sp"
@@ -56,7 +56,7 @@
 
             <TextView
                 style="@style/SettingTextStyle"
-                android:text="Language"
+                android:text="@string/language"
                 android:layout_marginTop="3dp"
                 android:fontFamily="@font/poppins_regular"/>
 
@@ -75,7 +75,7 @@
 
             <TextView
                 style="@style/SettingTextStyle"
-                android:text="Share App"
+                android:text="@string/share_app"
                 android:layout_marginTop="3dp"
                 android:fontFamily="@font/poppins_regular"/>
 
@@ -94,7 +94,7 @@
 
             <TextView
                 style="@style/SettingTextStyle"
-                android:text="Feedback"
+                android:text="@string/feedback"
                 android:layout_marginTop="3dp"
                 android:fontFamily="@font/poppins_regular"/>
 

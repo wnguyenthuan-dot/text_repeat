@@ -22,9 +22,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.viewbinding.ViewBinding
+import com.dino.ads.onboading.BaseLanguageActivity
 import com.example.nt.app.textrepeat.ui.dialog.DialogNoInternet
 import com.example.nt.app.textrepeat.utils.ex.isNetworkConnected
-import com.example.nt.app.textrepeat.utils.sharedpreference.SharePreferUtils
+import java.util.Locale
 
 abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
     companion object {
@@ -34,31 +35,19 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
     lateinit var binding: VB
 
     // Thêm hàm này vào trong BaseActivity.kt
-    override fun attachBaseContext(newBase: Context) {
-        // Khởi tạo Utils nếu cần (đề phòng)
-        SharePreferUtils.init(newBase)
-        val langCode = getSavedLanguage(newBase)
-        val context = updateLocale(newBase, langCode)
-        super.attachBaseContext(context)
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(base)
+        val updatedContext = updateBaseContextLocale(base)
+        applyOverrideConfiguration(updatedContext.resources.configuration)
     }
 
-    // Trong BaseActivity.kt
-    private fun getSavedLanguage(context: Context): String {
-        // Đừng dùng PreferenceManager nữa, hãy dùng chính cái Utils của bạn
-        return SharePreferUtils.getString("languageCode", "en")
-    }
-
-    // Trong BaseActivity.kt - Cập nhật lại hàm updateLocale một chút cho chắc chắn
-    private fun updateLocale(context: Context, langCode: String): Context {
-        val locale = java.util.Locale(langCode.lowercase())
-        java.util.Locale.setDefault(locale)
-        val config = context.resources.configuration
-        config.setLocale(locale)
-        config.setLayoutDirection(locale)
-
-        // Ép nạp lại để không bị cache
-        context.resources.updateConfiguration(config, context.resources.displayMetrics)
-        return context.createConfigurationContext(config)
+    private fun updateBaseContextLocale(context: Context): Context {
+        val language = BaseLanguageActivity.currentLanguage(context) ?: "en"
+        val myLocale = Locale(language)
+        Locale.setDefault(myLocale)
+        val configuration = context.resources.configuration
+        configuration.setLocale(myLocale)
+        return context.createConfigurationContext(configuration)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

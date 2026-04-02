@@ -14,28 +14,44 @@
         android:theme="@style/Theme.TextRepeat">
         <activity
             android:name=".ui.setting.SettingActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.repeat.RepeatActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.main.MainActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false">
         </activity>
         <activity
             android:name=".ui.savetext.SavedTextActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.recent.RecentActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.quickrepeat.QuickRepeatActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.trending.TrendingActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.stylize.FontActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|density|uiMode"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.splash.IntroActivity"

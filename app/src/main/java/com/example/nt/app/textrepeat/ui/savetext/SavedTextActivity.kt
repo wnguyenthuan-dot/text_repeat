@@ -9,12 +9,14 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.nt.app.textrepeat.R
 import com.example.nt.app.textrepeat.base.BaseActivity
 import com.example.nt.app.textrepeat.databinding.ActivityRepeatBinding
 import com.example.nt.app.textrepeat.databinding.ActivitySavedTextBinding
 import com.example.nt.app.textrepeat.model.SavedTextModel
 import com.example.nt.app.textrepeat.ui.adapter.SavedTextAdapter
 import com.example.nt.app.textrepeat.ui.repeat.RepeatActivity
+import com.example.nt.app.textrepeat.utils.ex.showToast
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -37,7 +39,8 @@ class SavedTextActivity : BaseActivity<ActivitySavedTextBinding>() {
         adapter = SavedTextAdapter(savedList, onCopy = { text ->
             val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             clipboard.setPrimaryClip(android.content.ClipData.newPlainText("Copied", text))
-            Toast.makeText(this, "Copied!", Toast.LENGTH_SHORT).show()
+            // Cách dùng trực tiếp trong Activity
+            showToast(R.string.msg_copied)
         }, onDelete = { position ->
             deleteItem(position)
         },onItemClick = { item ->

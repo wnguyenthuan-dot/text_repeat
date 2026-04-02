@@ -10,6 +10,7 @@ import com.example.nt.app.textrepeat.databinding.ActivityFontBinding
 import com.example.nt.app.textrepeat.model.FontEntity
 import com.example.nt.app.textrepeat.ui.adapter.FontAdapter
 import com.example.nt.app.textrepeat.utils.Constant
+import com.example.nt.app.textrepeat.utils.ex.showToast
 import setLinearLayoutManager
 
 class FontActivity : BaseActivity<ActivityFontBinding>() {
@@ -84,7 +85,7 @@ class FontActivity : BaseActivity<ActivityFontBinding>() {
                 finish()
             } else {
                 // Toast báo lỗi nếu chưa chọn style nào
-                // showToast("Please select a style!")
+                showToast(getString(R.string.msg_select_style))
             }
         }
 

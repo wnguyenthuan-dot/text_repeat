@@ -10,11 +10,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.nt.app.textrepeat.R
 import com.example.nt.app.textrepeat.base.BaseActivity
 import com.example.nt.app.textrepeat.databinding.ActivityRecentBinding // Nhớ tạo layout tương ứng
 import com.example.nt.app.textrepeat.model.SavedTextModel
 import com.example.nt.app.textrepeat.ui.adapter.SavedTextAdapter
 import com.example.nt.app.textrepeat.ui.repeat.RepeatActivity
+import com.example.nt.app.textrepeat.utils.ex.showToast
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
@@ -47,9 +49,9 @@ class RecentActivity : BaseActivity<ActivityRecentBinding>() {
                     val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
                     val clip = android.content.ClipData.newPlainText("Copied", text)
                     clipboard.setPrimaryClip(clip)
-                    Toast.makeText(this, "Copied!", Toast.LENGTH_SHORT).show()
+                    showToast(R.string.msg_copied)
                 } catch (e: Exception) {
-                    Toast.makeText(this, "Text quá dài, không thể copy tự động!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.toast_text_too_long), Toast.LENGTH_SHORT).show()
                 }
             },
             onDelete = { position -> deleteItem(position) },

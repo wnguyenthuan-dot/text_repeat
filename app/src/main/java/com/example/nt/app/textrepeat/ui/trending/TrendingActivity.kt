@@ -70,7 +70,8 @@ class TrendingActivity : BaseActivity<ActivityTrendingBinding>() {
         val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val clip = ClipData.newPlainText("Trending Text", text)
         clipboard.setPrimaryClip(clip)
-        Toast.makeText(this, "Copied!", Toast.LENGTH_SHORT).show()
+        // Cách chuẩn nhất
+        Toast.makeText(this, getString(R.string.msg_copied), Toast.LENGTH_SHORT).show()
     }
 
     private fun shareContent(text: String) {

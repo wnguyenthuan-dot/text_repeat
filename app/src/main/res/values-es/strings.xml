@@ -1,11 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">Text Repeat</string>
-
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="facebook_id" translatable="false">xxxxxxxx</string>
-    <string name="facebook_id_token" translatable="false">xxxxxxxx</string>
-    <string name="solar_key" translatable="false">xxxxxxxx</string>
-
     <string name="txt_title_splash">Mascotas en pantalla</string>
     <string name="intro1">Escribe tu texto</string>
     <string name="intro1_content">Escribe el mensaje que deseas repetir.</string>
@@ -22,7 +15,7 @@
     <string name="txt_content_dialog_no_internet">¡Por favor, comprueba tu \nconexión a internet!</string>
     <string name="go_to_setting">Ajustes</string>
 
-    <string name="text_repeater">REPETIDOR DE TEXTO</string>
+    <string name="text_repeater">REPETIR</string>
     <string name="repeat_text">Repetir texto</string>
     <string name="saved_text">Texto guardado</string>
     <string name="recent">Recientes</string>
@@ -42,4 +35,19 @@
     <string name="do_you_want_to_exit">¿Quieres salir?</string>
     <string name="exit">Salir</string>
     <string name="stay">Quedarse</string>
+    <string name="select_a_style">Elegir estilo</string>
+
+    <string name="setting">Ajustes</string>
+    <string name="share_app">Compartir aplicación</string>
+    <string name="feedback">Comentarios</string>
+    <string name="msg_select_style">¡Por favor, selecciona un estilo!</string>
+    <string name="msg_copied">¡Copiado!</string>
+    <string name="toast_text_too_long">¡El texto es demasiado largo, no se puede copiar automáticamente!</string>
+    <string name="toast_limit_10000">La cantidad es demasiado grande, el límite es 10.000</string>
+    <string name="toast_enter_text_count">Por favor, introduce el texto y la cantidad</string>
+    <string name="toast_limit_general">Límite 10.000 veces</string>
+    <string name="toast_enter_text_first">Por favor, introduce el texto primero</string>
+    <string name="toast_copied_success">¡Texto completo copiado!</string>
+    <string name="toast_update_success">¡Actualizado con éxito!</string>
+    <string name="toast_saved_favorites">¡Guardado en favoritos!</string>
 </resources>

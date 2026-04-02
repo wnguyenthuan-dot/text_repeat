@@ -46,4 +46,19 @@
     <string name="exit">Exit</string>
     <string name="stay">Stay</string>
     <string name="select_a_style">Select A Style</string>
+
+
+    <string name="setting">Setting</string>
+    <string name="share_app">Share App</string>
+    <string name="feedback">Feedback</string>
+    <string name="msg_select_style">Please select a style!</string>
+    <string name="msg_copied">Copied!</string>
+    <string name="toast_text_too_long">Text is too long, cannot copy automatically!</string>
+    <string name="toast_limit_10000">Amount is too large, limit is 10,000</string>
+    <string name="toast_enter_text_count">Please enter text and count</string>
+    <string name="toast_limit_general">Limit 10,000 times</string>
+    <string name="toast_enter_text_first">Please enter text first</string>
+    <string name="toast_copied_success">Copied full text!</string>
+    <string name="toast_update_success">Updated successfully!</string>
+    <string name="toast_saved_favorites">Saved to favorites!</string>
 </resources>

@@ -52,6 +52,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
         // Quay lại màn hình trước
         binding.btnBack.setOnClickListener { finish() }
 
+
         // Tăng số lượng
         binding.btnPlus.setOnClickListener {
             val count = binding.edtCount.text.toString().toIntOrNull() ?: 0
@@ -70,7 +71,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             val count = binding.edtCount.text.toString().toIntOrNull() ?: 0
 
             if (count > 10000) {
-                Toast.makeText(this, "Số lượng quá lớn, giới hạn 10000", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_limit_10000), Toast.LENGTH_SHORT).show()
                 return@setOnTouchScale
             }
 
@@ -101,7 +102,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                     }
                 }
             } else {
-                Toast.makeText(this, "Please enter text and count", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -153,7 +154,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
         val count = binding.edtCount.text.toString().toIntOrNull() ?: 0
 
         if (count > 10000) {
-            Toast.makeText(this, "Giới hạn 10,000 lần", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_limit_general), Toast.LENGTH_SHORT).show()
             return
         }
 
@@ -176,7 +177,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 }
             }
         } else {
-            Toast.makeText(this, "Please enter text and count", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -331,18 +332,25 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 intent.putExtra(Constant.DATA, text)
                 fontLauncher.launch(intent)
             } else {
-                Toast.makeText(this, "Please enter text first", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_enter_text_first), Toast.LENGTH_SHORT).show()
             }
         }
 
-        binding.layoutResult.btnCopy.setOnClickListener {
+        binding.layoutResult.btnCopy.setOnTouchScale {
             val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             val clip = ClipData.newPlainText("Repeated Text", fullText)
             clipboard.setPrimaryClip(clip)
-            Toast.makeText(this, "Copied full text!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_copied_success), Toast.LENGTH_SHORT).show()
         }
 
-        binding.layoutResult.btnSend.setOnClickListener {
+        binding.layoutResult.btnSend.setOnTouchScale {
+            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                putExtra(Intent.EXTRA_TEXT, fullText)
+            }
+            startActivity(Intent.createChooser(shareIntent, "Share via"))
+        }
+        binding.imvshare.setOnTouchScale {
             val shareIntent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
                 putExtra(Intent.EXTRA_TEXT, fullText)
@@ -376,7 +384,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                     isNewLine = isNewLine,
                     fontIndex = selectedFontPosition // THÊM DÒNG NÀY VÀO PHẦN UPDATE
                 )
-                Toast.makeText(this, "Updated successfully!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_update_success), Toast.LENGTH_SHORT).show()
             }
         } else {
             // CHẾ ĐỘ THÊM MỚI: (Lưu cái mới toanh) -> BẠN ĐANG THIẾU PHẦN NÀY
@@ -389,7 +397,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 fontIndex = selectedFontPosition
             )
             savedList.add(0, newItem) // Thêm vào đầu danh sách
-            Toast.makeText(this, "Saved to favorites!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_saved_favorites), Toast.LENGTH_SHORT).show()
         }
 
         // Lưu lại danh sách đã cập nhật
