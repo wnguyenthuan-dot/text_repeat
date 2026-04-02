@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168546611629",
+    "project_id": "textpro-60c2a",
+    "storage_bucket": "textpro-60c2a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168546611629:android:4be2142de7b8feaa8f7124",
+        "android_client_info": {
+          "package_name": "com.example.nt.app.textrepeat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJN6EBAg026DHQdxY8IqI1WNw2GvnUVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
