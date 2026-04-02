@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="apology_message_titles">
+        <item>Xin lỗi ��</item>
+        <item>Hãy tha thứ cho anh ��</item>
+        <item>Anh rất tiếc về lỗi lầm ��</item>
+        <item>Anh đã làm em tổn thương ��</item>
+        <item>Cho anh một cơ hội nữa ��</item>
+        <item>Anh thực sự hối hận ��</item>
+        <item>Anh đã làm em buồn ��</item>
+        <item>Lỗi ở anh ��</item>
+        <item>Sẽ không tái diễn ��</item>
+        <item>������ ����̂̃�� ���� ��������̂̀�� ��</item>
+        <item>Anh xin em tha thứ ��</item>
+        <item>������ đ��̃ ������ ����̂̀�� ��</item>
+        <item>Anh hứa sẽ thay đổi ��</item>
+        <item>������ ����̂̃�� ���� ������́ ��</item>
+        <item>ᴀɴʜ ʀᴀ̂́ᴛ ʜᴏ̂́ɪ ʜᴀ̣̂ɴ ��</item>
+        <item>������ ������ ����̂̃�� ������̆�� ����̂̀�� ��</item>
+        <item>Em ơi, đừng giận anh ��</item>
+        <item>������ ������̂́�� ������ đ��̃ ������ ��</item>
+        <item>Cho anh làm lại từ đầu ��</item>
+        <item>����̃�� ������ ������̛́ ������ ������ ��</item>
+    </array>
+    <array name="attitude_message_titles">
+        <item>Tôi không quan tâm ��</item>
+        <item>Tôi là ông chủ ��</item>
+        <item>Ngầu lòi ��</item>
+        <item>Tôi là nữ hoàng ��</item>
+        <item>Luật của riêng tôi ��</item>
+        <item>Không phải vấn đề của tôi ��</item>
+        <item>Sống như vua ��</item>
+        <item>Tự do ��️</item>
+        <item>����̂�� ������̣���� ���� ����̂�� ��</item>
+        <item>����̂�� ����̀ ����̂́ �� ��</item>
+        <item>ᴋʜᴏ̂ɴɢ ᴄᴀ̂̀ɴ ᴀɪ ��</item>
+        <item>����̛̣ ������ ����̀ ������́���� ����̂�� ✨</item>
+    </array>
+    <array name="entry_animation_messages">
+        <item>Anh yêu em ❤️</item>
+        <item>Chào buổi sáng! ☀️</item>
+        <item>Chúc ngủ ngon ��</item>
+        <item>Xin lỗi ��</item>
+        <item>Cảm ơn ��</item>
+        <item>Chúc mừng! ��</item>
+        <item>Chúc may mắn ��</item>
+        <item>Chúc mừng sinh nhật ��</item>
+        <item>Anh nhớ em ��</item>
+        <item>Em thật tuyệt! ⭐</item>
+        <item>Em làm được! ��</item>
+        <item>Hãy tự chăm sóc bản thân ��</item>
+    </array>
+    <array name="goodnight_message_titles">
+        <item>Chúc ngủ ngon ��</item>
+        <item>Ngủ ngon nhé ✨</item>
+        <item>Đến giờ ngủ rồi ��</item>
+        <item>Ngủ với thiên thần ��</item>
+        <item>Hẹn gặp ngày mai ��</item>
+        <item>������̂́�� ����̛ đ��̣�� ������́ ��</item>
+        <item>Đêm nay ngủ ngon em nhé ��</item>
+        <item>������̉ �������� ������ ����̂�� ��</item>
+        <item>Chúc em những giấc mơ đẹp ��</item>
+        <item>����̛ ������̛̃���� đ����̂̀�� ��������̣̂�� ����̛̀�� ��</item>
+        <item>ɴɢᴜ̉ ɴɢᴏɴ ᴇᴍ ɴʜᴇ́ ��</item>
+        <item>������́�� ���� ������̉ �������� ��</item>
+        <item>Đêm an lành nhé ��</item>
+        <item>������̉ ������̣̂�� ����̂�� ������́ ��</item>
+        <item>Mai gặp lại em yêu ��</item>
+        <item>�������� ���������� ��✨</item>
+        <item>Nghỉ ngơi đi em ��</item>
+        <item>���������� ������������ ����</item>
+        <item>ᴄʜᴜ́ᴄ ᴇᴍ ɴɢᴜ̉ ɴɢᴏɴ ɴʜᴇ́ ��️</item>
+        <item>������̉ �������� ����́���� ����̃ ����</item>
+    </array>
+    <array name="hbd_message_titles">
+        <item>���������� ���������������� ��</item>
+        <item>Happy Anniversary ��</item>
+        <item>���������� ���������������� ��</item>
+        <item>���������������������� ������������ ��</item>
+        <item>Congratulations ��</item>
+        <item>ʜᴀᴘᴘʏ ʙɪʀᴛʜᴅᴀʏ ��</item>
+        <item>ʏᴇᴀʀꜱ ᴏꜰ ʟᴏᴠᴇ ��</item>
+        <item>���������������� ��</item>
+        <item>���������� ���������������� ��</item>
+        <item>Forever together ��</item>
+        <item>���� ���������� ���� ������ ��</item>
+        <item>Make a wish ��</item>
+        <item>���� �������� �������� ���������� ��</item>
+        <item>You did it ✨</item>
+        <item>ℍ�������� ���������������� ��</item>
+        <item>���������� ���������������������� ��</item>
+        <item>Well done ��</item>
+        <item>Party time ����</item>
+        <item>Still in love ❤️</item>
+        <item>�������������� ��</item>
+        <item>�������� ������ �������������� ��️</item>
+        <item>�������������� ���������� ��</item>
+        <item>So happy for you ��</item>
+    </array>
+    <array name="love_message_titles">
+        <item>Anh yêu em ❤️</item>
+        <item>Em là tất cả của anh ��</item>
+        <item>Anh không thể sống thiếu em ��</item>
+        <item>Thiên thần của anh ��</item>
+        <item>Mãi mãi bên em ��</item>
+        <item>Nụ cười đẹp của em ��</item>
+        <item>Tình yêu của anh ��</item>
+        <item>Đôi mắt em như đại dương ��</item>
+        <item>Người bạn đời hoàn hảo ��</item>
+        <item>Người anh mơ ước ��</item>
+        <item>Trái tim anh thuộc về em ��</item>
+        <item>����̂�� ���� ����̃�� ����̃�� ��</item>
+        <item>Em là ánh sáng của đời anh ✨</item>
+        <item>������ ������̛́ ���� ��</item>
+        <item>Yêu em hơn cả bầu trời ��</item>
+        <item>����̀���� ����̂�� ����́�� ����̀ ��</item>
+        <item>ᴛʀᴀ́ɪ ᴛɪᴍ ᴀɴʜ ᴄʜɪ̉ ᴄᴏ́ ᴇᴍ ��</item>
+        <item>���� ����̀ ����̂́�� ����̉ ��</item>
+        <item>Em là người duy nhất ��‍❤️‍��</item>
+        <item>������ ����̂�� ���� ����̂ ����̛̀ ��</item>
+    </array>
+    <array name="motivation_message_titles">
+        <item>Bạn làm được! ��</item>
+        <item>Đừng bao giờ bỏ cuộc ��</item>
+        <item>Theo đuổi ước mơ ⭐</item>
+        <item>Thành công là của bạn ��</item>
+        <item>����̃�� ������ ����̀�� ����̣�� ������̂�� ✨</item>
+        <item>Cố lên! Bạn sẽ thành công ��</item>
+        <item>����̣�� ����̀ ������̛��̛̀�� ��������̣̂�� ����̛̀�� ��</item>
+        <item>Không gì là không thể ��</item>
+        <item>����̛��̛���� ������ ����̛��̛�� ����́���� ��</item>
+        <item>ʜᴀ̃ʏ ᴛɪᴇ̂́ᴘ ᴛᴜ̣ᴄ ᴄᴏ̂́ ɢᴀ̆́ɴɢ ��</item>
+        <item>����̣�� ����̀ ������̂�� ������ ��</item>
+        <item>������̀���� ����̂���� đ������ đ��̂́�� ��</item>
+    </array>
+    <array name="notification_body">
+        <item>Không, nói 100 lần đi!</item>
+        <item>Nhấn để lặp lại</item>
+        <item>Quá cơ bản! Nhấn để lặp lại</item>
+        <item>Nhấn để lặp lại</item>
+        <item>Nhấn để lặp lại</item>
+        <item>Không, nói 100 lần đi!</item>
+        <item>Làm nào!</item>
+        <item>Không, nói 100 lần đi!</item>
+        <item>Lặp lại như chưa từng có!</item>
+        <item>Làm nào!</item>
+        <item>✨ Abra-ka-text-ra!</item>
+        <item>Gửi tin nhắn của bạn một trăm lần!</item>
+        <item>Làm nào!</item>
+        <item>Gửi 50 lần!</item>
+        <item>Làm nào!</item>
+        <item>Nhấn để lặp lại</item>
+        <item>Một lần nhấn, tin nhắn vô tận!</item>
+        <item>10 lần cùng lúc �� (Không có gì.)</item>
+        <item>Sẵn sàng lặp lại chưa? ����</item>
+        <item>Sẵn sàng lặp lại chưa? ����</item>
+        <item>Nói 100 lần đi!</item>
+    </array>
+    <array name="notification_title">
+        <item>�� Nói một lần</item>
+        <item>�� Làm phiền bạn bè của bạn nhưng theo cách vui vẻ!</item>
+        <item>�� Một tin nhắn</item>
+        <item>�� Tại sao phải gõ hai lần khi bạn có thể gõ một lần và viết lại mãi mãi</item>
+        <item>�� Cách sao chép-dán cũ</item>
+        <item>�� \'Haha\' là không đủ</item>
+        <item>�� Bạn đã bao giờ thấy bài viết của mình được đưa lên màn hình chưa</item>
+        <item>�� Trở nên lan truyền trong cuộc trò chuyện nhóm của bạn chưa</item>
+        <item>�� Muốn nổi bật</item>
+        <item>�� 3 từ, sức mạnh vô hạn: Lặp lại Lặp lại!</item>
+        <item>�� Giờ thì những câu chuyện cười hay hơn</item>
+        <item>�� Cần được chú ý</item>
+        <item>�� Làm việc thông minh, lặp lại dễ dàng!</item>
+        <item>�� Cần nhắc nhở ai đó</item>
+        <item>�� Cảnh báo: Có thể xảy ra niềm vui không kiểm soát được! Nhấn để lặp lại!</item>
+        <item>�� Khoảnh khắc rơi mic để sống lại</item>
+        <item>�� Muốn ngắt cuộc trò chuyện</item>
+        <item>�� Gửi thư rác</item>
+        <item>�� Sức mạnh tức thời: Tạo vô số tin nhắn trong vài giây!</item>
+        <item>�� Khiến lời nói của bạn trở nên khó quên—lặp lại ngay!</item>
+        <item>�� Một điều quan trọng cần nói</item>
+    </array>
+    <array name="prank_message_titles">
+        <item>Hahahaha ��</item>
+        <item>Đùa ngớ ngẩn ��</item>
+        <item>Mình lừa em rồi! ��</item>
+        <item>Đùa thôi mà! ��</item>
+        <item>Nói dối! ��</item>
+        <item>Mình chỉ đùa thôi ��</item>
+        <item>Đừng nghiêm túc ��</item>
+        <item>Chỉ là trò đùa ��</item>
+        <item>Lừa em rồi! ��</item>
+        <item>Mình nói đùa ��</item>
+        <item>������̛�� ������̂�� ����̀! ��</item>
+        <item>������̀ đ��̀�� ������ ��</item>
+        <item>ᴛʀᴏ̀ đᴜ̀ᴀ ᴄᴜ̉ᴀ ɴɢᴀ̀ʏ ��</item>
+        <item>������ ����̀���� đ�� ��</item>
+    </array>
+    <array name="quick_repeat_titles">
+        <item>Anh nhớ em ��</item>
+        <item>Anh yêu em ♥️</item>
+        <item>Anh xin lỗi ��</item>
+        <item>Anh ghét em ��</item>
+        <item>Đang gõ..</item>
+        <item>Chào buổi sáng ��</item>
+        <item>Chúc ngủ ngon ��</item>
+        <item>�� �������� ������ ❤️</item>
+        <item>�������� ������ ��</item>
+        <item>�������� ���������� ��</item>
+    </array>
+    <array name="repeat_contents">
+        <item>Anh Yêu Em ❤️\nAnh Yêu Em ❤️❤️\nAnh Yêu Em ❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nAnh Yêu Em ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</item>
+        <item>1️⃣ ���� ������ ��ỗ��!����\n2️⃣ ���� ������ ��ỗ��!����\n3️⃣ ���� ������ ��ỗ��!����\n4️⃣ ���� ������ ��ỗ��!����\n5️⃣ ���� ������ ��ỗ��!����\n6️⃣ ���� ������ ��ỗ��!����\n7️⃣ ���� ������ ��ỗ��!����\n8️⃣ ���� ������ ��ỗ��!����\n9️⃣ ���� ������ ��ỗ��!����\n1️⃣0️⃣ ���� ������ ��ỗ��!����\n1️⃣1️⃣ ���� ������ ��ỗ��!����\n1️⃣2️⃣ ���� ������ ��ỗ��!����\n1️⃣3️⃣ ���� ������ ��ỗ��!����\n1️⃣4️⃣ ���� ������ ��ỗ��!����\n1️⃣5️⃣ ���� ������ ��ỗ��!����\n1️⃣6️⃣ ���� ������ ��ỗ��!����\n1️⃣7️⃣ ���� ������ ��ỗ��!����\n1️⃣8️⃣ ���� ������ ��ỗ��!����\n1️⃣9️⃣ ���� ������ ��ỗ��!����\n2️⃣0️⃣ ���� ������ ��ỗ��!����\n2️⃣1️⃣ ���� ������ ��ỗ��!����\n2️⃣2️⃣ ���� ������ ��ỗ��!����\n2️⃣3️⃣ ���� ������ ��ỗ��!����\n2️⃣4️⃣ ���� ������ ��ỗ��!����\n2️⃣5️⃣ ���� ������ ��ỗ��!����</item>
+        <item>��������������\n��������������\n��������������\n��������������\n����̛̀��̛̀��������\n��������������\n����̀���� ����̀����������\nᴄᴜ̛ᴏ̛̀ɪ������\n����̛��̛̀��������\nнαнα������\nᶜᵘ̛ᵒ̛̀ⁱ������\n��������������\nᴄ����̛��������\nḧїḧї������\nʰᵃʰᵃ������\nv̶u̶i̶������\nV̷u̷i̷������\n����������������\n��������������</item>
+        <item>Không ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��\nKhông ��‍♂️\nKhông ��‍♀️\nKhông ❌\nKhông ��</item>
+        <item>Gọi anh, nhé? ��\n��ọ�� ������, ����é? ��\n����̣�� ������, ������́? ��\n��ọ�� ������, ����é? ��\n����̣�� ������, ������́? ��\n��ọ�� ������, ����é? ��\n����̣�� ������, ������́? ��\n����̣�� ������, ������́? ��\n����̣�� ������, ������́? ��\n��ọ�� ������, ����é? ��\n��ọ�� ����ℎ, ��ℎé? ��\n����̣�� ������, ������́? ��\n��ọ�� ������, ����é? ��\n����̣�� ������, ������́? ��\n����̣�� ������, ������́? ��\nɢᴏ̣ɪ ᴀɴʜ, ɴʜᴇ́? ��\nGΘ̣Ɪ ΛΠH, ΠHΣ́? ��\nɢᴏ̣ɪ ᴀɴʜ, ɴʜᴇ́? ��\n����̣�� ������, ������́? ��\nﻮѻ̣ί คภђ, ภђє́? ��\n����̣�� ������, ������́? ❗</item>
+        <item>Anh yêu em rất nhiều ����\n������ ����ậ�� ��ự ����̂�� ���� ����\n������ ������̂���� ������̂̉ ������̛̀���� ����̂�� ���� ����\n������ ����̂�� ���� ����̛�� ����̉ ������̛̃���� ����̛̀�� ����́�� ����\nᴀɴʜ ʏᴇ̂ᴜ ᴇᴍ ᴍᴏ̂̃ɪ ɴɢᴀ̀ʏ ᴍᴏ̣̂ᴛ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ ��\n����̂̃�� ������̂̀�� ���������� ������ đ��̂̀�� ����̂�� ���� ��\n������́�� ������ ������ ����̀���� ������ ���� ����\nAnh nhớ em khi không có em bên cạnh ��\n���� ����̀ ����̛�� ����̀���� ����̂��, ����̀ ����́�� ��̂́�� ����̉�� ������ ��\n���� ����̀ ����̃�� ����̃�� ����̉�� ������ ����\n������ ����̂�� ���� ����̃�� ����̃�� ����‍❤️‍��\n����̉�� ��̛�� ���� ����̀ ���� ����̃ ����̂́�� ����̛́�� ������ ��\n�� Anh yêu em vô tận ��</item>
+        <item>Nhớ anh không? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\nｎｈｏ̛́ ａｎｈ ｋｈｏ̂ｎｇ？ ��\nПнớ αnн kнông? ��\n������̛́ ������ ������̂����? ��\n������̛́ ������ ������̂����? ��\nᴺʰᵒ̛́ ᵃⁿʰ ᵏʰᵒ̂ⁿᵍ﹖ ��\n������̛́ ������ ������̂����? ��\nN͙h͙ớ͙ a͙n͙h͙ k͙h͙ô͙n͙g͙? ��\nηнσ̛́ αηн кнôηg? ��</item>
+        <item>hihi ��\nhaha ��\n����̛��̛̀�� ����̛��̛̀�� ��\n�������� �������� ��\n�������� �������� ��\n�������� �������� ��\n����̛��̛̀�� ����̂�� ��\n�������� �������� ��\n������ ����̃ ��\n����̂ ����̂ ��\n�������� �������� ��\n�������� �������� ��\nнưнư ��\nнєнє ��\n�������� ��\n�������� ��\nᶜᵘ̛ᵒ̛̀ⁱ ��\nᵛᵘⁱ ᵛᵉ̉ ��</item>
+    </array>
+    <array name="repeat_subtitles">
+        <item>Tình yêu ngày càng lớn!</item>
+        <item>Vì một lời xin lỗi thôi chưa đủ.</item>
+        <item>20 kiểu chữ. Cùng một tiếng cười.</item>
+        <item>Khi 1 \'Không\' chưa đủ — gửi 20 lần!️</item>
+        <item>20 kiểu chữ. 1 lời khẩn cầu.</item>
+        <item>Quá lố. Như tình yêu vậy.</item>
+        <item>Dễ thương theo 15 cách khác nhau.</item>
+        <item>18 kiểu cười!</item>
+    </array>
+    <array name="repeat_titles">
+        <item>Anh Yêu Em ❤️</item>
+        <item>Xin Lỗi Tận Cùng ����</item>
+        <item>Cười Vui Vẻ ����</item>
+        <item>Không là KHÔNG️</item>
+        <item>Gọi Anh, Nhé? ����</item>
+        <item>Yêu Mãi Mãi ��</item>
+        <item>Nhớ Anh Không? ����</item>
+        <item>Hihi Haha ����</item>
+    </array>
+
+    <array name="trending_titles">
+        <item>Miss you 💓</item>
+        <item>Anh yêu em ❤️</item>
+        <item>Chúc ngủ ngon ✨</item>
+        <item>Cố lên nhé 💪</item>
+        <item>Ting Ting 💸</item>
+        <item>Yêu em 3000 ❤️</item>
+        <item>Lời xin lỗi chân thành 🙇‍♂️</item>
+        <item>Chúc ngủ ngon ngàn sao ✨</item>
+        <item>Vũ trụ gửi thông điệp 🌌</item>
+        <item>Trái tim lấp lánh 💖✨</item>
+        <item>Nỗi nhớ kéo dài ⏳</item>
+        <item>Combo nịnh người yêu 🥰</item>
+        <item>Bản tin Ting Ting 💸💰</item>
+    </array>
+
+</resources>

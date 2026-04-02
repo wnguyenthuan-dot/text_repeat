@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Text Repeat</string>
+
+    <!--key ads-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="facebook_id" translatable="false">xxxxxxxx</string>
+    <string name="facebook_id_token" translatable="false">xxxxxxxx</string>
+    <string name="solar_key" translatable="false">xxxxxxxx</string>
+
+    <!--Base-->
+    <string name="txt_title_splash">Pets On Screen</string>
+    <string name="intro1">Enter Your Text</string>
+    <string name="intro1_content">Type the message you want to repeat.</string>
+    <string name="intro2">Set Repeat Count</string>
+    <string name="intro2_content">Choose how many times the text repeats.</string>
+    <string name="intro3">Share Your Text</string>
+    <string name="intro3_content">Send the repeated text to your friends.</string>
+    <string name="start">Start</string>
+    <string name="this_action_can_contain_ads">(This action can contain ads)</string>
+    <string name="please_select_a_language_before_continue">Please select a language before continue!</string>
+    <string name="choose_language">Language</string>
+    <string name="next">Next</string>
+    <string name="txt_title_dialog_no_internet">No Internet Connection</string>
+    <string name="txt_content_dialog_no_internet">Please check your internet \nconnection!</string>
+    <string name="go_to_setting">Go to setting</string>
+
+
+    <string name="text_repeater">TEXT REPEATER</string>
+    <string name="repeat_text">Repeat Text</string>
+    <string name="saved_text">Saved Text</string>
+    <string name="recent">Recent</string>
+    <string name="more">More</string>
+    <string name="stylize">Stylize</string>
+    <string name="repeat_in_new_line">Repeat in New Line</string>
+    <string name="repetition">Repetition</string>
+    <string name="aa_enter_text">Aa Enter Text</string>
+    <string name="copy">Copy</string>
+    <string name="send">Send</string>
+    <string name="no_saved_texts_yet">No saved texts yet</string>
+    <string name="save_some_texts_from_the_editor">Save some texts from the editor!</string>
+    <string name="language">Language</string>
+    <string name="quick_repeat">Quick Repeat</string>
+    <string name="trending">Trending</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Are you sure you want to leave \n the app?</string>
+    <string name="do_you_want_to_exit">Do you want to exit?</string>
+    <string name="exit">Exit</string>
+    <string name="stay">Stay</string>
+    <string name="select_a_style">Select A Style</string>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">Text Repeat</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="facebook_id" translatable="false">xxxxxxxx</string>
+    <string name="facebook_id_token" translatable="false">xxxxxxxx</string>
+    <string name="solar_key" translatable="false">xxxxxxxx</string>
+
+    <string name="txt_title_splash">Mascotas en pantalla</string>
+    <string name="intro1">Escribe tu texto</string>
+    <string name="intro1_content">Escribe el mensaje que deseas repetir.</string>
+    <string name="intro2">Número de repeticiones</string>
+    <string name="intro2_content">Elige cuántas veces se repetirá el texto.</string>
+    <string name="intro3">Comparte tu texto</string>
+    <string name="intro3_content">Envía el texto repetido a tus amigos.</string>
+    <string name="start">Empezar</string>
+    <string name="this_action_can_contain_ads">(Esta acción puede contener anuncios)</string>
+    <string name="please_select_a_language_before_continue">¡Selecciona un idioma antes de continuar!</string>
+    <string name="choose_language">Idioma</string>
+    <string name="next">Siguiente</string>
+    <string name="txt_title_dialog_no_internet">Sin conexión a Internet</string>
+    <string name="txt_content_dialog_no_internet">¡Por favor, comprueba tu \nconexión a internet!</string>
+    <string name="go_to_setting">Ajustes</string>
+
+    <string name="text_repeater">REPETIDOR DE TEXTO</string>
+    <string name="repeat_text">Repetir texto</string>
+    <string name="saved_text">Texto guardado</string>
+    <string name="recent">Recientes</string>
+    <string name="more">Más</string>
+    <string name="stylize">Estilizar</string>
+    <string name="repeat_in_new_line">Repetir en nueva línea</string>
+    <string name="repetition">Repetición</string>
+    <string name="aa_enter_text">Escribe el texto aquí</string>
+    <string name="copy">Copiar</string>
+    <string name="send">Enviar</string>
+    <string name="no_saved_texts_yet">Aún no hay textos guardados</string>
+    <string name="save_some_texts_from_the_editor">¡Guarda textos desde el editor!</string>
+    <string name="language">Idioma</string>
+    <string name="quick_repeat">Repetición rápida</string>
+    <string name="trending">Tendencias</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">¿Estás seguro de que quieres \nsalir de la aplicación?</string>
+    <string name="do_you_want_to_exit">¿Quieres salir?</string>
+    <string name="exit">Salir</string>
+    <string name="stay">Quedarse</string>
+</resources>
