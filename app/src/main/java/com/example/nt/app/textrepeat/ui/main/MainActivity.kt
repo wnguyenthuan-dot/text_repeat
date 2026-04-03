@@ -11,6 +11,9 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.lifecycle.lifecycleScope
+import com.example.nt.app.textrepeat.RemoteConfig
+import com.example.nt.app.textrepeat.ads.AdsManager
 import com.example.nt.app.textrepeat.base.BaseActivity
 import com.example.nt.app.textrepeat.model.SavedTextModel
 import com.example.nt.app.textrepeat.ui.dialog.DialogExitApp
@@ -24,6 +27,9 @@ import com.example.nt.app.textrepeat.utils.ex.openActivity
 import com.example.nt.app.textrepeat.utils.ex.setOnTouchScale
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlin.system.exitProcess
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
 
@@ -36,30 +42,45 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     }
 
     private val dialogExitApp by lazy {
-        DialogExitApp(this) { finishAffinity() }
+        DialogExitApp(this) {
+            finishAffinity()
+            exitProcess(0)
+        }
     }
     private fun initUI() {
         binding.btnRepeatText.setOnClickListener {
-            val intent = Intent(this, RepeatActivity::class.java)
-            startActivity(intent)
+            showandLoadBanner()
+            AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                val intent = Intent(this, RepeatActivity::class.java)
+                startActivity(intent)
+            }
         }
         binding.btnSavedText.setOnClickListener {
+            showandLoadBanner()
+            AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
             startActivity(Intent(this, SavedTextActivity::class.java))
+            }
         }
         // 1. Quick Repeat
         binding.sectionQuickRepeat.let { section ->
             // Cài đặt nội dung Header
+            showandLoadBanner()
+
             section.root.findViewById<TextView>(R.id.tvSectionTitle).text = getString(R.string.quick_repeat)
             section.root.findViewById<ImageView>(R.id.ivSectionIcon).setImageResource(R.drawable.ic_quick_repeat)
 
             // Bấm vào nút "More" (btnMore) để mở màn hình QuickRepeatActivity
             section.root.findViewById<View>(R.id.btnMore).setOnClickListener {
-                startActivity(Intent(this, QuickRepeatActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, QuickRepeatActivity::class.java))}
             }
 
             // Hoặc bấm vào cả cái section cũng mở được (tùy bạn chọn)
             section.root.setOnClickListener {
-                startActivity(Intent(this, QuickRepeatActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, QuickRepeatActivity::class.java))}
             }
         }
 
@@ -69,11 +90,15 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             section.root.findViewById<ImageView>(R.id.ivSectionIcon).setImageResource(R.drawable.ic_clock_recent)
 
             section.root.findViewById<View>(R.id.btnMore).setOnClickListener {
-                startActivity(Intent(this, RecentActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, RecentActivity::class.java))}
             }
             // Bắt sự kiện click vào cả cái section này
             section.root.setOnClickListener {
-                startActivity(Intent(this, RecentActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, RecentActivity::class.java))}
             }
         }
 
@@ -83,11 +108,15 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             section.root.findViewById<ImageView>(R.id.ivSectionIcon).setImageResource(R.drawable.ic_fire_trending)
 
             section.root.findViewById<View>(R.id.btnMore).setOnClickListener {
-                startActivity(Intent(this, TrendingActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, TrendingActivity::class.java))}
             }
 
             section.root.setOnClickListener {
-                startActivity(Intent(this, TrendingActivity::class.java))
+                showandLoadBanner()
+                AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                startActivity(Intent(this, TrendingActivity::class.java))}
             }
         }
         binding.ivSettings.setOnTouchScale {
@@ -111,8 +140,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         val btnMore = sectionRecent.root.findViewById<View>(R.id.btnMore)
 
         btnMore?.setOnClickListener {
+            showandLoadBanner()
             startActivity(Intent(this, RecentActivity::class.java))
         }
+
 
         if (!json.isNullOrEmpty()) {
             val type = object : TypeToken<MutableList<SavedTextModel>>() {}.type
@@ -164,17 +195,19 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
         // Click vào ô nhỏ
         itemView.setOnClickListener {
-            val intent = Intent(this, RepeatActivity::class.java).apply {
-                putExtra("EXTRA_ID", item.id)
-                putExtra("EXTRA_INPUT", item.originalText)
-                putExtra("EXTRA_COUNT", item.repeatCount)
-                putExtra("EXTRA_NEWLINE", item.isNewLine)
+            AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                val intent = Intent(this, RepeatActivity::class.java).apply {
+                    putExtra("EXTRA_ID", item.id)
+                    putExtra("EXTRA_INPUT", item.originalText)
+                    putExtra("EXTRA_COUNT", item.repeatCount)
+                    putExtra("EXTRA_NEWLINE", item.isNewLine)
 
-                // QUAN TRỌNG NHẤT: Phải gửi thêm fontIndex đi
-                // Nếu thiếu dòng này, RepeatActivity sẽ nhận giá trị mặc định là 0 (chữ thường)
-                putExtra("EXTRA_FONT_INDEX", item.fontIndex)
+                    // QUAN TRỌNG NHẤT: Phải gửi thêm fontIndex đi
+                    // Nếu thiếu dòng này, RepeatActivity sẽ nhận giá trị mặc định là 0 (chữ thường)
+                    putExtra("EXTRA_FONT_INDEX", item.fontIndex)
+                }
+                startActivity(intent)
             }
-            startActivity(intent)
         }
     }
     private fun loadQuickRepeatPreview() {
@@ -209,11 +242,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         tvCount.text = "x $randomCount"
 
         itemView.setOnClickListener {
-            val intent = Intent(this, RepeatActivity::class.java).apply {
-                putExtra("EXTRA_INPUT", content)
-                putExtra("EXTRA_COUNT", randomCount)
+            AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                val intent = Intent(this, RepeatActivity::class.java).apply {
+                    putExtra("EXTRA_INPUT", content)
+                    putExtra("EXTRA_COUNT", randomCount)
+                }
+                startActivity(intent)
             }
-            startActivity(intent)
         }
     }
 
@@ -254,15 +289,37 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
         // Click vào item ở màn Main thì nhảy thẳng sang màn RepeatActivity
         itemView.setOnClickListener {
-            val intent = Intent(this, RepeatActivity::class.java).apply {
-                putExtra("EXTRA_INPUT", title)
-                putExtra("EXTRA_COUNT", randomCount)
+            AdsManager.loadAndShowInter(this, RemoteConfig.INTER_HOME) {
+                val intent = Intent(this, RepeatActivity::class.java).apply {
+                    putExtra("EXTRA_INPUT", title)
+                    putExtra("EXTRA_COUNT", randomCount)
+                }
+                startActivity(intent)
             }
-            startActivity(intent)
         }
     }
+
+    private fun showandLoadBanner() {
+        lifecycleScope.launch {
+            delay(10000)
+            AdsManager.loadAndShowBanner(this@MainActivity, RemoteConfig.BANNER_HOME, binding.flBanner)
+        }
+    }
+    private fun loadandshowNative() {
+        lifecycleScope.launch {
+            delay(10000)
+            AdsManager.loadAndShowNative(this@MainActivity, RemoteConfig.NATIVE_HOME, binding.flNativeHome)
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        showandLoadBanner()
+        loadandshowNative()
+    }
     override fun onBack() {
-        if (!dialogExitApp.isShowing) dialogExitApp.show()
+        if (!dialogExitApp.isShowing)
+            dialogExitApp.show()
     }
     override fun onResume() {
         super.onResume()

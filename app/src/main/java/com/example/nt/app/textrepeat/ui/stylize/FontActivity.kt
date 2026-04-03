@@ -18,6 +18,7 @@ class FontActivity : BaseActivity<ActivityFontBinding>() {
     private val fontAdapter by lazy {
         FontAdapter()
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -26,17 +27,25 @@ class FontActivity : BaseActivity<ActivityFontBinding>() {
         initData()
         initListener()
     }
-     fun initView() {
+
+    fun initView() {
         binding.rcvFont.setLinearLayoutManager(this, fontAdapter)
     }
 
-     fun initData() {
+    fun initData() {
         val defaultText = getString(R.string.app_name)
         var text = (intent.getStringExtra(Constant.DATA) ?: defaultText).trim().ifEmpty {
             defaultText
         }.take(50)
         text = substringLine(text, 2)
+        val lastSelectedPos = intent.getIntExtra("EXTRA_SELECTED_POS", 0)
         fontAdapter.setDataList((0..108).toList().map { FontEntity(text, it) })
+        fontAdapter.selectedPosition = lastSelectedPos
+
+        // 4. (Tùy chọn) Cuộn RecyclerView đến đúng vị trí đang chọn để người dùng thấy ngay dấu tích
+        binding.rcvFont.scrollToPosition(lastSelectedPos)
+
+        fontAdapter.notifyDataSetChanged()
     }
 
     private fun substringLine(text: String, lineNumber: Int): String {

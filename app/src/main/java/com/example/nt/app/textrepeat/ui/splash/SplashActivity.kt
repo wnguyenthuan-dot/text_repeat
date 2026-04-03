@@ -18,6 +18,7 @@ import com.example.nt.app.textrepeat.utils.ex.openActivity
 import com.example.nt.app.textrepeat.R
 import com.example.nt.app.textrepeat.RemoteConfig
 import com.example.nt.app.textrepeat.ads.AdsManager
+import com.example.nt.app.textrepeat.ui.main.MainActivity
 import com.example.nt.app.textrepeat.ui.splash.language.LanguageActivity
 
 class SplashActivity : BaseActivity<ActivitySplashBinding>() {
@@ -58,6 +59,7 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
                     AdsManager.loadNativeLanguage(this)
                 }
                 showInterOrAoa()
+                //openActivity(MainActivity::class.java, false)
                 //actionNext()
             }
         }

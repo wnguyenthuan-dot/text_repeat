@@ -16,6 +16,7 @@ import com.example.nt.app.textrepeat.databinding.ActivitySavedTextBinding
 import com.example.nt.app.textrepeat.model.SavedTextModel
 import com.example.nt.app.textrepeat.ui.adapter.SavedTextAdapter
 import com.example.nt.app.textrepeat.ui.repeat.RepeatActivity
+import com.example.nt.app.textrepeat.utils.ex.setOnTouchScale
 import com.example.nt.app.textrepeat.utils.ex.showToast
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -29,31 +30,40 @@ class SavedTextActivity : BaseActivity<ActivitySavedTextBinding>() {
         binding = ActivitySavedTextBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnBack.setOnClickListener { finish() }
+        binding.btnBack.setOnTouchScale { finish() }
 
         setupRecyclerView()
         loadData()
     }
 
     private fun setupRecyclerView() {
-        adapter = SavedTextAdapter(savedList, onCopy = { text ->
+        adapter = SavedTextAdapter(
+            savedList, onCopy = { text ->
             val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             clipboard.setPrimaryClip(android.content.ClipData.newPlainText("Copied", text))
             // Cách dùng trực tiếp trong Activity
             showToast(R.string.msg_copied)
         }, onDelete = { position ->
             deleteItem(position)
-        },onItemClick = { item ->
-            // Mở lại RepeatActivity và gửi dữ liệu sang
-            val intent = Intent(this, RepeatActivity::class.java)
-            intent.putExtra("EXTRA_ID", item.id)
-            intent.putExtra("EXTRA_INPUT", item.originalText)
-            intent.putExtra("EXTRA_COUNT", item.repeatCount)
-            intent.putExtra("EXTRA_NEWLINE", item.isNewLine)
-            intent.putExtra("EXTRA_FONT_INDEX", item.fontIndex)
+        },
+            onShare = { textToShare -> // THÊM LOGIC SHARE TẠI ĐÂY
+                val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                    type = "text/plain"
+                    putExtra(Intent.EXTRA_TEXT, textToShare)
+                }
+                startActivity(Intent.createChooser(shareIntent, getString(R.string.share_via)))
+            },
+            onItemClick = { item ->
+                // Mở lại RepeatActivity và gửi dữ liệu sang
+                val intent = Intent(this, RepeatActivity::class.java)
+                intent.putExtra("EXTRA_ID", item.id)
+                intent.putExtra("EXTRA_INPUT", item.originalText)
+                intent.putExtra("EXTRA_COUNT", item.repeatCount)
+                intent.putExtra("EXTRA_NEWLINE", item.isNewLine)
+                intent.putExtra("EXTRA_FONT_INDEX", item.fontIndex)
 
-            startActivity(intent)
-        })
+                startActivity(intent)
+            })
 
         binding.rvSavedText.layoutManager = LinearLayoutManager(this)
         binding.rvSavedText.adapter = adapter
@@ -93,14 +103,17 @@ class SavedTextActivity : BaseActivity<ActivitySavedTextBinding>() {
 
         if (savedList.isEmpty()) showEmpty()
     }
+
     override fun onResume() {
         super.onResume()
         loadData()
     }
+
     private fun showEmpty() {
         binding.rvSavedText.visibility = View.GONE
         binding.layoutEmpty.visibility = View.VISIBLE
     }
+
     override fun inflateViewBinding(layoutInflater: LayoutInflater): ActivitySavedTextBinding {
         return ActivitySavedTextBinding.inflate(layoutInflater)
     }

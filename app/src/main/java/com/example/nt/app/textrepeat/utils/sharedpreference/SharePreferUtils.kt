@@ -2,6 +2,9 @@ package com.example.nt.app.textrepeat.utils.sharedpreference
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.example.nt.app.textrepeat.model.TrendingModel
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import kotlin.isInitialized
 import kotlin.text.trim
 
@@ -47,6 +50,23 @@ object SharePreferUtils {
         return sharePref.getFloat(key, defaultValue)
     }
 
+    //trending
+    fun saveTrendingList(list: List<TrendingModel>) {
+        val json = Gson().toJson(list)
+        saveKey("saved_trending_list", json)
+    }
+
+    fun getTrendingList(): MutableList<TrendingModel>? {
+        val json = getString("saved_trending_list", "")
+        if (json.isEmpty()) return null
+
+        val type = object : TypeToken<MutableList<TrendingModel>>() {}.type
+        return try {
+            Gson().fromJson(json, type)
+        } catch (e: Exception) {
+            null
+        }
+    }
     //======================================   APP   ===============================================
 
     fun getUnlock(value: Int): Long = getLong("getUnlock_$value")

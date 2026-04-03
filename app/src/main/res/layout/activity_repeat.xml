@@ -31,7 +31,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imvshare"
+            android:id="@+id/imvshareApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
@@ -73,16 +73,35 @@
                         android:textSize="16sp"
                         android:textColor="#333333" />
 
-                    <EditText
-                        android:id="@+id/edtInput"
+                    <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:layout_marginTop="8dp"
-                        android:background="@drawable/bg_edittext_blue_stroke"
-                        android:gravity="top"
-                        android:fontFamily="@font/seymourone_regular"
-                        android:padding="12dp"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="8dp">
+
+                        <EditText
+                            android:id="@+id/edtInput"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_edittext_blue_stroke"
+                            android:fontFamily="@font/seymourone_regular"
+                            android:gravity="top"
+                            android:paddingTop="12dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="40dp"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/btnClearInput"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:padding="6dp"
+                            android:src="@drawable/icon_clear"
+                            android:visibility="gone" />
+                    </RelativeLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -108,24 +127,26 @@
 
                             <ImageButton
                                 android:id="@+id/btnMinus"
-                                android:layout_width="45dp"
+                                android:layout_width="55dp"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/bg_counter_left"
                                 android:src="@drawable/ic_minus" />
 
                             <EditText
                                 android:id="@+id/edtCount"
-                                android:layout_width="60dp"
+                                android:layout_width="70dp"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/bg_counter_middle"
+                                android:maxLength="5"
                                 android:gravity="center"
                                 android:inputType="number"
+                                android:textColor="@color/black"
                                 android:text="100"
                                 android:textStyle="bold" />
 
                             <ImageButton
                                 android:id="@+id/btnPlus"
-                                android:layout_width="45dp"
+                                android:layout_width="55dp"
                                 android:layout_height="match_parent"
                                 android:background="@drawable/bg_counter_right"
                                 android:src="@drawable/ic_plus" />
@@ -133,10 +154,12 @@
 
                         <CheckBox
                             android:id="@+id/cbNewLine"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
                             android:checked="true"
+                            android:textColorHint="@color/black"
                             android:fontFamily="@font/poppins_medium"
                             android:text="@string/repeat_in_new_line"
                             android:textSize="14sp" />
@@ -166,4 +189,9 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+    <FrameLayout
+        android:id="@+id/flBanner"
+        android:minHeight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

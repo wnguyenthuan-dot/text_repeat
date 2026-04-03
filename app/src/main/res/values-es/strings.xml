@@ -50,4 +50,5 @@
     <string name="toast_copied_success">¡Texto completo copiado!</string>
     <string name="toast_update_success">¡Actualizado con éxito!</string>
     <string name="toast_saved_favorites">¡Guardado en favoritos!</string>
+    <string name="share_via">Compartir vía</string>
 </resources>

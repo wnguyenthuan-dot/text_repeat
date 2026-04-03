@@ -41,7 +41,7 @@
     <string name="language">Language</string>
     <string name="quick_repeat">Quick Repeat</string>
     <string name="trending">Trending</string>
-    <string name="are_you_sure_you_want_to_leave_the_app">Are you sure you want to leave \n the app?</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Are you sure you want to leave   the app?</string>
     <string name="do_you_want_to_exit">Do you want to exit?</string>
     <string name="exit">Exit</string>
     <string name="stay">Stay</string>
@@ -61,4 +61,5 @@
     <string name="toast_copied_success">Copied full text!</string>
     <string name="toast_update_success">Updated successfully!</string>
     <string name="toast_saved_favorites">Saved to favorites!</string>
+    <string name="share_via">Share via</string>
 </resources>

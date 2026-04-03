@@ -16,6 +16,7 @@ import com.example.nt.app.textrepeat.databinding.ActivityRecentBinding // Nhớ 
 import com.example.nt.app.textrepeat.model.SavedTextModel
 import com.example.nt.app.textrepeat.ui.adapter.SavedTextAdapter
 import com.example.nt.app.textrepeat.ui.repeat.RepeatActivity
+import com.example.nt.app.textrepeat.utils.ex.setOnTouchScale
 import com.example.nt.app.textrepeat.utils.ex.showToast
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -32,7 +33,7 @@ class RecentActivity : BaseActivity<ActivityRecentBinding>() {
         binding = ActivityRecentBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnBack.setOnClickListener { finish() }
+        binding.btnBack.setOnTouchScale { finish() }
 
         setupRecyclerView()
     }
@@ -55,6 +56,13 @@ class RecentActivity : BaseActivity<ActivityRecentBinding>() {
                 }
             },
             onDelete = { position -> deleteItem(position) },
+            onShare = { textToShare -> // THÊM LOGIC SHARE TẠI ĐÂY
+                val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                    type = "text/plain"
+                    putExtra(Intent.EXTRA_TEXT, textToShare)
+                }
+                startActivity(Intent.createChooser(shareIntent, getString(R.string.share_via)))
+            },
             onItemClick = { item ->
                 val intent = Intent(this, RepeatActivity::class.java).apply {
                     putExtra("EXTRA_ID", item.id)

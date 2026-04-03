@@ -1,13 +1,17 @@
 package com.example.nt.app.textrepeat.ui.repeat
 
+import android.annotation.SuppressLint
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
+import android.graphics.Rect
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
+import android.view.inputmethod.InputMethodManager
+import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -39,6 +43,18 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
         binding.layoutResult.webViewResult.settings.javaScriptEnabled = true
         setContentView(binding.root)
 
+        binding.imvshareApp.setOnTouchScale {
+            val appPackageName = packageName
+            val playStoreLink = "https://play.google.com/store/apps/details?id=$appPackageName"
+
+            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                val shareMessage = "Check out this amazing Text Repeater app:\n$playStoreLink"
+                putExtra(Intent.EXTRA_TEXT, shareMessage)
+            }
+            startActivity(Intent.createChooser(shareIntent, "Share app via"))
+        }
+
         binding.edtInput.setOnTouchListener { v, event ->
             if (v.hasFocus()) {
                 v.parent.requestDisallowInterceptTouchEvent(true)
@@ -48,9 +64,28 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             }
             false
         }
+        // 1. Lắng nghe thay đổi chữ để ẩn/hiện nút X
+        binding.edtInput.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                // Hiện nút X nếu có chữ, ẩn nếu trống
+                binding.btnClearInput.visibility =
+                    if (s.isNullOrEmpty()) View.GONE else View.VISIBLE
+            }
+
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
+
+        // 2. Xử lý khi nhấn vào nút X
+        binding.btnClearInput.setOnClickListener {
+            binding.edtInput.text.clear()
+            // Tùy chọn: Ẩn luôn layout kết quả khi xóa input
+            binding.layoutResult.root.visibility = View.GONE
+        }
+
 
         // Quay lại màn hình trước
-        binding.btnBack.setOnClickListener { finish() }
+        binding.btnBack.setOnTouchScale { finish() }
 
 
         // Tăng số lượng
@@ -65,13 +100,15 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             if (count > 1) binding.edtCount.setText((count - 1).toString())
         }
 
+
         // Xử lý tạo Text lặp
         binding.btnRepeatAction.setOnTouchScale {
             val input = binding.edtInput.text.toString()
             val count = binding.edtCount.text.toString().toIntOrNull() ?: 0
 
             if (count > 10000) {
-                Toast.makeText(this, getString(R.string.toast_limit_10000), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_limit_10000), Toast.LENGTH_SHORT)
+                    .show()
                 return@setOnTouchScale
             }
 
@@ -102,22 +139,39 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                     }
                 }
             } else {
-                Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT)
+                    .show()
             }
         }
 
         currentEditingId = intent.getLongExtra("EXTRA_ID", -1L)
         val oldInput = intent.getStringExtra("EXTRA_INPUT")
+
         val oldCount = intent.getIntExtra("EXTRA_COUNT", -1)
         val oldNewLine = intent.getBooleanExtra("EXTRA_NEWLINE", true)
         val oldFontIndex = intent.getIntExtra("EXTRA_FONT_INDEX", 0)
         selectedFontPosition = oldFontIndex // Cập nhật biến toàn cục
 
+        if (currentEditingId != -1L) {
+            // Kiểm tra xem ID này có trong danh sách đã lưu chưa
+            val sharedPrefs = getSharedPreferences("text_prefs", Context.MODE_PRIVATE)
+            val json = sharedPrefs.getString("saved_list", null)
+            if (!json.isNullOrEmpty()) {
+                val type = object : TypeToken<MutableList<SavedTextModel>>() {}.type
+                val savedList: MutableList<SavedTextModel> = Gson().fromJson(json, type)
+
+                // Nếu tìm thấy ID trong danh sách đã lưu
+                if (savedList.any { it.id == currentEditingId }) {
+                    isFavorited = true
+                    binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_online)
+                }
+            }
+        }
+
         if (oldInput != null && oldCount != -1) {
             binding.edtInput.setText(oldInput)
             binding.edtCount.setText(oldCount.toString())
             binding.cbNewLine.isChecked = oldNewLine
-
             // Sử dụng lifecycleScope để tính toán chuỗi lớn ở luồng nền, tránh đơ UI khi mở màn hình
             lifecycleScope.launch(Dispatchers.Default) {
                 applyFont(selectedFontPosition, oldInput) { stylized ->
@@ -139,6 +193,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 }
             }
         }
+
     }
 
     private val fontLauncher =
@@ -177,7 +232,8 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 }
             }
         } else {
-            Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_enter_text_count), Toast.LENGTH_SHORT)
+                .show()
         }
     }
 
@@ -191,56 +247,6 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
         return result.toString().trim()
     }
 
-    //    private fun showResult(text: String) {
-//        // Hiển thị layout kết quả (Màn hình 3)
-//        binding.layoutResult.root.visibility = View.VISIBLE
-//        binding.layoutResult.tvResultDisplay.text = text
-//        binding.layoutResult.tvResultDisplay.setOnTouchListener { v, event ->
-//            v.parent.requestDisallowInterceptTouchEvent(true)
-//            false
-//        }
-//        // Reset trạng thái trái tim mỗi khi nhấn lặp lại mới
-//        isFavorited = false
-//        binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_outline)
-//
-//        // Xử lý nút Trái tim (Lưu vào Saved Text)
-//        binding.layoutResult.ivFavourite.setOnClickListener {
-//            isFavorited = !isFavorited
-//            if (isFavorited) {
-//                binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_online) // Nhớ đổi sang filled
-//                saveToFavorites(text)
-//            } else {
-//                binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_outline)
-//            }
-//        }
-//
-//        binding.layoutResult.btnStylize.clickSafe {
-//            val text = binding.edtInput.text.toString().trim()
-//            if (text.isNotEmpty()) {
-//                val intent = Intent(this, FontActivity::class.java)
-//                intent.putExtra(Constant.DATA, text)
-//                fontLauncher.launch(intent) // Sử dụng launcher để nhận kết quả trả về
-//            } else {
-//                Toast.makeText(this, "Please enter text first", Toast.LENGTH_SHORT).show()
-//            }
-//        }
-//        // Xử lý nút Copy
-//        binding.layoutResult.btnCopy.setOnClickListener {
-//            val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-//            val clip = ClipData.newPlainText("Repeated Text", text)
-//            clipboard.setPrimaryClip(clip)
-//            //Toast.makeText(this, "Copied to clipboard!", Toast.LENGTH_SHORT).show()
-//        }
-//
-//        // Xử lý nút Send (Share)
-//        binding.layoutResult.btnSend.setOnClickListener {
-//            val shareIntent = Intent(Intent.ACTION_SEND).apply {
-//                type = "text/plain"
-//                putExtra(Intent.EXTRA_TEXT, text)
-//            }
-//            startActivity(Intent.createChooser(shareIntent, "Share via"))
-//        }
-//    }
     private fun showResult(fullText: String, previewText: String) {
         binding.layoutResult.root.visibility = View.VISIBLE
 
@@ -260,6 +266,12 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             }
 
             // 3. Tạo HTML với biến stylizedSingle chuẩn
+            val safeJsInput = stylizedSingle
+                .replace("\\", "\\\\")
+                .replace("'", "\\'")
+                .replace("\"", "\\\"")
+                .replace("\n", "\\n")
+                .replace("\r", "")
             val htmlData = """
         <html>
         <head>
@@ -280,7 +292,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             <script>
                 const container = document.getElementById('content');
                 // stylizedSingle là văn bản gốc đã đổi font, không bị cắt mất chữ
-                const text = '${stylizedSingle.replace("'", "\\'")}'; 
+                const text = '$safeJsInput';
                 const total = $countLoop; 
                 const sep = '$separator';
                 
@@ -312,8 +324,8 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
         }
 
         // --- Các nút chức năng (Copy, Share, Stylize) giữ nguyên như cũ ---
-        isFavorited = false
-        binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_outline)
+        //isFavorited = false
+        //binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_outline)
 
         binding.layoutResult.ivFavourite.setOnClickListener {
             isFavorited = !isFavorited
@@ -322,6 +334,7 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 saveToFavorites(fullText)
             } else {
                 binding.layoutResult.ivFavourite.setImageResource(R.drawable.ic_heart_outline)
+                removeFromFavorites(currentEditingId)
             }
         }
 
@@ -330,9 +343,11 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             if (text.isNotEmpty()) {
                 val intent = Intent(this, FontActivity::class.java)
                 intent.putExtra(Constant.DATA, text)
+                intent.putExtra("EXTRA_SELECTED_POS", selectedFontPosition)
                 fontLauncher.launch(intent)
             } else {
-                Toast.makeText(this, getString(R.string.toast_enter_text_first), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_enter_text_first), Toast.LENGTH_SHORT)
+                    .show()
             }
         }
 
@@ -340,7 +355,8 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             val clip = ClipData.newPlainText("Repeated Text", fullText)
             clipboard.setPrimaryClip(clip)
-            Toast.makeText(this, getString(R.string.toast_copied_success), Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_copied_success), Toast.LENGTH_SHORT)
+                .show()
         }
 
         binding.layoutResult.btnSend.setOnTouchScale {
@@ -350,13 +366,20 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
             }
             startActivity(Intent.createChooser(shareIntent, "Share via"))
         }
-        binding.imvshare.setOnTouchScale {
-            val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                type = "text/plain"
-                putExtra(Intent.EXTRA_TEXT, fullText)
-            }
-            startActivity(Intent.createChooser(shareIntent, "Share via"))
-        }
+
+    }
+
+    private fun removeFromFavorites(id: Long) {
+        if (id == -1L) return
+        val sharedPrefs = getSharedPreferences("text_prefs", Context.MODE_PRIVATE)
+        val gson = Gson()
+        val json = sharedPrefs.getString("saved_list", null)
+        val type = object : TypeToken<MutableList<SavedTextModel>>() {}.type
+        val savedList: MutableList<SavedTextModel> = gson.fromJson(json, type) ?: mutableListOf()
+
+        savedList.removeAll { it.id == id }
+        sharedPrefs.edit().putString("saved_list", gson.toJson(savedList)).apply()
+        //Toast.makeText(this, getString(R.string.msg_removed_favourite), Toast.LENGTH_SHORT).show()
     }
 
     private fun saveToFavorites(resultText: String) {
@@ -384,7 +407,8 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                     isNewLine = isNewLine,
                     fontIndex = selectedFontPosition // THÊM DÒNG NÀY VÀO PHẦN UPDATE
                 )
-                Toast.makeText(this, getString(R.string.toast_update_success), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_update_success), Toast.LENGTH_SHORT)
+                    .show()
             }
         } else {
             // CHẾ ĐỘ THÊM MỚI: (Lưu cái mới toanh) -> BẠN ĐANG THIẾU PHẦN NÀY
@@ -397,7 +421,8 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
                 fontIndex = selectedFontPosition
             )
             savedList.add(0, newItem) // Thêm vào đầu danh sách
-            Toast.makeText(this, getString(R.string.toast_saved_favorites), Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.toast_saved_favorites), Toast.LENGTH_SHORT)
+                .show()
         }
 
         // Lưu lại danh sách đã cập nhật
@@ -446,5 +471,22 @@ class RepeatActivity : BaseActivity<ActivityRepeatBinding>() {
 
     override fun inflateViewBinding(layoutInflater: LayoutInflater): ActivityRepeatBinding {
         return ActivityRepeatBinding.inflate(layoutInflater)
+    }
+
+    @SuppressLint("ServiceCast")
+    override fun dispatchTouchEvent(event: MotionEvent): Boolean {
+        if (event.action == MotionEvent.ACTION_UP) {
+            val v = currentFocus
+            if (v is EditText) {
+                val outRect = Rect()
+                v.getGlobalVisibleRect(outRect)
+                if (!outRect.contains(event.rawX.toInt(), event.rawY.toInt())) {
+                    v.clearFocus()
+                    val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
+                    imm.hideSoftInputFromWindow(v.getWindowToken(), 0)
+                }
+            }
+        }
+        return super.dispatchTouchEvent(event)
     }
 }

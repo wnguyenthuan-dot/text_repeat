@@ -10,6 +10,7 @@ class SavedTextAdapter(
     private var list: MutableList<SavedTextModel>,
     private val onCopy: (String) -> Unit,
     private val onDelete: (Int) -> Unit,
+    private val onShare: (String) -> Unit,
     private val onItemClick: (SavedTextModel) -> Unit
 ) : RecyclerView.Adapter<SavedTextAdapter.ViewHolder>() {
 
@@ -48,7 +49,7 @@ class SavedTextAdapter(
 
         // Thêm nút Share nếu bạn có khai báo trong callback
         holder.binding.btnItemShare.setOnClickListener {
-            // Bạn có thể thêm callback onShare tương tự onCopy nếu muốn
+            onShare(item.resultText)
         }
     }
 
