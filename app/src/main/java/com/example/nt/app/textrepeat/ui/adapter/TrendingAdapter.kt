@@ -19,14 +19,26 @@ class TrendingAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        // Chỉ dùng 'position' này để hiển thị dữ liệu ban đầu
         val item = list[position]
         holder.binding.tvTitle.text = item.title
-        holder.binding.tvSubtitle.text = item.subtitle // Sẽ hiển thị "Trending x150"
+        holder.binding.tvSubtitle.text = item.subtitle
         holder.binding.tvMainContent.text = item.fullContent
 
-        // Click vào cả item để qua màn Repeat
+        // Khi Click, phải lấy vị trí thực tế lúc đó
+        holder.binding.btnDelete.setOnClickListener {
+            val currentPos = holder.bindingAdapterPosition
+            // Kiểm tra xem vị trí có hợp lệ không (tránh trường hợp item đang bị xóa dở)
+            if (currentPos != RecyclerView.NO_POSITION) {
+                onAction(list[currentPos], "DELETE")
+            }
+        }
+
         holder.itemView.setOnClickListener {
-            onAction(item, "ITEM_CLICK")
+            val currentPos = holder.bindingAdapterPosition
+            if (currentPos != RecyclerView.NO_POSITION) {
+                onAction(list[currentPos], "ITEM_CLICK")
+            }
         }
 
         holder.binding.btnCopy.setOnClickListener { onAction(item, "COPY") }
