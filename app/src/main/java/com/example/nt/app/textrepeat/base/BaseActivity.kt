@@ -26,7 +26,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.viewbinding.ViewBinding
-import com.dino.ads.onboading.BaseLanguageActivity
+import com.example.nt.app.textrepeat.utils.sharedpreference.SharePreferUtils
 import com.example.nt.app.textrepeat.ui.dialog.DialogNoInternet
 import com.example.nt.app.textrepeat.utils.ex.isNetworkConnected
 import java.util.Locale
@@ -46,7 +46,7 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
     }
 
     private fun updateBaseContextLocale(context: Context): Context {
-        val language = BaseLanguageActivity.currentLanguage(context) ?: "en"
+        val language = SharePreferUtils.getString("languageCode", "en")
         val myLocale = Locale(language)
         Locale.setDefault(myLocale)
         val configuration = context.resources.configuration
@@ -141,9 +141,7 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
         decorView.systemUiVisibility = uiOptions
     }
     fun showInterBack(action: () -> Unit) {
-//        AdsManager.loadAndShowInter(this, RemoteConfig.INTER_BACK) {
-//            action.invoke()
-//        }
+        action()
     }
 
     abstract fun inflateViewBinding(inflater: LayoutInflater): VB

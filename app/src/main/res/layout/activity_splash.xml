@@ -27,11 +27,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginHorizontal="40dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/seymourone_regular"
             android:gravity="center"
-            android:paddingVertical="@dimen/_4sdp"
+            android:paddingVertical="4dp"
             android:text="@string/app_name"
             android:textColor="#008CFF"
             android:textSize="32dp" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="@string/this_action_can_contain_ads"
+        android:text="@string/preparing_app"
         android:textColor="#008CFF"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"

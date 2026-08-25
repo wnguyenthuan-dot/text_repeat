@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>افتقدك 💓</item>
+        <item>أحبك ❤️</item>
+        <item>تصبح على خير ✨</item>
+        <item>استمر 💪</item>
+        <item>مطر الأموال 💸</item>
+        <item>أحبك 3000 ❤️</item>
+        <item>اعتذار صادق 🙇‍♂️</item>
+        <item>أحلام سعيدة ✨</item>
+        <item>رسالة الكون 🌌</item>
+        <item>قلب متلألئ 💖✨</item>
+        <item>حنين طويل ⏳</item>
+        <item>كلمات حب 🥰</item>
+        <item>أخبار الراتب 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>أنا آسف حقًا 😔🙏</item>
+        <item>هل يمكننا التحدث؟ 🗣️💬</item>
+        <item>أرجوك سامحني 🥺🙏</item>
+        <item>لم أكن أقصد ذلك 😞</item>
+        <item>لقد أخطأت بشدة 😓💔</item>
+        <item>خطئي 😅</item>
+        <item>أنا نادم على ما فعلت 😢</item>
+        <item>أنا آسف جدًا 🥺</item>
+        <item>أعطني فرصة 🤍</item>
+        <item>أشعر بالسوء حيال هذا 😞💭</item>
+        <item>سأفعل الأفضل ✨</item>
+        <item>لم أفكر في الأمر جيدًا 😔</item>
+        <item>سامحني من فضلك 🙇‍♂️</item>
+        <item>لن يتكرر ذلك مرة أخرى 🔁</item>
+        <item>أعدك أنني سأتغير 🤞</item>
+        <item>كنت مخطئا 🙁</item>
+        <item>لم أقصد أبداً إيذاءك 💔</item>
+        <item>دعني أعوضك 💌</item>
+        <item>أقدرك كثيرًا 💛</item>
+        <item>فرصة ثانية؟ 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>خسارتك 😎</item>
+        <item>مختلف تماماً 💯</item>
+        <item>اتركني وشأني 🚫</item>
+        <item>لا تراسلني 📵</item>
+        <item>انتهى الأمر 💔</item>
+        <item>علاج الصمت 🤐</item>
+        <item>احترم مساحتي 🧊</item>
+        <item>أنا أكرهك 😤</item>
+        <item>توقف عن إزعاجي 🚷</item>
+        <item>أحتاج إلى مسافة 🚶‍♂️</item>
+        <item>لا تتجاوز الحدود ⚠️</item>
+        <item>انتهيت من الكلام ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>أحبك ❤️</item>
+        <item>صباح الخير! ☀️</item>
+        <item>افتقدك 💞</item>
+        <item>أنا أفتقدك 💘</item>
+        <item>تصبح على خير 🌙</item>
+        <item>عيد ميلاد سعيد 🎂</item>
+        <item>تهانينا 🎉</item>
+        <item>آسف 😔</item>
+        <item>أفضل الأصدقاء 👯</item>
+        <item>قهوة؟ ☕️</item>
+        <item>خمن ماذا؟! 😏</item>
+        <item>لنتحدث قليلاً 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>تصبح على خير 🌙</item>
+        <item>نم جيداً 😴</item>
+        <item>أحلام سعيدة 💤</item>
+        <item>أجواء الليل 🌃</item>
+        <item>مرحباً يا شعاع الشمس ☀️</item>
+        <item>ليلة سعيدة 🌌</item>
+        <item>انهض وتألق ⭐</item>
+        <item>احلم أحلاماً كبيرة 💭</item>
+        <item>احلم بي 💞</item>
+        <item>ضوء الصباح ☀️</item>
+        <item>أراك في أحلامي ✨</item>
+        <item>نم بعمق 🛌</item>
+        <item>نم جيداً يا صغيري 🧸</item>
+        <item>نوم عميق 😪</item>
+        <item>ليلة هادئة 🌙</item>
+        <item>صباح الخير يا جميلة ☀️</item>
+        <item>استيقظ يا مشرق 🌞</item>
+        <item>ليلة سعيدة يا ملاكي 😇</item>
+        <item>تمنيات ليلة سعيدة 🌠</item>
+        <item>أراك غداً 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>عيد ميلاد سعيد 🎂🎉</item>
+        <item>ذكرى سنوية سعيدة 💍❤️</item>
+        <item>أطيب التمنيات لك 🎊🌟</item>
+        <item>احتفل بيومك الخاص 🥳🎈</item>
+        <item>تهانينا 🎉👏</item>
+        <item>عيد ميلاد سعيد 🎂🎁</item>
+        <item>سنوات من الحب ❤️💑</item>
+        <item>نخب نجاحك 🥂✨</item>
+        <item>عام آخر من الحكمة 🎂🌟</item>
+        <item>معاً للأبد 💞💍</item>
+        <item>أتمنى لك السعادة دائماً 😊🎉</item>
+        <item>تمنَّ أمنية ⭐🎂</item>
+        <item>احلم أحلاماً كبيرة اليوم ✨🎈</item>
+        <item>لقد فعلتها ✨🏆</item>
+        <item>أتمنى لك عيد ميلاد سحري 🎂✨</item>
+        <item>أتمنى لك فرحاً لا ينتهي 🎊💫</item>
+        <item>أحسنت 👏🎉</item>
+        <item>وقت الحفلة 🥳🎶</item>
+        <item>لا أزال واقعاً في حبك ❤️💖</item>
+        <item>احتفل بلحظتك 🎉📸</item>
+        <item>يوم خاص لك 🎂🌹</item>
+        <item>فخور جداً بك 💫👏</item>
+        <item>سعيد جداً لأجلك 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>أحبك ❤️💞</item>
+        <item>افتقدك 💭💘</item>
+        <item>أفكر فيك 💌💖</item>
+        <item>ملكك للأبد ♾️❤️</item>
+        <item>أنت كل شيء بالنسبة لي 🌍💞</item>
+        <item>أفكر فيك 💭❤️</item>
+        <item>أحضان وقبلات 🤗😘</item>
+        <item>أنت تجعلني أبتسم 😊💖</item>
+        <item>أنت تكمّلني 🧩❤️</item>
+        <item>أنا دائماً هنا لأجلك 🤝💞</item>
+        <item>حبي الوحيد 💎❤️</item>
+        <item>أنت شمسي ☀️💛</item>
+        <item>لقد سرقت قلبي 💘🔐</item>
+        <item>أحبك إلى القمر 🌙💞</item>
+        <item>أفكر فيك دائماً 💭💓</item>
+        <item>تأم قلبي ✨💖</item>
+        <item>أنت سعادتي 😊❤️</item>
+        <item>لقد اخترتك 💍💞</item>
+        <item>أنت تعني العالم بالنسبة لي 🌍❤️</item>
+        <item>أنت شخصي المفضل 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>تكرار واحد إضافي 💪🔥</item>
+        <item>خطوات صغيرة يومياً 🚶✨</item>
+        <item>استمر في التقدم 🚀🔥</item>
+        <item>أنت تستطيع 💯💪</item>
+        <item>ابقَ مركزاً 🎯🧠</item>
+        <item>آمن بنفسك ⭐💫</item>
+        <item>ادفع حدودك 📈🔥</item>
+        <item>لا تستسلم أبداً 🛡️🚀</item>
+        <item>ابقَ قوياً دائماً 💪✨</item>
+        <item>عقلية الفائز 🏆🧠</item>
+        <item>طارد أحلامك 🌠🚀</item>
+        <item>تحركات القائد 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>واحد</item>
+        <item>اثنان</item>
+        <item>ثلاثة</item>
+    </array>
+
+    <array name="notification_body">
+        <item>لا، قلها 100 مرة! 🔁💬</item>
+        <item>انقر للتكرار 👆🔁</item>
+        <item>بسيط جداً! انقر للتكرار 😆📲</item>
+        <item>انقر للتكرار 👆💬</item>
+        <item>انقر للتكرار 🔁📩</item>
+        <item>لا، قلها 100 مرة! 💬🔥</item>
+        <item>لنقم بذلك! 🚀💥</item>
+        <item>لا، قلها 100 مرة! 😎📢</item>
+        <item>كرر كما لم تفعل من قبل! 🔁⚡</item>
+        <item>لنقم بذلك! 💪✨</item>
+        <item>✨ نص سحري! 🪄💬</item>
+        <item>فجر رسالتك مائة مرة! 💣📲</item>
+        <item>لنقم بذلك! 🚀📩</item>
+        <item>أرسلها 50 مرة! 🔁📤</item>
+        <item>لنقم بذلك! 😆🔥</item>
+        <item>انقر للتكرار 👆⚡</item>
+        <item>نقرة واحدة، نصوص لا تنتهي! 👆♾️</item>
+        <item><![CDATA[10 مرات في وقت واحد ⚡📲 (على الرحب والسعة)]]></item>
+        <item>جاهز لتكرارها؟ 🔁😏</item>
+        <item>جاهز لتكرارها؟ 📢🔥</item>
+        <item>قلها 100 مرة! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>قلها مرة واحدة ✨📩</item>
+        <item>أزعج أصدقاءك بطريقة ممتعة! 😆📲</item>
+        <item>رسالة واحدة 💬⚡</item>
+        <item>لماذا تكتب مرتين بينما يمكنك التكرار للأبد 🔁♾️</item>
+        <item>النسخ واللصق موضة قديمة 📋🚫</item>
+        <item><![CDATA[كلمة \"ههه\" واحدة لا تكفي 😂💥]]></item>
+        <item>هل سبق لك أن رأيت نصك يسيطر على الشاشة 📲🔥</item>
+        <item>انتشر في دردشة مجموعتك 📢😎</item>
+        <item>هل تريد التميز؟ ⭐📣</item>
+        <item>3 كلمات، قوة لا نهائية: كرر كرر كرر! 🔁⚡</item>
+        <item>المقالب أصبحت أفضل 🎭😆</item>
+        <item>هل تريد الاهتمام؟ 👀📲</item>
+        <item>اعمل بذكاء أكبر، كررها دون عناء 🧠✨</item>
+        <item>تحتاج لتذكير شخص ما ⏰📩</item>
+        <item>تحذير: قد يسبب متعة لا يمكن السيطرة عليها! ⚠️😆</item>
+        <item>لحظات إسقاط الميكروفون تستحق الإعادة 🎤🔥</item>
+        <item>هل تريد كسر المحادثة؟ 💥📲</item>
+        <item>وضع الرسائل المزعجة مفعل 🚀📢</item>
+        <item>قوة فورية: أنشئ نصوصاً لا تنتهي في ثوانٍ! ⚡📩</item>
+        <item>اجعل كلماتك لا تُنسى - كررها الآن! 💬✨</item>
+        <item>لديك شيء مهم لتقوله 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>ههه 😂🤣</item>
+        <item>مرحباً 👀📩</item>
+        <item>هل اشتقت إلي؟ 😏💬</item>
+        <item>جربني 😎🔥</item>
+        <item>ههه 😆🤣</item>
+        <item>لا لا لا لا ❌😤</item>
+        <item>انتظر انتظر انتظر ⏳👀</item>
+        <item>جاري تحميل الرسالة... ⏳📲</item>
+        <item>خمن ماذا خمن ماذا 🤫😆</item>
+        <item>نعم نعم نعم نعم ✅😄</item>
+        <item>مجرد مزحة 😜✨</item>
+        <item>انظر مرة أخرى 👀📩</item>
+        <item>لا زلت أنتظر 😏⏳</item>
+        <item>عذراً، المحادثة الخاطئة 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>افتقدك 💞💬</item>
+        <item>أحبك ♥️❤️</item>
+        <item>أنا آسف 😔🙏</item>
+        <item>أنا أكرهك 😤💢</item>
+        <item>يكتب.. ⌨️👀</item>
+        <item>صباح الخير! ☀️😊</item>
+        <item>تصبح على خير 🌙💤</item>
+        <item>أحبك ❤️💞</item>
+        <item>اتصل بي 📞👀</item>
+        <item>أفكر فيك 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[أحبك ❤️\nأحبك ❤️❤️\nأحبك ❤️❤️❤️\nأحبك ❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nأحبك ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+        <item><![CDATA[أنا آسف 😔\nأنا آسف 😔😔\nأنا آسف 😔😔😔\nأنا آسف 😔😔😔😔\nأنا آسف 😔😔😔😔😔\nأنا آسف 😔😔😔😔😔😔\nأنا آسف 😔😔😔😔😔😔😔\nأنا آسف 😔😔😔😔😔😔😔😔\nأنا آسف 😔😔😔😔😔😔😔😔😔\nأنا آسف 😔😔😔😔😔😔😔😔😔😔]]></item>
+        <item>ههه 😂\nههه 😆\nههه 🤣\nههه 😜\nههه 😹\nههه 😆\nههه 😂\nههه 🤣🤣\nههه 😜😜\nههه 😆😆</item>
+        <item>لا ❌\nلا ❌❌\nلا ❌❌❌\nلا ❌❌❌❌\nلا ❌❌❌❌❌\nلا ❌❌❌❌❌❌\nلا ❌❌❌❌❌❌❌\nلا ❌❌❌❌❌❌❌❌\nلا ❌❌❌❌❌❌❌❌❌\nلا ❌❌❌❌❌❌❌❌❌❌</item>
+        <item>ㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ</item>
+        <item>هل افتقدتني؟ 😏\nهل افتقدتني؟ 😏😏\nهل افتقدتني؟ 😏😏😏\nهل افتقدتني؟ 😏😏😏😏\nهل افتقدتني؟ 😏😏😏😏😏\nهل افتقدتني? 😏😏😏😏😏😏\nهل افتقدتني؟ 😏😏😏😏😏😏😏\nهل افتقدتني؟ 😏😏😏😏😏😏😏😏\nهل افتقدتني؟ 😏😏😏😏😏😏😏😏😏\nهل افتقدتني؟ 😏😏😏😏😏😏😏😏😏😏</item>
+        <item>ههه 😂\nههه 😆\nههه 😂😂\nههه 😆😆\nههه 😂😂😂\nههه 😆😆😆\nههه 😂😂😂😂\nههه 😆😆😆😆\nههه 😂😂😂😂😂\nههه 😆😆😆😆😆</item>
+        <item>لقد انتهيت 😤\nلقد انتهيت 😤😤\nلقد انتهيت 😤😤😤\nلقد انتهيت 😤😤😤😤\nلقد انتهيت 😤😤😤😤😤\nلقد انتهيت 😤😤😤😤😤😤\nلقد انتهيت 😤😤😤😤😤😤😤\nلقد انتهيت 😤😤😤😤😤😤😤😤\nلقد انتهيت 😤😤😤😤😤😤😤😤😤\nلقد انتهيت 😤😤😤😤😤😤😤😤😤😤</item>
+        <item>اتصل بي الآن؟ 📞\nاتصل بي الآن؟ 📞📞\nاتصل بي الآن؟ 📞📞📞\nاتصل بي الآن؟ 📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞📞📞\nاتصل بي الآن؟ 📞📞📞📞📞📞📞</item>
+        <item><![CDATA[أحبك للأبد ❤️\nأحبك للأبد ❤️❤️\nأحبك للأبد ❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nأحبك للأبد ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>حب ينمو! ❤️📈</item>
+        <item><![CDATA[لأن كلمة \"آسف\" واحدة لا تكفي. 😔🔁]]></item>
+        <item>20 خطاً. نفس الضحكة. 😂🔤</item>
+        <item><![CDATA[عندما لا تكفي كلمة \"لا\" - أرسل 20! ❌🔁]]></item>
+        <item>أربك الناس برسالة فارغة 👻📩</item>
+        <item>لطيف بـ 15 طريقة مختلفة. 🥰✨</item>
+        <item>18 أسلوباً للضحك! 😆🤣</item>
+        <item>على التكرار 🔁📲</item>
+        <item>20 خطاً. طلب واحد يائس. 📞🔤</item>
+        <item>أعلى من القمة. تماماً مثل الحب. ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>أحبك ❤️💞</item>
+        <item>اعتذار نهائي 😔🙏</item>
+        <item>قنبلة ههه 😂💣</item>
+        <item>لا تعني لا ❌🚫</item>
+        <item>رسالة فارغة 👻📩</item>
+        <item>هل اشتقت إلي؟ 😏💬</item>
+        <item>ههه ههه 😆🤣</item>
+        <item>لقد انتهيت 😤🚪</item>
+        <item>اتصل بي الآن؟ 📞👀</item>
+        <item>حب للأبد ❤️♾️</item>
+    </array>
+</resources>

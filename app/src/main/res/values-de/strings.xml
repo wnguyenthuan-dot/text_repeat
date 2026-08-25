@@ -1,0 +1,55 @@
+<resources>
+    <string name="txt_title_splash">Haustiere auf dem Bildschirm</string>
+    <string name="intro1">Text eingeben</string>
+    <string name="intro1_content">Geben Sie die Nachricht ein, die Sie wiederholen möchten.</string>
+    <string name="intro2">Anzahl festlegen</string>
+    <string name="intro2_content">Wählen Sie, wie oft der Text wiederholt werden soll.</string>
+    <string name="intro3">Text teilen</string>
+    <string name="intro3_content">Senden Sie den wiederholten Text an Ihre Freunde.</string>
+    <string name="start">Start</string>
+    <string name="this_action_can_contain_ads">(Diese Aktion kann Werbung enthalten)</string>
+    <string name="please_select_a_language_before_continue">Bitte wählen Sie eine Sprache aus!</string>
+    <string name="choose_language">Sprache</string>
+    <string name="next">Weiter</string>
+    <string name="txt_title_dialog_no_internet">Keine Internetverbindung</string>
+    <string name="txt_content_dialog_no_internet">Bitte überprüfen Sie Ihre \nInternetverbindung!</string>
+    <string name="go_to_setting">Einstellungen</string>
+
+    <string name="text_repeater">TEXT-WIEDERHOLER</string>
+    <string name="repeat_text">Text wiederholen</string>
+    <string name="saved_text">Gespeicherter Text</string>
+    <string name="recent">Zuletzt</string>
+    <string name="more">Mehr</string>
+    <string name="stylize">Stilisieren</string>
+    <string name="repeat_in_new_line">In neuer Zeile wiederholen</string>
+    <string name="repetition">Wiederholung</string>
+    <string name="aa_enter_text">Text hier eingeben</string>
+    <string name="copy">Kopieren</string>
+    <string name="send">Senden</string>
+    <string name="no_saved_texts_yet">Noch keine Texte gespeichert</string>
+    <string name="save_some_texts_from_the_editor">Texte aus dem Editor speichern!</string>
+    <string name="language">Sprache</string>
+    <string name="quick_repeat">Schnell-Wdh</string>
+    <string name="trending">Angesagt</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Möchten Sie die App \n wirklich verlassen?</string>
+    <string name="do_you_want_to_exit">Möchten Sie beenden?</string>
+    <string name="exit">Beenden</string>
+    <string name="stay">Bleiben</string>
+    <string name="select_a_style">Stil wählen</string>
+
+    <string name="setting">Einstellungen</string>
+    <string name="share_app">App teilen</string>
+    <string name="feedback">Feedback</string>
+    <string name="msg_select_style">Bitte wählen Sie einen Stil!</string>
+    <string name="msg_copied">Kopiert!</string>
+    <string name="toast_text_too_long">Text ist zu lang, automatisches Kopieren nicht möglich!</string>
+    <string name="toast_limit_10000">Menge ist zu groß, Limit ist 10.000</string>
+    <string name="toast_enter_text_count">Bitte Text und Anzahl eingeben</string>
+    <string name="toast_limit_general">Limit 10.000 Mal</string>
+    <string name="toast_enter_text_first">Bitte zuerst Text eingeben</string>
+    <string name="toast_copied_success">Vollständiger Text kopiert!</string>
+    <string name="toast_update_success">Erfolgreich aktualisiert!</string>
+    <string name="toast_saved_favorites">Zu Favoriten hinzugefügt!</string>
+
+    <string name="share_via">Teilen über</string>
+</resources>

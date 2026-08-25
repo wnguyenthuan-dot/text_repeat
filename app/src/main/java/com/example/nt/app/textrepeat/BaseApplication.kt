@@ -7,24 +7,15 @@ import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import com.dino.ads.application.AdsApplication
-import com.dino.ads.solar.SolarUtils
-
-import com.example.nt.app.textrepeat.ads.AdsManager
 import com.example.nt.app.textrepeat.ads.Common
 import com.example.nt.app.textrepeat.utils.sharedpreference.SharePreferUtils
 
-class BaseApplication : AdsApplication(), ActivityLifecycleCallbacks {
+class BaseApplication : android.app.Application(), ActivityLifecycleCallbacks {
 
-    override fun onCreateApplication() {
+    override fun onCreate() {
+        super.onCreate()
         application = this
         registerActivityLifecycleCallbacks(this)
-        SolarUtils.init(
-            context = this,
-            appKey = getString(R.string.solar_key),
-            debug = AdsManager.isDebug
-        )
-
         //SharedPreferences
         SharePreferUtils.init(this)
 
@@ -43,7 +34,7 @@ class BaseApplication : AdsApplication(), ActivityLifecycleCallbacks {
                 or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 or View.SYSTEM_UI_FLAG_FULLSCREEN
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
-        Common.setLocale(this)
+        Common.setLocale(activity)
     }
 
     override fun attachBaseContext(base: Context) {

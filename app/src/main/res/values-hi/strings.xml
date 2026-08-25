@@ -1,0 +1,55 @@
+<resources>
+    <string name="txt_title_splash">स्क्रीन पर पालतू जानवर</string>
+    <string name="intro1">अपना टेक्स्ट डालें</string>
+    <string name="intro1_content">वह संदेश लिखें जिसे आप दोहराना चाहते हैं।</string>
+    <string name="intro2">दोहराव संख्या सेट करें</string>
+    <string name="intro2_content">चुनें कि टेक्स्ट कितनी बार दोहराया जाए।</string>
+    <string name="intro3">अपना टेक्स्ट शेयर करें</string>
+    <string name="intro3_content">दोहराया गया टेक्स्ट अपने दोस्तों को भेजें।</string>
+    <string name="start">शुरू करें</string>
+    <string name="this_action_can_contain_ads">(इस क्रिया में विज्ञापन हो सकते हैं)</string>
+    <string name="please_select_a_language_before_continue">जारी रखने से पहले भाषा चुनें!</string>
+    <string name="choose_language">भाषा</string>
+    <string name="next">अगला</string>
+    <string name="txt_title_dialog_no_internet">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="txt_content_dialog_no_internet">कृपया अपना इंटरनेट \nकनेक्शन जांचें!</string>
+    <string name="go_to_setting">सेटिंग</string>
+
+    <string name="text_repeater">टेक्स्ट रिपीटर</string>
+    <string name="repeat_text">टेक्स्ट दोहराएं</string>
+    <string name="saved_text">सेव किया टेक्स्ट</string>
+    <string name="recent">हालिया</string>
+    <string name="more">अधिक</string>
+    <string name="stylize">स्टाइल दें</string>
+    <string name="repeat_in_new_line">नई लाइन में दोहराएं</string>
+    <string name="repetition">दोहराव</string>
+    <string name="aa_enter_text">यहाँ टेक्स्ट लिखें</string>
+    <string name="copy">कॉपी</string>
+    <string name="send">भेजें</string>
+    <string name="no_saved_texts_yet">अभी तक कोई टेक्स्ट सेव नहीं है</string>
+    <string name="save_some_texts_from_the_editor">एडिटर से कुछ टेक्स्ट सेव करें!</string>
+    <string name="language">भाषा</string>
+    <string name="quick_repeat">त्वरित दोहराव</string>
+    <string name="trending">ट्रेंडिंग</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">क्या आप वाकई ऐप से   बाहर निकलना चाहते हैं?</string>
+    <string name="do_you_want_to_exit">क्या आप बाहर निकलना चाहते हैं?</string>
+    <string name="exit">बाहर निकलें</string>
+    <string name="stay">रुकें</string>
+    <string name="select_a_style">शैली चुनें</string>
+
+    <string name="setting">सेटिंग</string>
+    <string name="share_app">ऐप साझा करें</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="msg_select_style">कृपया एक शैली चुनें!</string>
+    <string name="msg_copied">कॉपी किया गया!</string>
+    <string name="toast_text_too_long">टेक्स्ट बहुत लंबा है, स्वचालित रूप से कॉपी नहीं किया जा सकता!</string>
+    <string name="toast_limit_10000">मात्रा बहुत बड़ी है, सीमा 10,000 है</string>
+    <string name="toast_enter_text_count">कृपया टेक्स्ट और संख्या दर्ज करें</string>
+    <string name="toast_limit_general">सीमा 10,000 बार</string>
+    <string name="toast_enter_text_first">कृपया पहले टेक्स्ट दर्ज करें</string>
+    <string name="toast_copied_success">पूरा टेक्स्ट कॉपी किया गया!</string>
+    <string name="toast_update_success">सफलतापूर्वक अपडेट किया गया!</string>
+    <string name="toast_saved_favorites">पसंदीदा में सहेजा गया!</string>
+
+    <string name="share_via">के माध्यम से साझा करें</string>
+</resources>

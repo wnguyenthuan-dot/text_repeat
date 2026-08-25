@@ -4,7 +4,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.Window
 import androidx.appcompat.app.AlertDialog
-import com.dino.ads.admob.OnResumeUtils
 import com.example.nt.app.textrepeat.R
 import com.example.nt.app.textrepeat.databinding.LayoutDialogNoInternetBinding
 import com.example.nt.app.textrepeat.utils.ex.setOnTouchScale
@@ -29,7 +28,6 @@ class DialogNoInternet(private val context: Context) {
     }
 
     fun hide() {
-        OnResumeUtils.enableOnResume(context::class.java)
         dialog.dismiss()
     }
 
@@ -38,7 +36,6 @@ class DialogNoInternet(private val context: Context) {
         dialog.setCancelable(false)
 
         binding.txtAction.setOnTouchScale {
-            OnResumeUtils.disableOnResume(context::class.java)
             action()
         }
 

@@ -1,0 +1,55 @@
+<resources>
+    <string name="txt_title_splash">Animali sullo schermo</string>
+    <string name="intro1">Inserisci il testo</string>
+    <string name="intro1_content">Scrivi il messaggio che vuoi ripetere.</string>
+    <string name="intro2">Numero di ripetizioni</string>
+    <string name="intro2_content">Scegli quante volte ripetere il testo.</string>
+    <string name="intro3">Condividi il testo</string>
+    <string name="intro3_content">Invia il testo ripetuto ai tuoi amici.</string>
+    <string name="start">Inizia</string>
+    <string name="this_action_can_contain_ads">(Questa azione può contenere annunci)</string>
+    <string name="please_select_a_language_before_continue">Seleziona una lingua prima di continuare!</string>
+    <string name="choose_language">Lingua</string>
+    <string name="next">Avanti</string>
+    <string name="txt_title_dialog_no_internet">Nessuna connessione Internet</string>
+    <string name="txt_content_dialog_no_internet">Controlla la tua \nconnessione internet!</string>
+    <string name="go_to_setting">Impostazioni</string>
+
+    <string name="text_repeater">RIPETI</string>
+    <string name="repeat_text">Ripeti testo</string>
+    <string name="saved_text">Testo salvato</string>
+    <string name="recent">Recenti</string>
+    <string name="more">Altro</string>
+    <string name="stylize">Stilizza</string>
+    <string name="repeat_in_new_line">Ripeti in nuova riga</string>
+    <string name="repetition">Ripetizione</string>
+    <string name="aa_enter_text">Inserisci il testo qui</string>
+    <string name="copy">Copia</string>
+    <string name="send">Invia</string>
+    <string name="no_saved_texts_yet">Ancora nessun testo salvato</string>
+    <string name="save_some_texts_from_the_editor">Salva i testi dall\'editor!</string>
+    <string name="language">Lingua</string>
+    <string name="quick_repeat">Ripetizione rapida</string>
+    <string name="trending">Tendenze</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Sei sicuro di voler \n uscire dall\'app?</string>
+    <string name="do_you_want_to_exit">Vuoi uscire?</string>
+    <string name="exit">Esci</string>
+    <string name="stay">Resta</string>
+    <string name="select_a_style">Scegli stile</string>
+
+    <string name="setting">Impostazioni</string>
+    <string name="share_app">Condividi app</string>
+    <string name="feedback">Feedback</string>
+    <string name="msg_select_style">Per favor, seleziona uno stile!</string>
+    <string name="msg_copied">Copiato!</string>
+    <string name="toast_text_too_long">Testo troppo lungo, impossibile copiare automaticamente!</string>
+    <string name="toast_limit_10000">La quantità è troppo grande, il limite è 10.000</string>
+    <string name="toast_enter_text_count">Inserisci il testo e il conteggio</string>
+    <string name="toast_limit_general">Limite 10.000 volte</string>
+    <string name="toast_enter_text_first">Inserisci prima il testo</string>
+    <string name="toast_copied_success">Testo completo copiato!</string>
+    <string name="toast_update_success">Aggiornato con successo!</string>
+    <string name="toast_saved_favorites">Salvato nei preferiti!</string>
+
+    <string name="share_via">Condividi tramite</string>
+</resources>

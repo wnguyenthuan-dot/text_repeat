@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <array name="my_string_array">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </array>
+
     <array name="trending_titles">
         <item>Miss you 💓</item>
         <item>I love you ❤️</item>

@@ -16,28 +16,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/DinoLibrary/Ads")
-            credentials {
-                username = "member"
-                password = "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"
-            }
-        }
-        maven { url = uri("https://jitpack.io") }
-        maven { url = uri("https://maven.google.com") }
-        //solar
-        maven { url = uri("https://maven-android.solar-engine.com/repository/se_sdk_for_android/") }
-        maven { url = uri("https://developer.huawei.com/repo/") }
-        maven { url = uri("https://developer.hihonor.com/repo/") }
-        //
-        maven { url = uri("https://android-sdk.is.com/") }
-        maven {
-            url = uri("https://artifact.bytedance.com/repository/pangle/")
-        }
-        maven { url = uri("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea") }
     }
 }
 
 rootProject.name = "Text Repeat"
 include(":app")
- 

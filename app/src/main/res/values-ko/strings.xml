@@ -1,0 +1,55 @@
+<resources>
+    <string name="txt_title_splash">화면 위의 애완동물</string>
+    <string name="intro1">텍스트 입력</string>
+    <string name="intro1_content">반복하고 싶은 메시지를 입력하세요.</string>
+    <string name="intro2">반복 횟수 설정</string>
+    <string name="intro2_content">텍스트를 몇 번 반복할지 선택하세요.</string>
+    <string name="intro3">텍스트 공유</string>
+    <string name="intro3_content">반복된 텍스트를 친구들에게 보내세요.</string>
+    <string name="start">시작하기</string>
+    <string name="this_action_can_contain_ads">(광고가 포함될 수 있습니다)</string>
+    <string name="please_select_a_language_before_continue">계속하기 전에 언어를 선택해 주세요!</string>
+    <string name="choose_language">언어</string>
+    <string name="next">다음</string>
+    <string name="txt_title_dialog_no_internet">인터넷 연결 없음</string>
+    <string name="txt_content_dialog_no_internet">인터넷 연결을 \n확인해 주세요!</string>
+    <string name="go_to_setting">설정</string>
+
+    <string name="text_repeater">텍스트 반복기</string>
+    <string name="repeat_text">텍스트 반복</string>
+    <string name="saved_text">저장된 텍스트</string>
+    <string name="recent">최근</string>
+    <string name="more">더 보기</string>
+    <string name="stylize">스타일</string>
+    <string name="repeat_in_new_line">줄 바꿈 반복</string>
+    <string name="repetition">반복</string>
+    <string name="aa_enter_text">여기에 텍스트 입력</string>
+    <string name="copy">복사</string>
+    <string name="send">전송</string>
+    <string name="no_saved_texts_yet">저장된 텍스트가 없습니다</string>
+    <string name="save_some_texts_from_the_editor">편집기에서 텍스트를 저장해 보세요!</string>
+    <string name="language">언어</string>
+    <string name="quick_repeat">빠른 반복</string>
+    <string name="trending">트렌딩</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">정말로 앱을 \n 종료하시겠습니까?</string>
+    <string name="do_you_want_to_exit">종료하시겠습니까?</string>
+    <string name="exit">나가기</string>
+    <string name="stay">머무르기</string>
+    <string name="select_a_style">스타일 선택</string>
+
+    <string name="setting">설정</string>
+    <string name="share_app">앱 공유</string>
+    <string name="feedback">피드백</string>
+    <string name="msg_select_style">스타일을 선택해 주세요!</string>
+    <string name="msg_copied">복사되었습니다!</string>
+    <string name="toast_text_too_long">텍스트가 너무 길어 자동으로 복사할 수 없습니다!</string>
+    <string name="toast_limit_10000">수량이 너무 많습니다. 한도는 10,000개입니다.</string>
+    <string name="toast_enter_text_count">텍스트와 횟수를 입력해 주세요</string>
+    <string name="toast_limit_general">10,000회 제한</string>
+    <string name="toast_enter_text_first">먼저 텍스트를 입력해 주세요</string>
+    <string name="toast_copied_success">전체 텍스트가 복사되었습니다!</string>
+    <string name="toast_update_success">성공적으로 업데이트되었습니다!</string>
+    <string name="toast_saved_favorites">즐겨찾기에 저장되었습니다!</string>
+
+    <string name="share_via">공유 방법</string>
+</resources>

@@ -2,22 +2,13 @@ package com.example.nt.app.textrepeat.ui.splash
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.LayoutInflater
 import androidx.core.os.bundleOf
-import com.dino.ads.admob.AdmobUtils
-import com.dino.ads.admob.RemoteUtils
 import com.example.nt.app.textrepeat.base.BaseActivity
 import com.example.nt.app.textrepeat.databinding.ActivitySplashBinding
-import com.example.nt.app.textrepeat.ads.Common
-import com.example.nt.app.textrepeat.ui.uninstall.UninstallActivity
 import com.example.nt.app.textrepeat.utils.ex.hide
 import com.example.nt.app.textrepeat.utils.ex.launchWhenResumed
 import com.example.nt.app.textrepeat.utils.ex.openActivity
-import com.example.nt.app.textrepeat.R
-import com.example.nt.app.textrepeat.RemoteConfig
-import com.example.nt.app.textrepeat.ads.AdsManager
 import com.example.nt.app.textrepeat.ui.main.MainActivity
 import com.example.nt.app.textrepeat.ui.splash.language.LanguageActivity
 
@@ -35,7 +26,6 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
         }
         splash = intent.data?.getQueryParameter("splash")
             ?: intent.getStringExtra("splash")
-        Common.showRate = 0
     }
 
     private var isActionHasInternetRan = false
@@ -46,39 +36,7 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
         }
         isActionHasInternetRan = true
 
-        Common.onAppOpen(this)
-        RemoteUtils.init(
-            this,
-            R.xml.remote_config_defaults,
-            null,
-            logOrg = true
-        ) {
-            AdmobUtils.setupCMP(this) {
-                AdmobUtils.initAdmob(this, AdsManager.isDebug)
-                if (splash != "uninstall") {
-                    AdsManager.loadNativeLanguage(this)
-                }
-                showInterOrAoa()
-                //openActivity(MainActivity::class.java, false)
-                //actionNext()
-            }
-        }
-    }
-
-    private fun showInterOrAoa() {
-        AdmobUtils.loadAndShowAdSplash(
-            this, RemoteConfig.ADS_SPLASH,
-            object : AdmobUtils.InterCallback() {
-                override fun onInterClosed() {
-                    actionNext()
-                }
-
-                override fun onInterFailed(error: String) {
-                    if (dialogNoInternet.isShowing()) return
-                    binding.tvLoading.hide()
-                    Handler(Looper.getMainLooper()).postDelayed({ actionNext() }, 3000)
-                }
-            })
+        actionNext()
     }
 
     private fun actionNext() {
@@ -87,9 +45,7 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
                 openActivity(LanguageActivity::class.java, bundleOf("fromSplash" to true), true)
                 return@launchWhenResumed
             }
-            if (splash == "uninstall") {
-                openActivity(UninstallActivity::class.java, true)
-            }
+            openActivity(MainActivity::class.java, true)
         }
     }
 

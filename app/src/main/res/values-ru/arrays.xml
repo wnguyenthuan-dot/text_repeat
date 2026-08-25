@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>Скучаю по тебе 💓</item>
+        <item>Люблю тебя ❤️</item>
+        <item>Спокойной ночи ✨</item>
+        <item>Так держать 💪</item>
+        <item>Денежный дождь 💸</item>
+        <item>Люблю тебя 3000 ❤️</item>
+        <item>Искренние извинения 🙇‍♂️</item>
+        <item>Сладких снов ✨</item>
+        <item>Послание от вселенной 🌌</item>
+        <item>Сияющее сердце 💖✨</item>
+        <item>Жду тебя ⏳</item>
+        <item>Сладкие слова 🥰</item>
+        <item>Новости о зарплате 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>Мне правда очень жаль 😔🙏</item>
+        <item>Мы можем поговорить? 🗣️💬</item>
+        <item>Пожалуйста, прости меня 🥺🙏</item>
+        <item>Я не хотел(а) 😞</item>
+        <item>Я все испортил(а) 😓💔</item>
+        <item>Моя вина 😅</item>
+        <item>Я жалею о том, что сделал(а) 😢</item>
+        <item>ɪ\'ᴍ ꜱᴏ ꜱᴏʀʀʏ 🥺</item>
+        <item>Дай мне шанс 🤍</item>
+        <item>Мне очень плохо из-за этого 😞💭</item>
+        <item>Я исправлюсь ✨</item>
+        <item>Я не подумал(а) 😔</item>
+        <item>ꜰᴏʀɢɪᴠᴇ ᴍᴇ ᴘʟᴇᴀꜱᴇ 🙇‍♂️</item>
+        <item>Это больше не повторится 🔁</item>
+        <item>Обещаю измениться 🤞</item>
+        <item>Я был(а) не прав(а) 🙁</item>
+        <item>Я никогда не хотел(а) обидеть тебя 💔</item>
+        <item>Позволь мне загладить вину 💌</item>
+        <item>Ты много значишь для меня 💛</item>
+        <item>Второй шанс? 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>ʏᴏᴜʀ ʟᴏꜱꜱ 😎</item>
+        <item>Другой уровень 💯</item>
+        <item>Оставь меня в покое 🚫</item>
+        <item>Не пиши мне 📵</item>
+        <item>Все кончено 💔</item>
+        <item>Без комментариев 🤐</item>
+        <item>Уважай мое пространство 🧊</item>
+        <item>Ненавижу тебя 😤</item>
+        <item>Перестань меня беспокоить 🚷</item>
+        <item>Мне нужна дистанция 🚶‍♂️</item>
+        <item>Не переходи черту ⚠️</item>
+        <item>Я закончил(а) разговор ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>Люблю тебя ❤️</item>
+        <item>Доброе утро! ☀️</item>
+        <item>Скучаю 💞</item>
+        <item>Мне тебя не хватает 💘</item>
+        <item>Спокойной ночи 🌙</item>
+        <item>С днем рождения 🎂</item>
+        <item>Поздравляю 🎉</item>
+        <item>Прости 😔</item>
+        <item>Лучшие друзья 👯</item>
+        <item>Кофе? ☕️</item>
+        <item>Угадай что?! 😏</item>
+        <item>Давай посплетничаем 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>Спокойной ночи 🌙</item>
+        <item>Спи сладко 😴</item>
+        <item>Сладких снов 💤</item>
+        <item>Ночной вайб 🌃</item>
+        <item>Привет, солнышко ☀️</item>
+        <item>ɴɪɢʜᴛ ɴɪɢʜᴛ 🌌</item>
+        <item>Проснись и сияй ⭐</item>
+        <item>Мечтай о большем 💭</item>
+        <item>Приснись мне 💞</item>
+        <item>Утренний свет ☀️</item>
+        <item>Увидимся во сне ✨</item>
+        <item>Крепкого сна 🛌</item>
+        <item>Спи сладко, малыш 🧸</item>
+        <item>Глубокий сон 😪</item>
+        <item>ꜱʟᴇᴇᴘ ᴛɪɢʜᴛ 🌙</item>
+        <item>Доброе утро, красавица ☀️</item>
+        <item>Просыпайся, мое солнце 🌞</item>
+        <item>Доброй ночи, ангел 😇</item>
+        <item>Сладкие ночные пожелания 🌠</item>
+        <item>До завтра 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>С днем рождения 🎂🎉</item>
+        <item>С годовщиной 💍❤️</item>
+        <item>Всего наилучшего 🎊🌟</item>
+        <item>Наслаждайся своим днем 🥳🎈</item>
+        <item>Поздравляю 🎉👏</item>
+        <item>ʜᴀᴘᴘʏ ʙɪʀᴛʜᴅᴀʏ 🎂🎁</item>
+        <item>ʏᴇᴀʀꜱ ᴏꜰ ʟᴏᴠᴇ ❤️💑</item>
+        <item>За твой успех 🥂✨</item>
+        <item>Еще один год мудрости 🎂🌟</item>
+        <item>Навсегда вместе 💞💍</item>
+        <item>Желаю вечного счастья 😊🎉</item>
+        <item>Загадай желание ⭐🎂</item>
+        <item>Мечтай сегодня о большем ✨🎈</item>
+        <item>У тебя получилось ✨🏆</item>
+        <item>Волшебного дня рождения 🎂✨</item>
+        <item>Бесконечной радости 🎊💫</item>
+        <item>Молодец 👏🎉</item>
+        <item>Время вечеринки 🥳🎶</item>
+        <item>Все еще люблю тебя ❤️💖</item>
+        <item>Отпразднуй свой момент 🎉📸</item>
+        <item>Особенный день для тебя 🎂🌹</item>
+        <item>Очень горжусь тобой 💫👏</item>
+        <item>Так рад(а) за тебя 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>Люблю тебя ❤️💞</item>
+        <item>Скучаю по тебе 💭💘</item>
+        <item>Думаю о тебе 💌💖</item>
+        <item>Навсегда твой/твоя ♾️❤️</item>
+        <item>Ты мое все 🌍💞</item>
+        <item>ᴛʜɪɴᴋɪɴɢ ᴏғ ʏᴏᴜ 💭❤️</item>
+        <item>Обнимаю и целую 🤗😘</item>
+        <item>Ты заставляешь меня улыбаться 😊💖</item>
+        <item>Ты дополняешь меня 🧩❤️</item>
+        <item>Я всегда рядом 🤝💞</item>
+        <item>Мой единственный/единственная 💎❤️</item>
+        <item>Ты мое солнышко ☀️💛</item>
+        <item>Ты украл(а) мое сердце 💘🔐</item>
+        <item>Люблю тебя до луны 🌙💞</item>
+        <item>Всегда в моих мыслях 💭💓</item>
+        <item>Моя родная душа ✨💖</item>
+        <item>Ты мое счастье 😊❤️</item>
+        <item>Я выбираю тебя 💍💞</item>
+        <item>Ты для меня целый мир 🌍❤️</item>
+        <item>ʏᴏᴜ\'ʀᴇ ᴍʏ ᴘᴇʀꜱᴏɴ 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>Еще разок! 💪🔥</item>
+        <item>Маленькие шаги каждый день 🚶✨</item>
+        <item>Продолжай в том же духе 🚀🔥</item>
+        <item>Ты сможешь 💯💪</item>
+        <item>Оставайся в фокусе 🎯🧠</item>
+        <item>Верь в себя ⭐💫</item>
+        <item>Выйди за пределы 📈🔥</item>
+        <item>Никогда не сдавайся 🛡️🚀</item>
+        <item>Будь сильным всегда 💪✨</item>
+        <item>ᴡɪɴɴᴇʀ ᴍɪɴᴅꜱᴇᴛ 🏆🧠</item>
+        <item>Следуй за мечтой 🌠🚀</item>
+        <item>ʙᴏꜱꜱ ᴍᴏᴠᴇꜱ 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+    </array>
+
+    <array name="notification_body">
+        <item>Нет, скажи это 100 раз! 🔁💬</item>
+        <item>Нажми, чтобы повторить 👆🔁</item>
+        <item>Слишком просто! Нажми для повтора 😆📲</item>
+        <item>Нажми, чтобы повторить 👆💬</item>
+        <item>Нажми, чтобы повторить 🔁📩</item>
+        <item>Нет, скажи это 100 раз! 💬🔥</item>
+        <item>Поехали! 🚀💥</item>
+        <item>Нет, скажи это 100 раз! 😎📢</item>
+        <item>Повтори как никогда раньше! 🔁⚡</item>
+        <item>Поехали! 💪✨</item>
+        <item>✨ Абра-ка-текст-ра! 🪄💬</item>
+        <item>Отправь сообщение сто раз! 💣📲</item>
+        <item>Поехали! 🚀📩</item>
+        <item>Отправить 50 раз! 🔁📤</item>
+        <item>Поехали! 😆🔥</item>
+        <item>Нажми для повтора 👆⚡</item>
+        <item>Один клик — бесконечный текст! 👆♾️</item>
+        <item>10× за один раз ⚡📲 (Не за что.)</item>
+        <item>Готов повторить? 🔁😏</item>
+        <item>Готов повторить? 📢🔥</item>
+        <item>Скажи это 100 раз! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>Скажи один раз ✨📩</item>
+        <item>Раздражай друзей, но весело! 😆📲</item>
+        <item>Одно сообщение 💬⚡</item>
+        <item>Зачем писать дважды, если можно повторять вечно 🔁♾️</item>
+        <item>Копипаст — это прошлый век 📋🚫</item>
+        <item>Одного \'Ха-ха\' мало 😂💥</item>
+        <item>Видел, как твой текст заполняет экран? 📲🔥</item>
+        <item>Стань звездой чата 📢😎</item>
+        <item>Хочешь выделиться? ⭐📣</item>
+        <item>3 слова, бесконечная мощь: ПОВТОР ПОВТОР ПОВТОР! 🔁⚡</item>
+        <item>Пранки стали круче 🎭😆</item>
+        <item>Нужно внимание? 👀📲</item>
+        <item>Работай умно — повторяй без усилий 🧠✨</item>
+        <item>Нужно кому-то напомнить? ⏰📩</item>
+        <item>Внимание: вызывает привыкание! Жми! ⚠️😆</item>
+        <item>Эпичные моменты заслуживают биса 🎤🔥</item>
+        <item>Хочешь взорвать чат? 💥📲</item>
+        <item>Режим спама включен 🚀📢</item>
+        <item>Мгновенная мощь: бесконечный текст за секунды! ⚡📩</item>
+        <item>Сделай свои слова НЕЗАБЫВАЕМЫМИ — повтори сейчас! 💬✨</item>
+        <item>Есть что-то важное сказать? 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>ЛОЛ 😂🤣</item>
+        <item>Ээээй 👀📩</item>
+        <item>Скучал(а) по мне? 😏💬</item>
+        <item>Проверь меня 😎🔥</item>
+        <item>Ха-ха 😆🤣</item>
+        <item>ℕ𝕠 ℕ𝕠 ℕ𝕠 ℕ𝕠 ❌😤</item>
+        <item>Погоди погоди погоди ⏳👀</item>
+        <item>Сообщение загружается... ⏳📲</item>
+        <item>Угадай что, угадай что 🤫😆</item>
+        <item>ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ✅😄</item>
+        <item>Просто шучу 😜✨</item>
+        <item>Посмотри еще раз 👀📩</item>
+        <item>Все еще жду 😏⏳</item>
+        <item>Ой, не тот чат 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>Скучаю 💞💬</item>
+        <item>Люблю тебя ♥️❤️</item>
+        <item>Прости меня 😔🙏</item>
+        <item>Ненавижу тебя 😤💢</item>
+        <item>Печатает.. ⌨️👀</item>
+        <item>Доброе утро! ☀️😊</item>
+        <item>Спокойной ночи 🌙💤</item>
+        <item>Люблю ❤️💞</item>
+        <item>Позвони мне 📞👀</item>
+        <item>Думаю о тебе 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[Люблю тебя ❤️\nЛюблю тебя ❤️❤️\nЛюблю тебя ❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+        <item><![CDATA[Прости 😔\nПрости 😔😔\nПрости 😔😔😔\nПрости 😔😔😔😔\nПрости 😔😔😔😔😔\nПрости 😔😔😔😔😔😔\nПрости 😔😔😔😔😔😔😔\nПрости 😔😔😔😔😔😔😔😔\nПрости 😔😔😔😔😔😔😔😔😔\nПрости 😔😔😔😔😔😔😔😔😔😔]]></item>
+        <item><![CDATA[ха 😂\nхе 😆\nХА-ХА 🤣\nХе-хе 😜\nхахаха 😹\nХАХАХА 😆\nХаХаХа 😂\nхахаха 🤣🤣\nхехехе 😜😜\nХАХА 😆😆]]></item>
+        <item><![CDATA[Нет ❌\nНет ❌❌\nНет ❌❌❌\nНет ❌❌❌❌\nНет ❌❌❌❌❌\nНет ❌❌❌❌❌❌\nНет ❌❌❌❌❌❌❌\nНет ❌❌❌❌❌❌❌❌\nНет ❌❌❌❌❌❌❌❌❌\nНет ❌❌❌❌❌❌❌❌❌❌]]></item>
+        <item><![CDATA[ \n \n \n \n \n \n \n \n \n ]]></item>
+        <item><![CDATA[Скучал(а)? 😏\nСкучал(а)? 😏😏\nСкучал(а)? 😏😏😏\nСкучал(а)? 😏😏😏😏\nСкучал(а)? 😏😏😏😏😏\nСкучал(а)? 😏😏😏😏😏😏\nСкучал(а)? 😏😏😏😏😏😏😏\nСкучал(а)? 😏😏😏😏😏😏😏😏\nСкучал(а)? 😏😏😏😏😏😏😏😏😏\nСкучал(а)? 😏😏😏😏😏😏😏😏😏😏]]></item>
+        <item><![CDATA[ха-ха 😂\nхе-хе 😆\nха-ха 😂😂\nхе-хе 😆😆\nха-ха 😂😂😂\nхе-хе 😆😆😆\nха-ха 😂😂😂😂\nхе-хе 😆😆😆😆\nха-ха 😂😂😂😂😂\nхе-хе 😆😆😆😆😆]]></item>
+        <item><![CDATA[Я сдаюсь 😤\nЯ сдаюсь 😤😤\nЯ сдаюсь 😤😤😤\nЯ сдаюсь 😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤😤😤😤😤\nЯ сдаюсь 😤😤😤😤😤😤😤😤😤😤]]></item>
+        <item><![CDATA[Позвони мне, сейчас? 📞\nПозвони мне, сейчас? 📞📞\nПозвони мне, сейчас? 📞📞📞\nПозвони мне, сейчас? 📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞📞📞📞\nПозвони мне, сейчас? 📞📞📞📞📞📞📞📞]]></item>
+        <item><![CDATA[Люблю тебя вечно ❤️\nЛюблю тебя вечно ❤️❤️\nЛюблю тебя вечно ❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nЛюблю тебя вечно ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>Любовь, которая растет! ❤️📈</item>
+        <item>Потому что одного \'прости\' malo. 😔🔁</item>
+        <item>20 шрифтов. Один и тот же смех. 😂🔤</item>
+        <item>Если 1 \'Нет\' мало — отправь 20! ❌🔁</item>
+        <item>Запутай пустым сообщением 👻📩</item>
+        <item>Мило, 15 разными способами. 🥰✨</item>
+        <item>18 стилей смеха! 😆🤣</item>
+        <item>По кругу 🔁📲</item>
+        <item>20 шрифтов. 1 отчаянная просьба. 📞🔤</item>
+        <item>Чересчур. Как и сама любовь. ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>Люблю тебя ❤️💞</item>
+        <item>Мега Прости 😔🙏</item>
+        <item>Бомба Смеха 😂💣</item>
+        <item>Нет значит НЕТ ❌🚫</item>
+        <item>Пустое сообщение 👻📩</item>
+        <item>Скучал(а) по мне? 😏💬</item>
+        <item>Ха-ха Хе-хе 😆🤣</item>
+        <item>Хватит это терпеть 😤🚪</item>
+        <item>Позвони мне, сейчас? 📞👀</item>
+        <item>Любовь навеки ❤️♾️</item>
+    </array>
+</resources>

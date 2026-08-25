@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>तुम्हारी याद आ रही है 💓</item>
+        <item>मैं तुमसे प्यार करता हूँ ❤️</item>
+        <item>शुभ रात्रि ✨</item>
+        <item>लगे रहो 💪</item>
+        <item>पैसों की बारिश 💸</item>
+        <item>आई लव यू 3000 ❤️</item>
+        <item>सच्ची माफी 🙇‍♂️</item>
+        <item>मीठे सपने ✨</item>
+        <item>ब्रह्मांड का संदेश 🌌</item>
+        <item>चमकता दिल 💖✨</item>
+        <item>तुम्हारी चाहत ⏳</item>
+        <item>मीठी बातें 🥰</item>
+        <item>पे-डे की खबरें 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>मुझे सच में खेद है 😔🙏</item>
+        <item>क्या हम बात कर सकते हैं? 🗣️💬</item>
+        <item>कृपया मुझे माफ कर do 🥺🙏</item>
+        <item>मेरा यह मतलब नहीं था 😞</item>
+        <item>मुझसे बहुत बड़ी गलती हो गई 😓💔</item>
+        <item>मेरी गलती 😅</item>
+        <item>मुझे अपने किए पर पछतावा है 😢</item>
+        <item>ɪ\'ᴍ ꜱᴏ ꜱᴏʀʀʏ 🥺</item>
+        <item>मुझे एक मौका दो 🤍</item>
+        <item>मुझे इसके बारे में बहुत बुरा लग रहा है 😞💭</item>
+        <item>मैं बेहतर करूँगा ✨</item>
+        <item>मैंने सोचा नहीं था 😔</item>
+        <item>ꜰᴏʀɢɪᴠᴇ ᴍᴇ ᴘʟᴇᴀꜱᴇ 🙇‍♂️</item>
+        <item>ऐसा फिर नहीं होगा 🔁</item>
+        <item>मैं बदलने का वादा करता हूँ 🤞</item>
+        <item>मैं गलत था 🙁</item>
+        <item>मैं तुम्हें कभी चोट नहीं पहुँचाना चाहता था 💔</item>
+        <item>मुझे इसे ठीक करने का मौका do 💌</item>
+        <item>तुम मेरे लिए बहुत कीमती ho 💛</item>
+        <item>एक और मौका? 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>ʏᴏᴜʀ ʟᴏꜱꜱ 😎</item>
+        <item>ज़रा हटके 💯</item>
+        <item>मुझे अकेला छोड़ do 🚫</item>
+        <item>मुझे टेक्स्ट मत करो 📵</item>
+        <item>सब खत्म हो गया 💔</item>
+        <item>खामोशी 🤐</item>
+        <item>मेरी प्राइवेसी का सम्मान करो 🧊</item>
+        <item>मुझे तुमसे नफरत है 😤</item>
+        <item>मुझे परेशान करना बंद करो 🚷</item>
+        <item>मुझे थोड़ी दूरी चाहिए 🚶‍♂️</item>
+        <item>हद पार मत करो ⚠️</item>
+        <item>मेरी बात खत्म हुई ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>आई लव यू ❤️</item>
+        <item>सुप्रभात! ☀️</item>
+        <item>तुम्हारी याद आ रही है 💞</item>
+        <item>मिस यू 💘</item>
+        <item>शुभ रात्रि 🌙</item>
+        <item>जन्मदिन मुबारक ho 🎂</item>
+        <item>बधाई हो 🎉</item>
+        <item>सॉरी 😔</item>
+        <item>पक्के दोस्त 👯</item>
+        <item>कॉफी? ☕️</item>
+        <item>अंदाज़ा लगाओ क्या हुआ?! 😏</item>
+        <item>चलो गपशप करते हैं 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>शुभ रात्रि 🌙</item>
+        <item>अच्छी नींद lo 😴</item>
+        <item>मीठे सपने 💤</item>
+        <item>रात का अहसास 🌃</item>
+        <item>नमस्ते, मेरी धूप ☀️</item>
+        <item>ɴɪɢʜᴛ ɴɪɢʜᴛ 🌌</item>
+        <item>उठो और चमको ⭐</item>
+        <item>बड़े सपने देखो 💭</item>
+        <item>मेरे सपने देखना 💞</item>
+        <item>सुबह की रोशनी ☀️</item>
+        <item>सपनों में मिलते हैं ✨</item>
+        <item>आराम करो 🛌</item>
+        <item>अच्छे से सोना बेबी 🧸</item>
+        <item>गहरी नींद 😪</item>
+        <item>ꜱʟᴇᴇᴘ ᴛɪɢʜᴛ 🌙</item>
+        <item>सुप्रभात, सुंदरी ☀️</item>
+        <item>जागो सूरज 🌞</item>
+        <item>शुभ रात्रि मेरे फरिश्ते 😇</item>
+        <item>रात की मीठी दुआएं 🌠</item>
+        <item>कल मिलते हैं 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>जन्मदिन मुबारक ho 🎂🎉</item>
+        <item>सालगिरह मुबारक 💍❤️</item>
+        <item>ढेर सारी शुभकामनाएं 🎊🌟</item>
+        <item>अपना खास दिन मनाएं 🥳🎈</item>
+        <item>बधाई ho 🎉👏</item>
+        <item>ʜᴀᴘᴘʏ ʙɪʀᴛʜᴅᴀʏ 🎂🎁</item>
+        <item>ʏᴇᴀʀꜱ ᴏꜰ ʟᴏᴠᴇ ❤️💑</item>
+        <item>आपकी सफलता के लिए 🥂✨</item>
+        <item>एक साल और समझदार 🎂🌟</item>
+        <item>हमेशा के लिए साथ 💞💍</item>
+        <item>हमेशा खुश रहें 😊🎉</item>
+        <item>एक मन्नत मांगो ⭐🎂</item>
+        <item>आज बड़े सपने देखो ✨🎈</item>
+        <item>आपने कर दिखाया ✨🏆</item>
+        <item>जादुई जन्मदिन ho 🎂✨</item>
+        <item>अनंत खुशियों की कामना 🎊💫</item>
+        <item>बहुत बढ़िया 👏🎉</item>
+        <item>पार्टी का समय 🥳🎶</item>
+        <item>आज भी प्यार है ❤️💖</item>
+        <item>अपना पल जियो 🎉📸</item>
+        <item>आपके लिए खास दिन 🎂🌹</item>
+        <item>आप पर गर्व है 💫👏</item>
+        <item>आपके लिए rất खुश हूँ 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>मैं तुमसे प्यार करता हूँ ❤️💞</item>
+        <item>तुम्हारी याद आ रही है 💭💘</item>
+        <item>तुम्हारे बारे में सोच रहा हूँ 💌💖</item>
+        <item>हमेशा के लिए तुम्हारा ♾️❤️</item>
+        <item>तुम मेरा सब कुछ ho 🌍💞</item>
+        <item>ᴛʜɪɴᴋɪɴɢ ᴏғ ʏᴏᴜ 💭❤️</item>
+        <item>गले मिलना और किस 🤗😘</item>
+        <item>तुम्हारी वजह से मुस्कुराहट है 😊💖</item>
+        <item>तुम मुझे पूरा करते ho 🧩❤️</item>
+        <item>मैं हमेशा तुम्हारे लिए यहाँ हूँ 🤝💞</item>
+        <item>सिर्फ तुम ही ho 💎❤️</item>
+        <item>तुम मेरी धूप ho ☀️💛</item>
+        <item>तुमने मेरा दिल चुरा लिया 💘🔐</item>
+        <item>चाँद तक प्यार 🌙💞</item>
+        <item>हर पल तुम्हारी याद 💭💓</item>
+        <item>मेरा हमसफर ✨💖</item>
+        <item>तुम मेरी खुशी ho 😊❤️</item>
+        <item>मैं तुम्हें चुनता हूँ 💍💞</item>
+        <item>तुम मेरी दुनिया ho 🌍❤️</item>
+        <item>ʏᴏᴜ\'ʀᴇ ᴍʏ ᴘᴇʀꜱᴏɴ 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>ᴏɴᴇ ᴍᴏʀᴇ ʀᴇᴘ 💪🔥</item>
+        <item>रोजाना छोटे कदम 🚶✨</item>
+        <item>चलते रहो 🚀🔥</item>
+        <item>तुम कर सकते ho 💯💪</item>
+        <item>फोकस बनाए रखें 🎯🧠</item>
+        <item>खुद पर विश्वास करो ⭐💫</item>
+        <item>अपनी सीमाओं को तोड़ो 📈🔥</item>
+        <item>कभी हार मत मानो 🛡️🚀</item>
+        <item>हमेशा मजबूत रहें 💪✨</item>
+        <item>ᴡɪɴɴᴇʀ ᴍɪɴᴅꜱᴇᴛ 🏆🧠</item>
+        <item>सपनों का पीछा करो 🌠🚀</item>
+        <item>ʙᴏꜱꜱ ᴍᴏᴠᴇꜱ 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>एक</item>
+        <item>दो</item>
+        <item>तीन</item>
+    </array>
+
+    <array name="notification_body">
+        <item>नहीं, इसे 100 बार कहो! 🔁💬</item>
+        <item>दोहराने के लिए टैप करें 👆🔁</item>
+        <item>बहुत आसान! दोहराने के लिए टैप करें 😆📲</item>
+        <item>दोहराने के लिए टैप करें 👆💬</item>
+        <item>दोहराने के लिए टैप करें 🔁📩</item>
+        <item>नहीं, इसे 100 बार कहो! 💬🔥</item>
+        <item>चलो करते हैं! 🚀💥</item>
+        <item>नहीं, इसे 100 बार कहो! 😎📢</item>
+        <item>ऐसे दोहराएं जैसे पहले कभी नहीं! 🔁⚡</item>
+        <item>चलो करते हैं! 💪✨</item>
+        <item>✨ अबरा-का-टेक्स्ट-रा! 🪄💬</item>
+        <item>अपना संदेश सौ बार दाग दें! 💣📲</item>
+        <item>चलो करते हैं! 🚀📩</item>
+        <item>इसे 50 बार भेजें! 🔁📤</item>
+        <item>चलो करते हैं! 😆🔥</item>
+        <item>दोहराने के लिए टैप करें 👆⚡</item>
+        <item>एक टैप, अंतहीन टेक्स्ट! 👆♾️</item>
+        <item>एक बार में 10× ⚡📲 (शुक्रिया बाद में कहना।)</item>
+        <item>दोहराने के लिए तैयार? 🔁😏</item>
+        <item>दोहराने के लिए तैयार? 📢🔥</item>
+        <item>इसे 100 बार कहो! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>इसे một बार कहें ✨📩</item>
+        <item>दोस्तों को परेशान करें, लेकिन मज़े से! 😆📲</item>
+        <item>एक संदेश 💬⚡</item>
+        <item>दो बार क्यों लिखें khi bạn có thể दोहराएं 🔁♾️</item>
+        <item>कॉपी-पेस्ट अब पुराना ho गया 📋🚫</item>
+        <item>एक "हाहा" काफी नहीं है 😂💥</item>
+        <item>क्या आपने कभी अपना टेक्स्ट स्क्रीन पर कब्जा करते देखा है? 📲🔥</item>
+        <item>अपने ग्रुप चैट में वायरल हो जाएं 📢😎</item>
+        <item>क्या आप अलग दिखना चाहते हैं? ⭐📣</item>
+        <item>3 शब्द, अनंत शक्ति: दोहराएं दोहराएं दोहराएं! 🔁⚡</item>
+        <item>मज़ाक अब और भी बेहतर ho गया 🎭😆</item>
+        <item>ध्यान चाहिए? 👀📲</item>
+        <item>स्मार्ट काम करें, मेहनत नहीं—बिना मेहनत के दोहराएं 🧠✨</item>
+        <item>किसी को याद दिलाने की जरूरत है? ⏰📩</item>
+        <item>चेतावनी: बेकाबू मज़ा आ सकता है! टैप करें! ⚠️😆</item>
+        <item>शानदार पलों को một और मौका मिलना चाहिए 🎤🔥</item>
+        <item>चैट को धमाके से भरना चाहते हैं? 💥📲</item>
+        <item>स्पैम मोड चालू 🚀📢</item>
+        <item>तुरंत शक्ति: सेकंड में अंतहीन टेक्स्ट बनाएं! ⚡📩</item>
+        <item>अपने शब्दों को यादगार बनाएं—अभी दोहराएं! 💬✨</item>
+        <item>क्या आपको कुछ महत्वपूर्ण कहना है? 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>लोल 😂🤣</item>
+        <item>हेययय 👀📩</item>
+        <item>क्या तुमने मुझे मिस किया? 😏💬</item>
+        <item>कोशिश to करो 😎🔥</item>
+        <item>हाहा 😆🤣</item>
+        <item>ℕ𝕠 ℕ𝕠 ℕ𝕠 ℕ𝕠 ❌😤</item>
+        <item>रुको रुको रुको ⏳👀</item>
+        <item>संदेश लोड हो रहा है... ⏳📲</item>
+        <item>अंदाज़ा लगाओ क्या अंदाज़ा लगाओ क्या 🤫😆</item>
+        <item>ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ✅😄</item>
+        <item>मज़ाक कर रहा हूँ 😜✨</item>
+        <item>फिर से देखो 👀📩</item>
+        <item>अभी भी इंतज़ार कर रहा हूँ 😏⏳</item>
+        <item>ओह, गलत चैट 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>मिस यू 💞💬</item>
+        <item>आई लव यू ♥️❤️</item>
+        <item>सॉरी 😔🙏</item>
+        <item>मुझे तुमसे नफरत है 😤💢</item>
+        <item>टाइपिंग.. ⌨️👀</item>
+        <item>सुप्रभात! ☀️😊</item>
+        <item>शुभ रात्रि 🌙💤</item>
+        <item>प्यार करता हूँ ❤️💞</item>
+        <item>मुझे कॉल करो 📞👀</item>
+        <item>तुम्हारे बारे में सोच रहा हूँ 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[आई लव यू ❤️\nआई लव यू ❤️❤️\nआई लव यू ❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nआई लव यू ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+        <item><![CDATA[सॉरी 😔\nसॉरी 😔😔\nसॉरी 😔😔😔\nसॉरी 😔😔😔😔\nसॉरी 😔😔😔😔😔\nसॉरी 😔😔😔😔😔😔\nसॉरी 😔😔😔😔😔😔😔\nसॉरी 😔😔😔😔😔😔😔😔\nसॉरी 😔😔😔😔😔😔😔😔😔\nसॉरी 😔😔😔😔😔😔😔😔😔😔]]></item>
+        <item><![CDATA[हाहा 😂\nहेहे 😆\nहाहा 🤣\nहेहे 😜\nहाहाहा 😹\nहाहाहा 😆\nहाहाहा 😂\nहाहाहा 🤣🤣\nहेहेहे 😜😜\nहाहा 😆😆]]></item>
+        <item><![CDATA[नहीं ❌\nनहीं ❌❌\nनहीं ❌❌❌\nनहीं ❌❌❌❌\nनहीं ❌❌❌❌❌\nनहीं ❌❌❌❌❌❌\nनहीं ❌❌❌❌❌❌❌\nनहीं ❌❌❌❌❌❌❌❌\nनहीं ❌❌❌❌❌❌❌❌❌\nनहीं ❌❌❌❌❌❌❌❌❌❌]]></item>
+        <item>ㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ</item>
+        <item><![CDATA[मिस मी? 😏\nमिस मी? 😏😏\nमिस मी? 😏😏😏\nमिस मी? 😏😏😏😏\nमिस मी? 😏😏😏😏😏\nमिस मी? 😏😏😏😏😏😏\nमिस मी? 😏😏😏😏😏😏😏\nमिस मी? 😏😏😏😏😏😏😏😏\nमिस मी? 😏😏😏😏😏😏😏😏😏\nमिस मी? 😏😏😏😏😏😏😏😏😏😏]]></item>
+        <item><![CDATA[हाहा 😂\nहेहे 😆\nहाहा 😂😂\nहेहे 😆😆\nहाहा 😂😂😂\nहेहे 😆😆😆\nहाहा 😂😂😂😂\nहेहे 😆😆😆😆\nहाहा 😂😂😂😂😂\nहेहे 😆😆😆😆😆]]></item>
+        <item><![CDATA[मैं थक गया हूँ 😤\nमैं थक गया हूँ 😤😤\nमैं थक गया हूँ 😤😤😤\nमैं थक गया हूँ 😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤😤😤😤😤\nमैं थक गया हूँ 😤😤😤😤😤😤😤😤😤😤]]></item>
+        <item><![CDATA[मुझे कॉल करो, अभी? 📞\nमुझे कॉल करो, अभी? 📞📞\nमुझे कॉल करो, अभी? 📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞\nमुझे कॉल करो, अभी? 📞📞📞📞]]></item>
+        <item><![CDATA[हमेशा के लिए प्यार ❤️\nहमेशा के लिए प्यार ❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nहमेशा के लिए प्यार ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>बढ़ता हुआ प्यार! ❤️📈</item>
+        <item>क्योंकि एक सॉरी काफी नहीं है। 😔🔁</item>
+        <item>20 फोंट्स। वही हंसी। 😂🔤</item>
+        <item>जब 1 "नहीं" काफी न ho — 20 भेजें! ❌🔁</item>
+        <item>खाली संदेश के साथ भ्रमित करें 👻📩</item>
+        <item>क्यूट, 15 तरीकों से। 🥰✨</item>
+        <item>हंसी के 18 स्टाइल! 😆🤣</item>
+        <item>लूप पर 🔁📲</item>
+        <item>20 फोंट्स. 1 बेताब विनती. 📞🔤</item>
+        <item>शानदार. प्यार की तरह. ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>आई लव यू ❤️💞</item>
+        <item>सुपर सॉरी 😔🙏</item>
+        <item>हाहा बॉम्ब 😂💣</item>
+        <item>नहीं मतलब नहीं ❌🚫</item>
+        <item>खाली संदेश 👻📩</item>
+        <item>मिस मी? 😏💬</item>
+        <item>हाहा हेहे 😆🤣</item>
+        <item><![CDATA[बस अब और नहीं 😤🚪]]></item>
+        <item>मुझे कॉल करो, अभी? 📞👀</item>
+        <item>हमेशा के लिए प्यार ❤️♾️</item>
+    </array>
+</resources>

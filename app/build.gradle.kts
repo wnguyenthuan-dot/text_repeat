@@ -80,18 +80,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
-    //========================================= Ads ================================================
-    implementation("dinostudio.global.beta:ads:1.9.2")
-    implementation("com.github.DinoLibrary:Rate:1.2")
+    // Firebase services used by the app (analytics, crash reporting and notifications).
     implementation(platform("com.google.firebase:firebase-bom:34.7.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
     implementation("com.google.firebase:firebase-messaging")
-    implementation("com.google.firebase:firebase-config")
-    //solar
-    implementation("com.reyun.solar.engine.oversea:solar-engine-core:1.3.1.1")
-    //==============================================================================================
 }
-
-apply("script.gradle.kts")
-android.sourceSets.getByName("main").kotlin.srcDir("build/generated/source/remoteConfig/")

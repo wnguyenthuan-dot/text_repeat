@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>보고 싶어 💓</item>
+        <item>사랑해 ❤️</item>
+        <item>잘 자 ✨</item>
+        <item>화이팅 💪</item>
+        <item>돈벼락 💸</item>
+        <item>3000만큼 사랑해 ❤️</item>
+        <item>진심 어린 사과 🙇‍♂️</item>
+        <item>좋은 꿈 꿔 ✨</item>
+        <item>우주의 메시지 🌌</item>
+        <item>반짝이는 마음 💖✨</item>
+        <item>너를 그리워하며 ⏳</item>
+        <item>달콤한 말 🥰</item>
+        <item>월급 소식 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>정말 미안해 😔🙏</item>
+        <item>잠깐 얘기 좀 할까? 🗣️💬</item>
+        <item>제발 용서해줘 🥺🙏</item>
+        <item>그럴 의도는 아니었어 😞</item>
+        <item>내가 다 망쳤어 😓💔</item>
+        <item>내 잘못이야 😅</item>
+        <item>진심으로 후회하고 있어 😢</item>
+        <item>ɪ\'ᴍ ꜱᴏ ꜱᴏʀʀʏ 🥺</item>
+        <item>한 번만 기회를 줘 🤍</item>
+        <item>마음이 너무 안 좋아 😞💭</item>
+        <item>더 잘할게 ✨</item>
+        <item>생각이 짧았어 😔</item>
+        <item>ꜰᴏʀɢɪᴠᴇ ᴍᴇ ᴘʟᴇᴀꜱᴇ 🙇‍♂️</item>
+        <item>다시는 안 그럴게 🔁</item>
+        <item>변하겠다고 약속해 🤞</item>
+        <item>내가 틀렸어 🙁</item>
+        <item>상처 줄 마음은 없었어 💔</item>
+        <item>만회할 기회를 줘 💌</item>
+        <item>넌 내게 소중해 💛</item>
+        <item>다시 시작할 수 있을까? 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>ʏᴏᴜʀ ʟᴏꜱꜱ 😎</item>
+        <item>난 좀 달라 💯</item>
+        <item>혼자 있게 해줘 🚫</item>
+        <item>연락하지 마 📵</item>
+        <item>이제 끝이야 💔</item>
+        <item>할 말 없음 🤐</item>
+        <item>개인 공간을 존중해줘 🧊</item>
+        <item>너 싫어 😤</item>
+        <item>그만 좀 괴롭혀 🚷</item>
+        <item>거리두기가 필요해 🚶‍♂️</item>
+        <item>선을 넘지 마 ⚠️</item>
+        <item>대화는 끝났어 ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWIWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWIWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>사랑해 ❤️</item>
+        <item>좋은 아침! ☀️</item>
+        <item>보고 싶어 💞</item>
+        <item>그리워 💘</item>
+        <item>잘 자 🌙</item>
+        <item>생일 축하해 🎂</item>
+        <item>축하해 🎉</item>
+        <item>미안해 😔</item>
+        <item>영원한 베프 👯</item>
+        <item>커피 한잔? ☕️</item>
+        <item>있잖아... 😏</item>
+        <item>수다 떨자 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>잘 자요 🌙</item>
+        <item>푹 자요 😴</item>
+        <item>좋은 꿈 꿔요 💤</item>
+        <item>밤의 분위기 🌃</item>
+        <item>안녕, 나의 햇살 ☀️</item>
+        <item>ɴɪɢʜᴛ ɴɪɢʜᴛ 🌌</item>
+        <item>상쾌하게 일어나 ⭐</item>
+        <item>큰 꿈을 꿔 💭</item>
+        <item>내 꿈 꿔 💞</item>
+        <item>아침 햇살 ☀️</item>
+        <item>꿈에서 만나 ✨</item>
+        <item>숙면 취해 🛌</item>
+        <item>잘 자 우리 아가 🧸</item>
+        <item>꿀잠 자 😪</item>
+        <item>ꜱʟᴇᴇᴘ ᴛɪɢʜᴛ 🌙</item>
+        <item>좋은 아침 예쁜아 ☀️</item>
+        <item>햇살처럼 일어나 🌞</item>
+        <item>잘 자 나의 천사 😇</item>
+        <item>달콤한 밤의 인사 🌠</item>
+        <item>내일 봐 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>생일 축하해 🎂🎉</item>
+        <item>기념일 축하해 💍❤️</item>
+        <item>행운을 빌어 🎊🌟</item>
+        <item>너의 날을 즐겨 🥳🎈</item>
+        <item>축하해 🎉👏</item>
+        <item>ʜᴀᴘᴘʏ ʙɪʀᴛʜᴅᴀʏ 🎂🎁</item>
+        <item>ʏᴇᴀʀꜱ ᴏꜰ ʟᴏᴠᴇ ❤️💑</item>
+        <item>성공을 축하하며 🥂✨</item>
+        <item>한 살 더 지혜롭게 🎂🌟</item>
+        <item>영원히 함께 💞💍</item>
+        <item>항상 행복하길 😊🎉</item>
+        <item>소원을 빌어봐 ⭐🎂</item>
+        <item>오늘 큰 꿈을 가져 ✨🎈</item>
+        <item>해냈구나 ✨🏆</item>
+        <item>마법 같은 생일 되길 🎂✨</item>
+        <item>끝없는 기쁨을 빌어 🎊💫</item>
+        <item>정말 잘했어 👏🎉</item>
+        <item>파티 타임 🥳🎶</item>
+        <item>여전히 사랑해 ❤️💖</item>
+        <item>너의 순간을 기념해 🎉📸</item>
+        <item>특별한 당신의 날 🎂🌹</item>
+        <item>네가 정말 자랑스러워 💫👏</item>
+        <item>진심으로 기뻐 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>사랑해 ❤️💞</item>
+        <item>보고 싶어 💭💘</item>
+        <item>네 생각 중이야 💌💖</item>
+        <item>영원히 네 거야 ♾️❤️</item>
+        <item>넌 내 전부야 🌍💞</item>
+        <item>ᴛʜɪɴᴋɪɴɢ ᴏғ ʏᴏᴜ 💭❤️</item>
+        <item>포옹과 키스 🤗😘</item>
+        <item>넌 나를 웃게 해 😊💖</item>
+        <item>너는 나를 완성시켜 🧩❤️</item>
+        <item>난 항상 네 곁에 있어 🤝💞</item>
+        <item>내겐 오직 너뿐이야 💎❤️</item>
+        <item>넌 나의 햇살 ☀️💛</item>
+        <item>내 마음을 훔쳤어 💘🔐</item>
+        <item>달만큼 사랑해 🌙💞</item>
+        <item>언제나 네 생각 💭💓</item>
+        <item>나의 소울메이트 ✨💖</item>
+        <item>넌 나의 행복이야 😊❤️</item>
+        <item>난 너를 선택해 💍💞</item>
+        <item>넌 내 세상의 모든 것 🌍❤️</item>
+        <item>ʏᴏᴜ\'ʀᴇ ᴍʏ ᴘᴇʀꜱᴏɴ 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>한 번 더! 💪🔥</item>
+        <item>매일 조금씩 🚶✨</item>
+        <item>계속 나아가 🚀🔥</item>
+        <item>넌 할 수 있어 💯💪</item>
+        <item>집중해 🎯🧠</item>
+        <item>자신을 믿어 ⭐💫</item>
+        <item>한계를 돌파해 📈🔥</item>
+        <item>절대 포기하지 마 🛡️🚀</item>
+        <item>언제나 강하게 💪✨</item>
+        <item>ᴡɪɴɴᴇʀ ᴍɪɴᴅꜱᴇᴛ 🏆🧠</item>
+        <item>꿈을 쫓아 🌠🚀</item>
+        <item>ʙᴏꜱꜱ ᴍᴏᴠᴇꜱ 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>일</item>
+        <item>이</item>
+        <item>삼</item>
+    </array>
+
+    <array name="notification_body">
+        <item>아니, 100번 말해! 🔁💬</item>
+        <item>눌러서 반복 👆🔁</item>
+        <item>너무 평범해! 눌러서 반복 😆📲</item>
+        <item>눌러서 반복 👆💬</item>
+        <item>눌러서 반복 🔁📩</item>
+        <item>아니, 100번 말해! 💬🔥</item>
+        <item>가보자고! 🚀💥</item>
+        <item>아니, 100번 말해! 😎📢</item>
+        <item>전례 없이 반복해봐! 🔁⚡</item>
+        <item>가보자고! 💪✨</item>
+        <item>✨ 아브라카-텍스트-라! 🪄💬</item>
+        <item>메시지를 100번 날려! 💣📲</item>
+        <item>가보자고! 🚀📩</item>
+        <item>50번 보내기! 🔁📤</item>
+        <item>가보자고! 😆🔥</item>
+        <item>눌러서 반복 👆⚡</item>
+        <item>한 번의 터치, 무한 텍스트! 👆♾️</item>
+        <item>한 방에 10배 ⚡📲 (천만에요.)</item>
+        <item>반복할 준비 됐어? 🔁😏</item>
+        <item>반복할 준비 됐어? 📢🔥</item>
+        <item>100번 말해! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>한 번만 말해 ✨📩</item>
+        <item>친구를 짜증나게, 하지만 센스있게! 😆📲</item>
+        <item>하나의 메시지 💬⚡</item>
+        <item>왜 두 번 타이핑해? 무한 반복하면 되는데 🔁♾️</item>
+        <item>복붙은 옛날 방식이야 📋🚫</item>
+        <item>\'ㅋㅋㅋ\' 한 번으론 부족해 😂💥</item>
+        <item>텍스트가 화면을 덮는 걸 본 적 있어? 📲🔥</item>
+        <item>단톡방의 핵인싸가 돼봐 📢😎</item>
+        <item>돋보이고 싶니? ⭐📣</item>
+        <item>무한한 힘의 단어: 반복 반복 반복! 🔁⚡</item>
+        <item>장난이 더 업그레이드됐어 🎭😆</item>
+        <item>관심이 필요해? 👀📲</item>
+        <item>스마트하게, 힘들지 않게—반복해 🧠✨</item>
+        <item>누구에게 알림이 필요해? ⏰📩</item>
+        <item>주의: 재미있어서 중독될 수 있음! 반복 클릭! ⚠️😆</item>
+        <item>최고의 순간은 앵콜이 필요해 🎤🔥</item>
+        <item>채팅방을 터뜨리고 싶어? 💥📲</item>
+        <item>스팸 모드 활성화 🚀📢</item>
+        <item>순식간에 무한 텍스트 생성! ⚡📩</item>
+        <item>잊을 수 없는 메시지를 만들어—지금 반복해! 💬✨</item>
+        <item>중요한 할 말이 있어 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>ㅋㅋㅋ 😂🤣</item>
+        <item>저기요 👀📩</item>
+        <item>나 보고 싶었지? 😏💬</item>
+        <item>어디 한번 해봐 😎🔥</item>
+        <item>ㅎㅎㅎ 😆🤣</item>
+        <item> 안 돼 안 돼 안 돼 안 돼 ❌😤</item>
+        <item>기다려 기다려 기다려 ⏳👀</item>
+        <item>메시지 로딩 중... ⏳📲</item>
+        <item>맞춰봐 맞춰봐 🤫😆</item>
+        <item> 그래 그래 그래 그래 ✅😄</item>
+        <item>그냥 농담이야 😜✨</item>
+        <item>다시 봐 👀📩</item>
+        <item>아직 기다리는 중 😏⏳</item>
+        <item>앗 잘못 보냈어 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>보고 싶어 💞💬</item>
+        <item>사랑해 ♥️❤️</item>
+        <item>미안해 😔🙏</item>
+        <item>너 싫어 😤💢</item>
+        <item>입력 중.. ⌨️👀</item>
+        <item>좋은 아침! ☀️😊</item>
+        <item>잘 자 🌙💤</item>
+        <item>사랑해 ❤️💞</item>
+        <item>전화해 📞👀</item>
+        <item>네 생각 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[사랑해 ❤️\n사랑해 ❤️❤️\n사랑해 ❤️❤️❤️\n사랑해 ❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️❤️\n사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+        <item><![CDATA[미안해 😔\n미안해 😔😔\n미안해 😔😔😔\n미안해 😔😔😔😔\n미안해 😔😔😔😔😔\n미안해 😔😔😔😔😔😔\n미안해 😔😔😔😔😔😔😔\n미안해 😔😔😔😔😔😔😔😔\n미안해 😔😔😔😔😔😔😔😔😔\n미안해 😔😔😔😔😔😔😔😔😔😔]]></item>
+        <item><![CDATA[ㅋㅋ 😂\nㅎㅎ 😆\nㅋㅋㅋ 🤣\nㅎㅎㅎ 😜\nㅋㅋㅋㅋ 😹\nㅎㅎㅎㅎ 😆\nㅋㅋㅋㅋㅋ 😂\nㅎㅎㅎㅎㅎ 🤣🤣\nㅋㅋㅋㅋㅋㅋ 😜😜\nㅎㅎㅎㅎㅎㅎ 😆😆]]></item>
+        <item><![CDATA[아니 ❌\n아니 ❌❌\n아니 ❌❌❌\n아니 ❌❌❌❌\n아니 ❌❌❌❌❌\n아니 ❌❌❌❌❌❌\n아니 ❌❌❌❌❌❌❌\n아니 ❌❌❌❌❌❌❌❌\n아니 ❌❌❌❌❌❌❌❌❌\n아니 ❌❌❌❌❌❌❌❌❌❌]]></item>
+        <item><![CDATA[ㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ]]></item>
+        <item><![CDATA[나 보고 싶어? 😏\n나 보고 싶어? 😏😏\n나 보고 싶어? 😏😏😏\n나 보고 싶어? 😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏😏😏😏😏\n나 보고 싶어? 😏😏😏😏😏😏😏😏😏😏]]></item>
+        <item><![CDATA[ㅋㅋ 😂\nㅎㅎ 😆\nㅋㅋ 😂😂\nㅎㅎ 😆😆\nㅋㅋ 😂😂😂\nㅎㅎ 😆😆😆\nㅋㅋ 😂😂😂😂\nㅎㅎ 😆😆😆😆\nㅋㅋ 😂😂😂😂😂\nㅎㅎ 😆😆😆😆😆]]></item>
+        <item><![CDATA[관둘래 😤\n관둘래 😤😤\n관둘래 😤😤😤\n관둘래 😤😤😤😤\n관둘래 😤😤😤😤😤\n관둘래 😤😤😤😤😤복\n관둘래 😤😤😤😤😤복\n관둘래 😤😤😤😤😤복\n관둘래 😤😤😤😤😤복\n관둘래 😤😤😤😤😤복]]></item>
+        <item><![CDATA[전화해, 지금? 📞\n전화해, 지금? 📞📞\n전화해, 지금? 📞📞📞\n전화해, 지금? 📞📞📞📞\n전화해, 지금? 📞📞📞📞📞\n전화해, 지금? 📞📞📞📞📞📞\n전화해, 지금? 📞📞📞📞📞📞📞\n전화해, 지금? 📞📞📞📞📞📞📞\n전화해, 지금? 📞📞📞📞📞📞📞\n전화해, 지금? 📞📞📞📞📞📞📞]]></item>
+        <item><![CDATA[영원히 사랑해 ❤️\n영원히 사랑해 ❤️❤️\n영원히 사랑해 ❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️❤️\n영원히 사랑해 ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>커지는 사랑! ❤️📈</item>
+        <item>한 번의 사과로는 부족하니까. 😔🔁</item>
+        <item>20가지 폰트, 같은 웃음. 😂🔤</item>
+        <item>한 번의 \'아니\'로 부족할 때 — 20번 보내! ❌🔁</item>
+        <item>공백 메시지로 당황하게 만들기 👻📩</item>
+        <item>15가지 다른 귀여움. 🥰✨</item>
+        <item>18가지 웃음 스타일! 😆🤣</item>
+        <item>무한 반복 중 🔁📲</item>
+        <item>20가지 폰트, 1가지 간절한 요청. 📞🔤</item>
+        <item>과하게, 딱 사랑만큼. ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>사랑해 ❤️💞</item>
+        <item>진짜 미안 😔🙏</item>
+        <item>ㅋㅋ 폭탄 😂💣</item>
+        <item>아니라면 아님 ❌🚫</item>
+        <item>공백 메시지 👻📩</item>
+        <item>나 보고 싶어? 😏💬</item>
+        <item>ㅋㅋ ㅎㅎ 😆🤣</item>
+        <item>이제 그만 😤🚪</item>
+        <item>전화해, 지금? 📞👀</item>
+        <item>영원한 사랑 ❤️♾️</item>
+    </array>
+</resources>

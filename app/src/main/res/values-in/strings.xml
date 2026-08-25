@@ -1,0 +1,54 @@
+<resources>
+    <string name="txt_title_splash">Hewan di Layar</string>
+    <string name="intro1">Masukkan Teks</string>
+    <string name="intro1_content">Ketik pesan yang ingin diulang.</string>
+    <string name="intro2">Atur Jumlah Ulang</string>
+    <string name="intro2_content">Pilih berapa kali teks diulang.</string>
+    <string name="intro3">Bagikan Teks</string>
+    <string name="intro3_content">Kirim teks berulang ke teman Anda.</string>
+    <string name="start">Mulai</string>
+    <string name="this_action_can_contain_ads">(Tindakan ini mengandung iklan)</string>
+    <string name="please_select_a_language_before_continue">Pilih bahasa sebelum lanjut!</string>
+    <string name="choose_language">Bahasa</string>
+    <string name="next">Lanjut</string>
+    <string name="txt_title_dialog_no_internet">Tidak Ada Koneksi Internet</string>
+    <string name="txt_content_dialog_no_internet">Harap periksa \nkoneksi internet Anda!</string>
+    <string name="go_to_setting">Setelan</string>
+
+    <string name="text_repeater">PENGULANG TEKS</string>
+    <string name="repeat_text">Ulang Teks</string>
+    <string name="saved_text">Teks Tersimpan</string>
+    <string name="recent">Terbaru</string>
+    <string name="more">Lainnya</string>
+    <string name="stylize">Gaya</string>
+    <string name="repeat_in_new_line">Ulang di Baris Baru</string>
+    <string name="repetition">Pengulangan</string>
+    <string name="aa_enter_text">Masukkan teks di sini</string>
+    <string name="copy">Salin</string>
+    <string name="send">Kirim</string>
+    <string name="no_saved_texts_yet">Belum ada teks tersimpan</string>
+    <string name="save_some_texts_from_the_editor">Simpan teks từ editor!</string>
+    <string name="language">Bahasa</string>
+    <string name="quick_repeat">Ulang Cepat</string>
+    <string name="trending">Sedang Tren</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="do_you_want_to_exit">Ingin keluar?</string>
+    <string name="exit">Keluar</string>
+    <string name="stay">Tetap</string>
+    <string name="select_a_style">Pilih Gaya</string>
+
+    <string name="setting">Pengaturan</string>
+    <string name="share_app">Bagikan Aplikasi</string>
+    <string name="feedback">Masukan</string>
+    <string name="msg_select_style">Silakan pilih gaya!</string>
+    <string name="msg_copied">Tersalin!</string>
+    <string name="toast_text_too_long">Teks terlalu panjang, tidak dapat menyalin secara otomatis!</string>
+    <string name="toast_limit_10000">Jumlah terlalu besar, batasnya adalah 10.000</string>
+    <string name="toast_enter_text_count">Silakan masukkan teks dan jumlah</string>
+    <string name="toast_limit_general">Batas 10.000 kali</string>
+    <string name="toast_enter_text_first">Silakan masukkan teks terlebih dahulu</string>
+    <string name="toast_copied_success">Seluruh teks tersalin!</string>
+    <string name="toast_update_success">Berhasil diperbarui!</string>
+    <string name="toast_saved_favorites">Disimpan ke favorit!</string>
+    <string name="share_via">Bagikan melalui</string>
+</resources>

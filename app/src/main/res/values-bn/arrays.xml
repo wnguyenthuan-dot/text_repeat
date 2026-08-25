@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>তোমাকে মিস করছি 💓</item>
+        <item>আমি তোমাকে ভালোবাসি ❤️</item>
+        <item>শুভ রাত্রি ✨</item>
+        <item>চালিয়ে যাও 💪</item>
+        <item>টাকার বৃষ্টি 💸</item>
+        <item>তোমাকে ৩০০০ বার ভালোবাসি ❤️</item>
+        <item>আন্তরিক ক্ষমা 🙇‍♂️</item>
+        <item>মিষ্টি স্বপ্ন ✨</item>
+        <item>মহাবিশ্বের বার্তা 🌌</item>
+        <item>ঝকঝকে হৃদয় 💖✨</item>
+        <item>দীর্ঘ প্রতিক্ষা ⏳</item>
+        <item>ভালোবাসার কথা 🥰</item>
+        <item>টাকার খবর 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>আমি সত্যিই দুঃখিত 😔🙏</item>
+        <item>আমরা কি কথা বলতে পারি? 🗣️💬</item>
+        <item>দয়া করে আমাকে ক্ষমা করো 🥺🙏</item>
+        <item>আমি এটা বুঝাতে চাইনি 😞</item>
+        <item>আমি খুব খারাপ ভুল করেছি 😓💔</item>
+        <item>আমার ভুল 😅</item>
+        <item>আমি যা করেছি তার জন্য অনুতপ্ত 😢</item>
+        <item>আমি খুব দুঃখিত 🥺</item>
+        <item>আমাকে একটি সুযোগ দাও 🤍</item>
+        <item>আমি এটার জন্য খুব খারাপ বোধ করছি 😞💭</item>
+        <item>আমি আরও ভালো করব ✨</item>
+        <item>আমি এটা নিয়ে ভাবিনি 😔</item>
+        <item>দয়া করে আমাকে ক্ষমা করো 🙇‍♂️</item>
+        <item>এটা আর হবে না 🔁</item>
+        <item>আমি কথা দিচ্ছি আমি পরিবর্তন হব 🤞</item>
+        <item>আমি ভুল ছিলাম 🙁</item>
+        <item>আমি তোমাকে কষ্ট দিতে চাইনি 💔</item>
+        <item>আমাকে এটা ঠিক করতে দাও 💌</item>
+        <item>আমি তোমাকে অনেক মূল্য দিই 💛</item>
+        <item>দ্বিতীয় সুযোগ? 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>তোমার ক্ষতি 😎</item>
+        <item>অন্যদের চেয়ে আলাদা 💯</item>
+        <item>আমাকে একা থাকতে দাও 🚫</item>
+        <item>আমাকে মেসেজ দিও না 📵</item>
+        <item>সব শেষ 💔</item>
+        <item>কথা বন্ধ 🤐</item>
+        <item>আমার ব্যক্তিগত জায়গা সম্মান করো 🧊</item>
+        <item>আমি তোমাকে ঘৃণা করি 😤</item>
+        <item>আমাকে বিরক্ত করা বন্ধ করো 🚷</item>
+        <item>আমার দূরত্ব প্রয়োজন 🚶‍♂️</item>
+        <item>সীমা অতিক্রম করো না ⚠️</item>
+        <item>আমার কথা বলা শেষ ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>আমি তোমাকে ভালোবাসি ❤️</item>
+        <item>শুভ সকাল! ☀️</item>
+        <item>তোমাকে মিস করছি 💞</item>
+        <item>তোমার অভাব বোধ করছি 💘</item>
+        <item>শুভ রাত্রি 🌙</item>
+        <item>শুভ জন্মদিন 🎂</item>
+        <item>অভিনন্দন 🎉</item>
+        <item>দুঃখিত 😔</item>
+        <item>বেস্ট ফ্রেন্ডস 👯</item>
+        <item>কফি হবে? ☕️</item>
+        <item>বলো তো কী?! 😏</item>
+        <item>চলো আড্ডা দিই 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>শুভ রাত্রি 🌙</item>
+        <item>ভালোভাবে ঘুমাও 😴</item>
+        <item>মিষ্টি স্বপ্ন 💤</item>
+        <item>রাত্রির আমেজ 🌃</item>
+        <item>হ্যালো, সূর্যমুখী ☀️</item>
+        <item>নাইট নাইট 🌌</item>
+        <item>জেগে ওঠো এবং জ্বলে ওঠো ⭐</item>
+        <item>বড় স্বপ্ন দেখো 💭</item>
+        <item>আমাকে নিয়ে স্বপ্ন দেখো 💞</item>
+        <item>ভোরের আলো ☀️</item>
+        <item>স্বপ্নে দেখা হবে ✨</item>
+        <item>আরামে ঘুমাও 🛌</item>
+        <item>ভালোভাবে ঘুমাও বাবু 🧸</item>
+        <item>গভীর ঘুম 😪</item>
+        <item>শান্তিতে ঘুমাও 🌙</item>
+        <item>শুভ সকাল সুন্দরী ☀️</item>
+        <item>জেগে ওঠো সূর্যোদয় 🌞</item>
+        <item>শুভ রাত্রি আমার পরী 😇</item>
+        <item>মিষ্টি রাত্রির শুভেচ্ছা 🌠</item>
+        <item>আগামীকাল দেখা হবে 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>শুভ জন্মদিন 🎂🎉</item>
+        <item>শুভ বিবাহ বার্ষিকী 💍❤️</item>
+        <item>তোমার জন্য শুভকামনা 🎊🌟</item>
+        <item>তোমার বিশেষ দিনটি উদযাপন করো 🥳🎈</item>
+        <item>অভিনন্দন 🎉👏</item>
+        <item>শুভ জন্মদিন 🎂🎁</item>
+        <item>ভালোবাসার বছরগুলো ❤️💑</item>
+        <item>তোমার সাফল্যের জন্য শুভকামনা 🥂✨</item>
+        <item>আরেকটি বছর প্রজ্ঞাবান হলে 🎂🌟</item>
+        <item>চিরকাল একসাথে 💞💍</item>
+        <item>তোমার সর্বদা সুখ কামনা করি 😊🎉</item>
+        <item>একটি ইচ্ছা পূরণ হোক ⭐🎂</item>
+        <item>আজ বড় স্বপ্ন দেখো ✨🎈</item>
+        <item>তুমি পেরেছো ✨🏆</item>
+        <item>একটি জাদুকরী জন্মদিন কাটুক 🎂✨</item>
+        <item>তোমার অন্তহীন আনন্দ কামনা করি 🎊💫</item>
+        <item>সাবাশ 👏🎉</item>
+        <item>পার্টির সময় 🥳🎶</item>
+        <item>এখনও প্রেমে আছি ❤️💖</item>
+        <item>তোমার মুহূর্ত উদযাপন করো 🎉📸</item>
+        <item>তোমার জন্য বিশেষ দিন 🎂🌹</item>
+        <item>তোমার জন্য গর্বিত 💫👏</item>
+        <item>তোমার জন্য খুব খুশি 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>আমি তোমাকে ভালোবাসি ❤️💞</item>
+        <item>আমি তোমাকে মিস করছি 💭💘</item>
+        <item>তোমার কথা ভাবছি 💌💖</item>
+        <item>চিরকাল তোমারই ♾️❤️</item>
+        <item>তুমিই আমার সব 🌍💞</item>
+        <item>তোমার কথাই মনে পড়ছে 💭❤️</item>
+        <item>আলিঙ্গন এবং চুম্বন 🤗😘</item>
+        <item>তুমি আমাকে হাসাতে পারো 😊💖</item>
+        <item>তুমি আমাকে পূর্ণ করো 🧩❤️</item>
+        <item>আমি সবসময় তোমার পাশে আছি 🤝💞</item>
+        <item>তুমিই আমার একমাত্র 💎❤️</item>
+        <item>তুমি আমার জীবনের আলো ☀️💛</item>
+        <item>তুমি আমার মন চুরি করেছো 💘🔐</item>
+        <item>চাঁদ পর্যন্ত তোমাকে ভালোবাসি 🌙💞</item>
+        <item>সবসময় তোমার কথা ভাবি 💭💓</item>
+        <item>আমার আত্মার সাথী ✨💖</item>
+        <item>তুমিই আমার সুখ 😊❤️</item>
+        <item>আমি তোমাকেই বেছে নিয়েছি 💍💞</item>
+        <item>তুমি আমার কাছে পুরো পৃথিবী 🌍❤️</item>
+        <item>তুমিই আমার আপন মানুষ 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>আরেকটি ধাপ 💪🔥</item>
+        <item>প্রতিদিনের ছোট পদক্ষেপ 🚶✨</item>
+        <item>এগিয়ে যাও 🚀🔥</item>
+        <item>তুমি পারবে 💯💪</item>
+        <item>লক্ষ্যে স্থির থাকো 🎯🧠</item>
+        <item>নিজের ওপর বিশ্বাস রাখো ⭐💫</item>
+        <item>তোমার সীমাবদ্ধতা ছাড়িয়ে যাও 📈🔥</item>
+        <item>কখনও হাল ছাড়ো না 🛡️🚀</item>
+        <item>সবসময় শক্তিশালী থাকো 💪✨</item>
+        <item>বিজয়ীর মানসিকতা 🏆🧠</item>
+        <item>তোমার স্বপ্ন পূরণ করো 🌠🚀</item>
+        <item>বসের মতো পদক্ষেপ 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>এক</item>
+        <item>দুই</item>
+        <item>তিন</item>
+    </array>
+
+    <array name="notification_body">
+        <item>না, এটা ১০০ বার বলো! 🔁💬</item>
+        <item>রিপিট করতে ট্যাপ করো 👆🔁</item>
+        <item>খুব সাধারণ! রিপিট করতে ট্যাপ করো 😆📲</item>
+        <item>রিপিট করতে ট্যাপ করো 👆💬</item>
+        <item>রিপিট করতে ট্যাপ করো 🔁📩</item>
+        <item>না, এটা ১০০ বার বলো! 💬🔥</item>
+        <item>চলো এটা করি! 🚀💥</item>
+        <item>না, এটা ১০০ বার বলো! 😎📢</item>
+        <item>আগের মতো রিপিট করো! 🔁⚡</item>
+        <item>চলো এটা করি! 💪✨</item>
+        <item>✨ আবরা-কা-টেক্সট-রা! 🪄💬</item>
+        <item>তোমার মেসেজ ১০০ বার ছড়িয়ে দাও! 💣📲</item>
+        <item>চলো এটা করি! 🚀📩</item>
+        <item>এটি ৫০ বার পাঠাও! 🔁📤</item>
+        <item>চলো এটা করি! 😆🔥</item>
+        <item>রিপিট করতে ট্যাপ করো 👆⚡</item>
+        <item>এক ট্যাপে অন্তহীন টেক্সট! 👆♾️</item>
+        <item><![CDATA[একবারে ১০ গুণ ⚡📲 (স্বাগতম)]]></item>
+        <item>রিপিট করতে প্রস্তুত? 🔁😏</item>
+        <item>রিপিট করতে প্রস্তুত? 📢🔥</item>
+        <item>এটা ১০০ বার বলো! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>একবার বলো ✨📩</item>
+        <item>মজার ছলে বন্ধুদের বিরক্ত করো! 😆📲</item>
+        <item>একটি মেসেজ 💬⚡</item>
+        <item>কেন দুবার টাইপ করবেন যখন আপনি চিরকাল রিপিট করতে পারেন 🔁♾️</item>
+        <item>কপি-পেস্ট এখন পুরনো দিনের গল্প 📋🚫</item>
+        <item><![CDATA[একটি ‘হাহা’ যথেষ্ট নয় 😂💥]]></item>
+        <item>কখনও আপনার টেক্সট স্ক্রিন দখল করতে দেখেছেন 📲🔥</item>
+        <item>গ্রুপ চ্যাটে ভাইরাল হন 📢😎</item>
+        <item>আলাدا হতে চান ⭐📣</item>
+        <item>৩টি শব্দ, অফুরন্ত শক্তি: রিপিট রিপিট রিপিট! 🔁⚡</item>
+        <item>প্র্যাঙ্ক এখন আরও ভালো 🎭😆</item>
+        <item>দৃষ্টি আকর্ষণ করতে চান 👀📲</item>
+        <item>বুদ্ধি দিয়ে কাজ করুন—অনায়াসে রিপিট করুন 🧠✨</item>
+        <item>কাউকে মনে করিয়ে দেওয়া প্রয়োজন ⏰📩</item>
+        <item>সতর্কবাণী: অনিয়ন্ত্রিত মজা হতে পারে! ⚠️😆</item>
+        <item>সেরa মুহূর্তগুলো আবার ফিরে পাওয়ার যোগ্য 🎤🔥</item>
+        <item>চ্যাট ব্রেক করতে চান 💥📲</item>
+        <item>স্প্যামিং মোড চালু 🚀📢</item>
+        <item>তাৎক্ষণিক শক্তি: সেকেন্ডের মধ্যে অন্তহীন টেক্সট তৈরি করুন! ⚡📩</item>
+        <item>আপনার কথা অবিস্মরণীয় করে তুলুন—এখনই রিপিট করুন! 💬✨</item>
+        <item>গুরুত্বপূর্ণ কিছু বলার আছে 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>হা হা হা 😂🤣</item>
+        <item>হেইইই 👀📩</item>
+        <item>আমাকে মিস করেছো? 😏💬</item>
+        <item>আমাকে পরখ করো 😎🔥</item>
+        <item>হাহা 😆🤣</item>
+        <item>না না না না ❌😤</item>
+        <item>অপেক্ষা করো অপেক্ষা করো ⏳👀</item>
+        <item>মেসেজ লোড হচ্ছে... ⏳📲</item>
+        <item>বলো তো কী বলো তো কী 🤫😆</item>
+        <item>হ্যাঁ হ্যাঁ হ্যাঁ হ্যাঁ ✅😄</item>
+        <item>শুধু মজা করছি 😜✨</item>
+        <item>আবার দেখো 👀📩</item>
+        <item>এখনও অপেক্ষা করছি 😏⏳</item>
+        <item>ওহ ভুল চ্যাট 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>তোমাকে মিস করছি 💞💬</item>
+        <item>আমি তোমাকে ভালোবাসি ♥️❤️</item>
+        <item>আমি দুঃখিত 😔🙏</item>
+        <item>আমি তোমাকে ঘৃণা করি 😤💢</item>
+        <item>টাইপ করছে.. ⌨️👀</item>
+        <item>শুভ সকাল! ☀️😊</item>
+        <item>শুভ রাত্রি 🌙💤</item>
+        <item>তোমাকে ভালোবাসি ❤️💞</item>
+        <item>আমাকে কল দাও 📞👀</item>
+        <item>তোমার কথা ভাবছি 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[আমি তোমাকে ভালোবাসি ❤️\nআমি তোমাকে ভালোবাসি ❤️❤️\n...]]></item>
+        <item><![CDATA[আমি দুঃখিত 😔\nআমি দুঃখিত 😔😔\n...]]></item>
+        <item>হাহা 😂\nহেহে 😆\nহাহা 🤣\nহেহে 😜\nহahahaha 😹\nহahahaha 😆\nহahahaha 😂\nহahahaha 🤣🤣\nহেহেহে 😜😜\nহাহা 😆😆</item>
+        <item>না ❌\nনা ❌❌\nনা ❌❌❌\n...</item>
+        <item>ㅤ\nㅤ\n...</item>
+        <item><![CDATA[আমাকে মিস করছো? 😏\nআমাকে মিস করছো? 😏😏\n...]]></item>
+        <item>হাহা 😂\nহেহে 😆\nহাহা 😂😂\nহেহে 😆😆\n...</item>
+        <item>আমার কাজ শেষ 😤\n...</item>
+        <item><![CDATA[এখনই আমাকে কল করো? 📞\n...]]></item>
+        <item><![CDATA[চিরকাল তোমাকে ভালোবাসবো ❤️\n...]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>ভালোবাসa বাড়ছে! ❤️📈</item>
+        <item><![CDATA[কারণ একবার সরি বলা যথেষ্ট নয়। 😔🔁]]></item>
+        <item>২০টি ফন্ট। একই হাসি. 😂🔤</item>
+        <item><![CDATA[যখন একবার ‘না’ যথেষ্ট নয় - ২০টি পাঠান! ❌🔁]]></item>
+        <item>খালি মেসেজ দিয়ে মানুষকে বিভ্রান্ত করুন 👻📩</item>
+        <item>মিষ্টি, ১৫টি ভিন্ন উপায়ে। 🥰✨</item>
+        <item>হাসির ১৮টি স্টাইল! 😆🤣</item>
+        <item>রিপিট হচ্ছে 🔁📲</item>
+        <item>২০টি ফন্ট। ১টি মরিয়া অনুরোধ। 📞🔤</item>
+        <item>সবকিছুর ওপরে। ঠিক ভালোবাসার মতো। ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>তোমাকে ভালোবাসি ❤️💞</item>
+        <item>সেরা সরি 😔🙏</item>
+        <item>হাহা বোমা 😂💣</item>
+        <item>না মানে না ❌🚫</item>
+        <item>খালি মেসেজ 👻📩</item>
+        <item>আমাকে মিস করছো? 😏💬</item>
+        <item>হাহা হেহে 😆🤣</item>
+        <item>আমার কাজ শেষ 😤🚪</item>
+        <item>এখনই কল করো? 📞👀</item>
+        <item>চিরন্তন ভালোবাসা ❤️♾️</item>
+    </array>
+</resources>

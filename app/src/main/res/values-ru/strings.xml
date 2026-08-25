@@ -1,0 +1,56 @@
+<resources>
+    <string name="txt_title_splash">Питомцы на экране</string>
+    <string name="intro1">Введите текст</string>
+    <string name="intro1_content">Введите сообщение, которое нужно повторить.</string>
+    <string name="intro2">Количество повторов</string>
+    <string name="intro2_content">Выберите, сколько раз повторить текст.</string>
+    <string name="intro3">Поделитесь текстом</string>
+    <string name="intro3_content">Отправьте повторенный текст друзьям.</string>
+    <string name="start">Начать</string>
+    <string name="this_action_can_contain_ads">(Это действие может содержать рекламу)</string>
+    <string name="please_select_a_language_before_continue">Выберите язык перед продолжением!</string>
+    <string name="choose_language">Язык</string>
+    <string name="next">Далее</string>
+    <string name="txt_title_dialog_no_internet">Нет подключения к Интернету</string>
+    <string name="txt_content_dialog_no_internet">Проверьте ваше \nинтернет-соединение!</string>
+    <string name="go_to_setting">Настройки</string>
+
+    <string name="text_repeater">ПОВТОР</string>
+    <string name="repeat_text">Повторить текст</string>
+    <string name="saved_text">Сохраненный текст</string>
+    <string name="recent">Недавние</string>
+    <string name="more">Еще</string>
+    <string name="stylize">Стилизовать</string>
+    <string name="repeat_in_new_line">С новой строки</string>
+    <string name="repetition">Повторение</string>
+    <string name="aa_enter_text">Введите текст здесь</string>
+    <string name="copy">Копировать</string>
+    <string name="send">Отправить</string>
+    <string name="no_saved_texts_yet">Нет сохраненных текстов</string>
+    <string name="save_some_texts_from_the_editor">Сохраните текст из редактора!</string>
+    <string name="language">Язык</string>
+    <string name="quick_repeat">Быстрый повтор</string>
+    <string name="trending">В тренде</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">Вы уверены, что хотите \n выйти из приложения?</string>
+    <string name="do_you_want_to_exit">Вы хотите выйти?</string>
+    <string name="exit">Выход</string>
+    <string name="stay">Остаться</string>
+    <string name="select_a_style">Выбрать стиль</string>
+
+    <string name="setting">Настройки</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="msg_select_style">Пожалуйста, выберите стиль!</string>
+    <string name="msg_copied">Скопировано!</string>
+    <string name="toast_text_too_long">Текст слишком длинный, автоматическое копирование невозможно!</string>
+    <string name="toast_limit_10000">Слишком большое количество, лимит — 10 000</string>
+    <string name="toast_enter_text_count">Пожалуйста, введите текст и количество</string>
+    <string name="toast_limit_general">Лимит 10 000 раз</string>
+    <string name="toast_enter_text_first">Пожалуйста, сначала введите текст</string>
+    <string name="toast_copied_success">Весь текст скопирован!</string>
+    <string name="toast_update_success">Успешно обновлено!</string>
+    <string name="toast_saved_favorites">Сохранено в избранное!</string>
+
+    <string name="share_via">Поделиться через</string>
+
+</resources>

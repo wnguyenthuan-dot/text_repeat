@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trending_titles">
+        <item>Mi manchi 💓</item>
+        <item>Ti amo ❤️</item>
+        <item>Buonanotte ✨</item>
+        <item>Continua così 💪</item>
+        <item>Pioggia di soldi 💸</item>
+        <item>Ti amo 3000 ❤️</item>
+        <item>Scuse sincere 🙇‍♂️</item>
+        <item>Sogni d\'oro ✨</item>
+        <item>Messaggio dall\'universo 🌌</item>
+        <item>Cuore scintillante 💖✨</item>
+        <item>Ti desidero ⏳</item>
+        <item>Dolci parole 🥰</item>
+        <item>Notizie sullo stipendio 💸💰</item>
+    </array>
+
+    <array name="apology_message_titles">
+        <item>Mi dispiace davvero 😔🙏</item>
+        <item>Possiamo parlare? 🗣️💬</item>
+        <item>Per favore perdonami 🥺🙏</item>
+        <item>Non volevo 😞</item>
+        <item>Ho rovinato tutto 😓💔</item>
+        <item>Colpa mia 😅</item>
+        <item>Mi pento di quello che ho fatto 😢</item>
+        <item>ɪ\'ᴍ ꜱᴏ ꜱᴏʀʀʏ 🥺</item>
+        <item>Dammi una possibilità 🤍</item>
+        <item>Mi sento malissimo per questo 😞💭</item>
+        <item>Farò di meglio ✨</item>
+        <item>Non ci ho pensato bene 😔</item>
+        <item>ꜰᴏʀɢɪᴠᴇ ᴍᴇ ᴘʟᴇᴀꜱᴇ 🙇‍♂️</item>
+        <item>Non succederà più 🔁</item>
+        <item>Prometto che cambierò 🤞</item>
+        <item>Avevo torto 🙁</item>
+        <item>Non avrei mai voluto ferirti 💔</item>
+        <item>Lascia che rimedi 💌</item>
+        <item>Ti apprezzo molto 💛</item>
+        <item>Seconda possibilità? 🥺🙏</item>
+    </array>
+
+    <array name="attitude_message_titles">
+        <item>ʏᴏᴜʀ ʟᴏꜱꜱ 😎</item>
+        <item>Fatto diversamente 💯</item>
+        <item>Lasciami in pace 🚫</item>
+        <item>Non scrivermi 📵</item>
+        <item>È finita 💔</item>
+        <item>Nessun commento 🤐</item>
+        <item>Rispetta i miei spazi 🧊</item>
+        <item>Ti odio 😤</item>
+        <item>Smettila di disturbarmi 🚷</item>
+        <item>Ho bisogno di distanza 🚶‍♂️</item>
+        <item>Non superare il limite ⚠️</item>
+        <item>Ho finito di parlare ❌</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7ITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWIWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWIWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+
+    <array name="entry_animation_messages">
+        <item>Ti amo ❤️</item>
+        <item>Buongiorno! ☀️</item>
+        <item>Mi manchi 💞</item>
+        <item>Mi manchi 💘</item>
+        <item>Buonanotte 🌙</item>
+        <item>Buon compleanno 🎂</item>
+        <item>Congratulazioni 🎉</item>
+        <item>Scusa 😔</item>
+        <item>Migliori amici 👯</item>
+        <item>Caffè? ☕️</item>
+        <item>Indovina cosa?! 😏</item>
+        <item>Facciamo gossip 🤫</item>
+    </array>
+
+    <array name="font_name">
+        <item>Lato-Regular</item>
+        <item>bangers</item>
+        <item>greatvibes</item>
+        <item>monoton</item>
+        <item>imperial</item>
+        <item>nautigal</item>
+        <item>rocksalt</item>
+        <item>romanesco</item>
+        <item>concertone</item>
+        <item>dancingscript</item>
+        <item>fasterone</item>
+        <item>knewave</item>
+    </array>
+
+    <array name="goodnight_message_titles">
+        <item>Buonanotte 🌙</item>
+        <item>Dormi bene 😴</item>
+        <item>Sogni d\'oro 💤</item>
+        <item>Vibrazioni notturne 🌃</item>
+        <item>Ciao, raggio di sole ☀️</item>
+        <item>ɴɪɢʜᴛ ɴɪɢʜᴛ 🌌</item>
+        <item>Svegliati e risplendi ⭐</item>
+        <item>Sogna in grande 💭</item>
+        <item>Sognami 💞</item>
+        <item>Luce del mattino ☀️</item>
+        <item>Ci vediamo nei miei sogni ✨</item>
+        <item>Dormi profondamente 🛌</item>
+        <item>Dormi bene piccolo 🧸</item>
+        <item>Sonno profondo 😪</item>
+        <item>ꜱʟᴇᴇᴘ ᴛɪɢʜᴛ 🌙</item>
+        <item>Buongiorno bellezza ☀️</item>
+        <item>Svegliati sole mio 🌞</item>
+        <item>Buonanotte angelo 😇</item>
+        <item>Dolci auguri notturni 🌠</item>
+        <item>A domani 📅</item>
+    </array>
+
+    <array name="hbd_message_titles">
+        <item>Buon Compleanno 🎂🎉</item>
+        <item>Buon Anniversario 💍❤️</item>
+        <item>Migliori auguri per te 🎊🌟</item>
+        <item>Festeggia il tuo giorno 🥳🎈</item>
+        <item>Congratulazioni 🎉👏</item>
+        <item>ʜᴀᴘᴘʏ ʙɪʀᴛʜᴅᴀʏ 🎂🎁</item>
+        <item>ʏᴇᴀʀꜱ ᴏꜰ ʟᴏᴠᴇ ❤️💑</item>
+        <item>Brindiamo al tuo successo 🥂✨</item>
+        <item>Un anno in più di saggezza 🎂🌟</item>
+        <item>Sempre insieme 💞💍</item>
+        <item>Ti auguro sempre felicità 😊🎉</item>
+        <item>Esprimi un desiderio ⭐🎂</item>
+        <item>Sogna in grande oggi ✨🎈</item>
+        <item>Ce l\'hai fatta ✨🏆</item>
+        <item>Buon compleanno magico 🎂✨</item>
+        <item>Ti auguro gioia infinita 🎊💫</item>
+        <item>Ben fatto 👏🎉</item>
+        <item>È ora di festeggiare 🥳🎶</item>
+        <item>Ancora innamorati ❤️💖</item>
+        <item>Festeggia il tuo momento 🎉📸</item>
+        <item>Giorno speciale per te 🎂🌹</item>
+        <item>Così orgoglioso di te 💫👏</item>
+        <item>Così felice per te 😊🎊</item>
+    </array>
+
+    <array name="love_message_titles">
+        <item>Ti amo ❤️💞</item>
+        <item>Mi manchi 💭💘</item>
+        <item>Ti sto pensando 💌💖</item>
+        <item>Per sempre tuo/a ♾️❤️</item>
+        <item>Sei il mio tutto 🌍💞</item>
+        <item>ᴛʜɪɴᴋɪɴɢ ᴏғ ʏᴏᴜ 💭❤️</item>
+        <item>Abbracci e baci 🤗😘</item>
+        <item>Mi fai sorridere 😊💖</item>
+        <item>Mi completi 🧩❤️</item>
+        <item>Sono sempre qui per te 🤝💞</item>
+        <item>Il mio unico amore 💎❤️</item>
+        <item>Sei il mio raggio di sole ☀️💛</item>
+        <item>Mi hai rubato il cuore 💘🔐</item>
+        <item>Ti amo fino alla luna 🌙💞</item>
+        <item>Ti penso sempre 💭💓</item>
+        <item>La mia anima gemella ✨💖</item>
+        <item>Sei la mia felicità 😊❤️</item>
+        <item>Sceglierei te 💍💞</item>
+        <item>Significhi il mondo per me 🌍❤️</item>
+        <item>ʏᴏᴜ\'ʀᴇ ᴍʏ ᴘᴇʀꜱᴏɴ 🥰💖</item>
+    </array>
+
+    <array name="motivation_message_titles">
+        <item>ᴏɴᴇ ᴍᴏʀᴇ ʀᴇᴘ 💪🔥</item>
+        <item>Piccoli passi quotidiani 🚶✨</item>
+        <item>Continua così 🚀🔥</item>
+        <item>Ce la puoi fare 💯💪</item>
+        <item>Resta concentrato 🎯🧠</item>
+        <item>Credi in te stesso ⭐💫</item>
+        <item>Supera i tuoi limiti 📈🔥</item>
+        <item>Non arrenderti mai 🛡️🚀</item>
+        <item>Resta forte sempre 💪✨</item>
+        <item>ᴡɪɴɴᴇʀ ᴍɪɴᴅꜱᴇᴛ 🏆🧠</item>
+        <item>Insegui i tuoi sogni 🌠🚀</item>
+        <item>ʙᴏꜱꜱ ᴍᴏᴠᴇꜱ 😎📊</item>
+    </array>
+
+    <array name="my_string_array">
+        <item>uno</item>
+        <item>due</item>
+        <item>tre</item>
+    </array>
+
+    <array name="notification_body">
+        <item>Nah, dillo 100 volte! 🔁💬</item>
+        <item>Tocca per ripetere 👆🔁</item>
+        <item>Troppo banale! Tocca per ripetere 😆📲</item>
+        <item>Tocca per ripetere 👆💬</item>
+        <item>Tocca per ripetere 🔁📩</item>
+        <item>Nah, dillo 100 volte! 💬🔥</item>
+        <item>Facciamolo! 🚀💥</item>
+        <item>Nah, dillo 100 volte! 😎📢</item>
+        <item>Ripetilo come mai prima d\'ora! 🔁⚡</item>
+        <item>Facciamolo! 💪✨</item>
+        <item>✨ Abra-ka-text-ra! 🪄💬</item>
+        <item>Spara il tuo messaggio cento volte! 💣📲</item>
+        <item>Facciamolo! 🚀📩</item>
+        <item>Invialo 50 volte! 🔁📤</item>
+        <item>Facciamolo! 😆🔥</item>
+        <item>Tocca per ripetere 👆⚡</item>
+        <item>Un tocco, testi infiniti! 👆♾️</item>
+        <item>10× in un colpo ⚡📲 (Non c\'è di che.)</item>
+        <item>Pronto a ripetere? 🔁😏</item>
+        <item>Pronto a ripetere? 📢🔥</item>
+        <item>Dillo 100 volte! 💬💥</item>
+    </array>
+
+    <array name="notification_title">
+        <item>Dillo una volta ✨📩</item>
+        <item>Infastidisci i tuoi amici, ma con stile! 😆📲</item>
+        <item>Un messaggio 💬⚡</item>
+        <item>Perché scrivere due volte quando puoi ripetere per sempre 🔁♾️</item>
+        <item>Il copia-incolla è roba vecchia 📋🚫</item>
+        <item>Un \'Ahah\' non basta 😂💥</item>
+        <item>Mai visto il tuo testo invadere lo schermo? 📲🔥</item>
+        <item>Diventa virale nel gruppo chat 📢😎</item>
+        <item>Vuoi distinguerti? ⭐📣</item>
+        <item>3 parole, potere infinito: RIPETI RIPETI RIPETI! 🔁⚡</item>
+        <item>Gli scherzi sono appena migliorati 🎭😆</item>
+        <item>Vuoi attenzione? 👀📲</item>
+        <item>Lavora meno, lavora meglio—ripeti senza sforzo 🧠✨</item>
+        <item>Devi ricordare qualcosa a qualcuno? ⏰📩</item>
+        <item>Attenzione: Può causare divertimento incontrollabile! Tocca per ripetere! ⚠️😆</item>
+        <item>I momenti epici meritano un bis 🎤🔥</item>
+        <item>Vuoi rompere la chat? 💥📲</item>
+        <item>Modalità spam attivata 🚀📢</item>
+        <item>Potere istantaneo: crea testi infiniti in pochi secondi! ⚡📩</item>
+        <item>Rendi le tue parole INDIMENTICABILI—ripetile ora! 💬✨</item>
+        <item>Hai qualcosa di importante da dire? 📣💬</item>
+    </array>
+
+    <array name="prank_message_titles">
+        <item>LOL 😂🤣</item>
+        <item>Ehiii 👀📩</item>
+        <item>Ti sono mancato? 😏💬</item>
+        <item>Mettimi alla prova 😎🔥</item>
+        <item>Ahah 😆🤣</item>
+        <item>ℕ𝕠 ℕ𝕠 ℕ𝕠 ℕ𝕠 ❌😤</item>
+        <item>Aspetta aspetta aspetta ⏳👀</item>
+        <item>Caricamento messaggio... ⏳📲</item>
+        <item>Indovina cosa indovina cosa 🤫😆</item>
+        <item>ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ʏᴇꜱ ✅😄</item>
+        <item>Sto solo scherzando 😜✨</item>
+        <item>Guarda di nuovo 👀📩</item>
+        <item>Ancora in attesa 😏⏳</item>
+        <item>Ops chat sbagliata 🤭📲</item>
+    </array>
+
+    <array name="quick_repeat_titles">
+        <item>Mi manchi 💞💬</item>
+        <item>Ti amo ♥️❤️</item>
+        <item>Mi dispiace 😔🙏</item>
+        <item>Ti odio 😤💢</item>
+        <item>Sta scrivendo.. ⌨️👀</item>
+        <item>Buongiorno! ☀️😊</item>
+        <item>Buonanotte 🌙💤</item>
+        <item>Ti amo ❤️💞</item>
+        <item>Chiamami 📞👀</item>
+        <item>Ti sto pensando 💭💖</item>
+    </array>
+
+    <array name="repeat_contents">
+        <item><![CDATA[Ti Amo ❤️\nTi Amo ❤️❤️\nTi Amo ❤️❤️❤️\nTi Amo ❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nTi Amo ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+        <item><![CDATA[Mi dispiace 😔\nMi dispiace 😔😔\nMi dispiace 😔😔😔\nMi dispiace 😔😔😔😔\nMi dispiace 😔😔😔😔😔\nMi dispiace 😔😔😔😔😔😔\nMi dispiace 😔😔😔😔😔😔😔\nMi dispiace 😔😔😔😔😔😔😔😔\nMi dispiace 😔😔😔😔😔😔😔😔😔\nMi dispiace 😔😔😔😔😔😔😔😔😔😔]]></item>
+        <item><![CDATA[haha 😂\nhehe 😆\nHAHA 🤣\nHeHe 😜\nhahaha 😹\nHAHAHA 😆\nHaHaHa 😂\nhahaha 🤣🤣\nhehehe 😜😜\nHAHA 😆😆]]></item>
+        <item><![CDATA[No ❌\nNo ❌❌\nNo ❌❌❌\nNo ❌❌❌❌\nNo ❌❌❌❌❌\nNo ❌❌❌❌❌❌\nNo ❌❌❌❌❌❌❌\nNo ❌❌❌❌❌❌❌❌\nNo ❌❌❌❌❌❌❌❌❌\nNo ❌❌❌❌❌❌❌❌❌❌]]></item>
+        <item>ㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ</item>
+        <item><![CDATA[Ti sono mancato? 😏\nTi sono mancato? 😏😏\nTi sono mancato? 😏😏😏\nTi sono mancato? 😏😏😏😏\nTi sono mancato? 😏😏😏😏😏\nTi sono mancato? 😏😏😏😏😏😏\nTi sono mancato? 😏😏😏😏😏😏😏\nTi sono mancato? 😏😏😏😏😏😏😏😏\nTi sono mancato? 😏😏😏😏😏😏😏😏😏\nTi sono mancato? 😏😏😏😏😏😏😏😏😏😏]]></item>
+        <item><![CDATA[haha 😂\nhehe 😆\nhaha 😂😂\nhehe 😆😆\nhaha 😂😂😂\nhehe 😆😆😆\nhaha 😂😂😂😂\nhehe 😆😆😆😆\nhaha 😂😂😂😂😂\nhehe 😆😆😆😆😆]]></item>
+        <item><![CDATA[Ho finito 😤\nHo finito 😤😤\nHo finito 😤😤😤\nHo finito 😤😤😤😤\nHo finito 😤😤😤😤😤\nHo finito 😤😤😤😤😤😤\nHo finito 😤😤😤😤😤😤😤\nHo finito 😤😤😤😤😤😤😤😤\nHo finito 😤😤😤😤😤😤😤😤😤\nHo finito 😤😤😤😤😤😤😤😤😤😤]]></item>
+        <item><![CDATA[Chiamami, ora? 📞\nChiamami, ora? 📞📞\nChiamami, ora? 📞📞📞\nChiamami, ora? 📞📞📞📞\nChiamami, ora? 📞📞📞📞📞\nChiamami, ora? 📞📞📞📞📞📞\nChiamami, ora? 📞📞📞📞📞📞\nChiamami, ora? 📞📞📞📞📞📞\nChiamami, ora? 📞📞📞📞📞📞\nChiamami, ora? 📞📞📞📞📞📞]]></item>
+        <item><![CDATA[Ti amo per sempre ❤️\nTi amo per luôn ❤️❤️\nTi amo per sempre ❤️❤️❤️\nTi amo per luôn ❤️❤️❤️❤️\nTi amo per sempre ❤️❤️❤️❤️❤️\nTi amo per luôn ❤️❤️❤️❤️❤️❤️\nTi amo per sempre ❤️❤️❤️❤️❤️❤️❤️\nTi amo per luôn ❤️❤️❤️❤️❤️❤️❤️❤️\nTi amo per sempre ❤️❤️❤️❤️❤️❤️❤️❤️❤️\nTi amo per luôn ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️]]></item>
+    </array>
+
+    <array name="repeat_subtitles">
+        <item>Amore che cresce! ❤️📈</item>
+        <item>Perché un mi dispiace non basta. 😔🔁</item>
+        <item>20 font. Stessa risata. 😂🔤</item>
+        <item>Quando 1 \'No\' non basta — mandane 20! ❌🔁</item>
+        <item>Confondi con un messaggio vuoto 👻📩</item>
+        <item>Carino, in 15 modi diversi. 🥰✨</item>
+        <item>18 stili di risata! 😆🤣</item>
+        <item>In loop 🔁📲</item>
+        <item>20 font. 1 richiesta disperata. 📞🔤</item>
+        <item>Eccessivo. Proprio come l\'amore. ❤️💥</item>
+    </array>
+
+    <array name="repeat_titles">
+        <item>Ti Amo ❤️💞</item>
+        <item>Super Scusa 😔🙏</item>
+        <item>Bomba di Ahah 😂💣</item>
+        <item>No significa NO ❌🚫</item>
+        <item>Messaggio vuoto 👻📩</item>
+        <item>Ti sono mancato? 😏💬</item>
+        <item>Ahah Hehe 😆🤣</item>
+        <item>Basta così 😤🚪</item>
+        <item>Chiamami, ora? 📞👀</item>
+        <item>Amore per sempre ❤️♾️</item>
+    </array>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="txt_title_splash">الحيوانات الأليفة على الشاشة</string>
+    <string name="intro1">أدخل النص الخاص بك</string>
+    <string name="intro1_content">اكتب الرسالة التي تريد تكرارها.</string>
+    <string name="intro2">تعيين عدد التكرار</string>
+    <string name="intro2_content">اختر عدد مرات تكرار النص.</string>
+    <string name="intro3">شارك نصك</string>
+    <string name="intro3_content">أرسل النص المكرر إلى أصدقائك.</string>
+    <string name="start">ابدأ</string>
+    <string name="this_action_can_contain_ads">(هذا الإجراء قد يحتوي على إعلانات)</string>
+    <string name="please_select_a_language_before_continue">يرجى اختيار اللغة قبل المتابعة!</string>
+    <string name="choose_language">اللغة</string>
+    <string name="next">التالي</string>
+    <string name="txt_title_dialog_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="txt_content_dialog_no_internet">يرجى التحقق من \nاتصال الإنترنت الخاص بك!</string>
+    <string name="go_to_setting">الإعدادات</string>
+
+    <string name="text_repeater">مكرر النصوص</string>
+    <string name="repeat_text">تكرار النص</string>
+    <string name="saved_text">النصوص المحفوظة</string>
+    <string name="recent">الأخيرة</string>
+    <string name="more">المزيد</string>
+    <string name="stylize">تنسيق</string>
+    <string name="repeat_in_new_line">تكرار في سطر جديد</string>
+    <string name="repetition">تكرار</string>
+    <string name="aa_enter_text">أدخل النص هنا</string>
+    <string name="copy">نسخ</string>
+    <string name="send">إرسال</string>
+    <string name="no_saved_texts_yet">لا توجد نصوص محفوظة بعد</string>
+    <string name="save_some_texts_from_the_editor">قم بحفظ بعض النصوص من المحرر!</string>
+    <string name="language">اللغة</string>
+    <string name="quick_repeat">تكرار سريع</string>
+    <string name="trending">الشائعة</string>
+    <string name="are_you_sure_you_want_to_leave_the_app">هل أنت متأكد أنك تريد \n مغادرة التطبيق؟</string>
+    <string name="do_you_want_to_exit">هل تريد الخروج؟</string>
+    <string name="exit">خروج</string>
+    <string name="stay">بقاء</string>
+    <string name="select_a_style">اختر نمطًا</string>
+
+    <string name="setting">الإعدادات</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="feedback">تعليقات</string>
+    <string name="msg_select_style">يرجى اختيار نمط!</string>
+    <string name="msg_copied">تم النسخ!</string>
+    <string name="toast_text_too_long">النص طويل جداً، لا يمكن النسخ تلقائياً!</string>
+    <string name="toast_limit_10000">الكمية كبيرة جداً، الحد الأقصى هو 10,000</string>
+    <string name="toast_enter_text_count">يرجى إدخال النص والعدد</string>
+    <string name="toast_limit_general">الحد الأقصى 10,000 مرة</string>
+    <string name="toast_enter_text_first">يرجى إدخال النص أولاً</string>
+    <string name="toast_copied_success">تم نسخ النص بالكامل!</string>
+    <string name="toast_update_success">تم التحديث بنجاح!</string>
+    <string name="toast_saved_favorites">تم الحفظ في المفضلة!</string>
+    <string name="share_via">المشاركة عبر</string>
+</resources>

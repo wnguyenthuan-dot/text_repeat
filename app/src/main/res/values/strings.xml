@@ -1,11 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Text Repeat</string>
-
-    <!--key ads-->
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="facebook_id" translatable="false">xxxxxxxx</string>
-    <string name="facebook_id_token" translatable="false">xxxxxxxx</string>
-    <string name="solar_key" translatable="false">xxxxxxxx</string>
+    <string name="preparing_app">Preparing app…</string>
+    <string name="no_internet">No Internet Connection</string>
 
     <!--Base-->
     <string name="txt_title_splash">Pets On Screen</string>
@@ -16,7 +12,6 @@
     <string name="intro3">Share Your Text</string>
     <string name="intro3_content">Send the repeated text to your friends.</string>
     <string name="start">Start</string>
-    <string name="this_action_can_contain_ads">(This action can contain ads)</string>
     <string name="please_select_a_language_before_continue">Please select a language before continue!</string>
     <string name="choose_language">Language</string>
     <string name="next">Next</string>
